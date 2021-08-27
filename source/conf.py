@@ -106,17 +106,17 @@ html_theme = 'renku'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    "logo_only": True,
-    "display_version": True,
-    "prev_next_buttons_location": "bottom",
-    "style_external_links": False,
-    # 'style_nav_header_background': 'white',
+    'logo_name': True,
+    'display_version': True,
+    'prev_next_buttons_location': "bottom",
+    'style_external_links': False,
+    #'style_nav_header_background': 'blue',
     # Toc options
-    "collapse_navigation": True,
-    "sticky_navigation": True,
-    "navigation_depth": 4,
-    "includehidden": True,
-    "titles_only": False,
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False,
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -131,12 +131,12 @@ html_theme_options = {
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = None
+html_logo = 'C:\\Users\\Oksin.A\\Desktop\Manual\\documentation\\source\\_static\\Log.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = 'C:\\Users\\Oksin.A\\Desktop\\Manual\\docs\\build\\html\\_static\\favicon.ico'
+html_favicon = 'C:\\Users\\Oksin.A\\Desktop\Manual\\documentation\\source\\_static\\favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -157,7 +157,15 @@ html_static_path = ['_static']
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {
+    "**": [
+        "about.html",
+        "navigation.html",
+        "relations.html",  # needs 'show_related': True theme option to display
+        "searchbox.html",
+        "donate.html",
+    ]
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
