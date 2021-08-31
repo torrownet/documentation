@@ -24,15 +24,14 @@
 Создание визитки
 ~~~~~~~~~~~~~~~~
 
+Зайдите в Ваш профиль |профиль| и нажмите |точка|
+    .. |профиль| image:: _static/profile.png
+    .. |точка| image:: _static/tochka.png
+
 .. figure:: _static/card1.jpg
     :scale: 8 %
     :alt: alternate text
     :align: center
-
-    Зайдите в Ваш профиль |профиль| и нажмите |точка|
-
-    .. |профиль| image:: _static/profile.png
-    .. |точка| image:: _static/tochka.png
 
 .. figure:: _static/card2.jpg
     :scale: 8 %

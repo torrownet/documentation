@@ -24,28 +24,28 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: _static/1.png
-    :scale: 8 %
+    :scale: 40 %
     :alt: alternate text
     :align: center
 
     Введите номер телефона
 
 .. figure:: _static/2.png
-    :scale: 8 %
+    :scale: 40 %
     :alt: alternate text
     :align: center
 
     Укажите ФИО и местоположение
 
 .. figure:: _static/3.png
-    :scale: 8 %
+    :scale: 40 %
     :alt: alternate text
     :align: center
 
     Ознакомьтесь с коротким роликом и/или нажмите ДАЛЕЕ
 
 .. figure:: _static/4.png
-    :scale: 8 %
+    :scale: 60 %
     :alt: alternate text
     :align: center
 
