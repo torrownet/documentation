@@ -29,33 +29,33 @@
     .. |точка| image:: _static/tochka.png
 
 .. figure:: _static/card1.jpg
-    :scale: 8 %
+    :scale: 60 %
     :alt: alternate text
     :align: center
 
 .. figure:: _static/card2.jpg
-    :scale: 8 %
+    :scale: 60 %
     :alt: alternate text
     :align: center
 
     Нажмите **Добавить визитку**
 
 .. figure:: _static/card3.jpg
-    :scale: 8 %
+    :scale: 60 %
     :alt: alternate text
     :align: center
 
     Заполните **Вашу визитку**
 
 .. figure:: _static/card4.jpg
-    :scale: 8 %
+    :scale: 60 %
     :alt: alternate text
     :align: center
 
     Выберите **фото** для текущей визитки
 
 .. figure:: _static/card5.jpg
-    :scale: 8 %
+    :scale: 60 %
     :alt: alternate text
     :align: center
 
@@ -64,14 +64,14 @@
     .. |галка| image:: _static/galka.png
 
 .. figure:: _static/card6.jpg
-    :scale: 8 %
+    :scale: 60 %
     :alt: alternate text
     :align: center
 
     **Заполните информацию**, которая будет отображаться в Вашей визитке
 
 .. figure:: _static/card7.jpg
-    :scale: 8 %
+    :scale: 60 %
     :alt: alternate text
     :align: center
 
@@ -80,7 +80,7 @@
     .. |галка| image:: _static/galka.png
 
 .. figure:: _static/card8.png
-    :scale: 8 %
+    :scale: 60 %
     :alt: alternate text
     :align: center
 

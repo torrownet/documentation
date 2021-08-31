@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: black;
     color: white;
 }
 div.document {
@@ -12,4 +12,14 @@ div.document {
 
 .wy-nav-content-wrap {
     background-color: white;
+}
+
+.wy-nav-top{display:block}
+
+
+@media screen and (max-width: 900px) {
+    .wy-nav-top {
+        position: sticky;
+        top: 0;
+    }
 }
