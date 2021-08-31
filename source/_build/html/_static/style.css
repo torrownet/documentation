@@ -1,3 +1,7 @@
+.wy-body-for-nav {
+    position: relative;
+}
+
 .centered {
     text-align: center;
 }
@@ -14,11 +18,12 @@ div.document {
     background-color: white;
 }
 
-.wy-nav-top{display:block}
+.wy-nav-top{display:none}
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .wy-nav-top {
+        display: block;
         position: sticky;
         top: 0;
     }
