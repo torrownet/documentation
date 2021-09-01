@@ -17,28 +17,28 @@
     .. |профиль| image:: _static/profile.png
     .. |точка| image:: _static/tochka.png
 
-.. figure:: _static/card122.png
+.. figure:: _static/card1.png
     :scale: 60 %
     :alt: alternate text
     :align: center
 
 2. Нажмите **Добавить визитку**
 
-.. figure:: _static/card2.jpg
+.. figure:: _static/card2.png
     :scale: 60 %
     :alt: alternate text
     :align: center
 
 3. Заполните **Вашу визитку**
 
-.. figure:: _static/card3.jpg
+.. figure:: _static/card3.png
     :scale: 60 %
     :alt: alternate text
     :align: center
 
 4. Выберите **фото** для текущей визитки
 
-.. figure:: _static/card4.jpg
+.. figure:: _static/card4.png
     :scale: 60 %
     :alt: alternate text
     :align: center
@@ -47,14 +47,14 @@
     
     .. |галка| image:: _static/galka.png
 
-.. figure:: _static/card5.jpg
+.. figure:: _static/card5.png
     :scale: 60 %
     :alt: alternate text
     :align: center
 
 6. **Заполните информацию**, которая будет отображаться в Вашей визитке
 
-.. figure:: _static/card6.jpg
+.. figure:: _static/card6.png
     :scale: 60 %
     :alt: alternate text
     :align: center
@@ -63,7 +63,7 @@
     
     .. |галка| image:: _static/galka.png
 
-.. figure:: _static/card7.jpg
+.. figure:: _static/card7.png
     :scale: 60 %
     :alt: alternate text
     :align: center
