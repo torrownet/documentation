@@ -6,15 +6,32 @@
 Добро пожаловать в Torrow!
 ==========================
 
-**В руководстве вы сможете найти всю информацию о продукте компании Torrow Technologies**
+В руководстве вы сможете найти всю информацию о продукте компании Torrow Technologies
 
 .. toctree::
    :maxdepth: 2
-   :caption: Содержание
+   :caption: Общая информация
    
    introduction
    registration
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Элементы Torrow
+
    elements
+   element1
+   element2
+   element3
+   element4
+   element5
+   element6
+   element7
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Настройка приложения
+   
    customization
    faq
 
