@@ -17,7 +17,7 @@
     .. |профиль| image:: _static/profile.png
     .. |точка| image:: _static/tochka.png
 
-.. figure:: _static/card1.jpg
+.. figure:: _static/card122.png
     :scale: 60 %
     :alt: alternate text
     :align: center
