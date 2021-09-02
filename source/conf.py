@@ -106,8 +106,8 @@ html_theme = 'renku'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'logo_only': False,
-    'display_version': True,
+    'logo_only': True,
+    'display_version': False,
     'prev_next_buttons_location': "bottom",
     'style_external_links': False,
     #'style_nav_header_background': 'white',
