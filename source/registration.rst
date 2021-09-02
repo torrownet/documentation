@@ -15,12 +15,12 @@
     :align: center
 
 .. figure:: _static/appstore.png
-    :scale: 8 %
+    :scale: 21 %
     :target: https://apps.apple.com/ru/app/id1459111062
     :align: center
 
 .. figure:: _static/huawei.png
-    :scale: 5 %
+    :scale: 21 %
     :target: https://apkapp.gallery/dl/103841785/Torrow/
     :align: center
 
