@@ -35,28 +35,24 @@
 1. Введите **номер телефона**
 
 .. figure:: _static/1.png
-    :scale: 40 %
     :alt: reStructuredText, the markup syntax
     :align: center
 
 2. Укажите **ФИО** и **местоположение**
 
 .. figure:: _static/2.png
-    :scale: 40 %
     :alt: alternate text
     :align: center
 
 3. Ознакомьтесь с коротким **роликом** и/или нажмите **ДАЛЕЕ**
 
 .. figure:: _static/3.png
-    :scale: 40 %
     :alt: alternate text
     :align: center
 
 4. **Готово!** Вы можете создать свою первую визитку и начать работу с приложением
 
 .. figure:: _static/4.png
-    :scale: 60 %
     :alt: alternate text
     :align: center
 

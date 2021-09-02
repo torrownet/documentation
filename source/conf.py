@@ -214,6 +214,7 @@ htmlhelp_basename = 'torrowdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
+latex_engine = 'pdflatex'
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',
@@ -250,6 +251,8 @@ latex_use_parts = True
 
 # If true, show URL addresses after external links.
 #latex_show_urls = False
+latex_show_urls = 'footnote'
+latex_use_xindy = True
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
