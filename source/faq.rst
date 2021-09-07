@@ -9,6 +9,84 @@
 Как поделиться элементом
 ------------------------
 
+-----------------------
+
+Как вкладывать услугу, календарь, ресурс или сохраненные элементы?
+-----------------------------------------------------------------
+
+1. Нажмите на кнопку |плюс| в нижнем левом углу.
+
+    .. |плюс| image:: _static/plus.png
+        :scale: 42 %
+
+.. figure:: _static/vloj1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+2. Из раскрывающегося **списка** выберите |массив|.
+
+    .. |массив| image:: _static/reserved.png
+        :scale: 42 %
+
+.. figure:: _static/vloj2.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+3. Выберите необходимый **элемент**.
+
+.. figure:: _static/vloj3.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+4. Нажмите на кнопку **Вложить**.
+
+.. figure:: _static/vloj4.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+5. **Готово!** Вы вложили выбранный элемент в текущий.
+
+.. figure:: _static/vloj5.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+
+----------------------
+
+Как прикреплять вложенный элемент?
+----------------------------------
+
+1. Нажмите на элемент и **удерживайте** несколько секунд.
+
+.. figure:: _static/prikrep1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+2. В появившемся меню выберите **Прикрепление к элементам**.
+
+.. hint:: **Подсказка:** Если элемент находится **в корне**, например, контакт -> заметка -> заметка, то появится окно, где можно **выбрать за каким элементом, помимо текущего, его закрепить**.
+
+.. figure:: _static/prikrep2.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+3. **Готово!** Когда элемент успешно закреплен, **в правом верхнем углу** появится значок |скрепка|.
+
+    .. |скрепка| image:: _static/pin-stroke.png
+        :scale: 42 %
+
+.. figure:: _static/prikrep3.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
 ------------------------
 
 .. _Outlook-label:
