@@ -255,17 +255,10 @@ a:visited {
     padding: 1rem;
     margin-bottom: 1rem;
 }
-  
-.wy-alert.wy-alert-warning {
-    background:#fcf4cc;
-}
-
-.wy-alert-title {
-    background: #e6c2a3;
-}
 
 .rst-content .attentaion .admonition-title {
-    display: none;
+    background: #e6c2a3;
+    display: block;
 }
   
 .rst-content .hint {
@@ -275,12 +268,8 @@ a:visited {
     margin-bottom: 1rem;
 }
   
-.wy-alert-warning.hint .admonition-title {
-    background: #a3e6ca;
-}
-
 .rst-content .hint .admonition-title {
-    display: none;
+    display: block;
     background: #a3e6ca;
 }
 
