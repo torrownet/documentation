@@ -15,7 +15,9 @@
 1. Зайдите в Ваш профиль |профиль| и нажмите |точка|
     
     .. |профиль| image:: _static/profile.png
+        :scale: 42 %
     .. |точка| image:: _static/tochka.png
+        :scale: 42 %
 
 .. figure:: _static/card1.png
     :scale: 60 %
@@ -46,6 +48,7 @@
 5. **Определите рамки изображения** и нажмите на |галка|
     
     .. |галка| image:: _static/galka.png
+        :scale: 42 %
 
 .. figure:: _static/card5.png
     :scale: 60 %
@@ -62,6 +65,7 @@
 7. **Сохраните Ваши изменения**, для этого нажмите на |галка|
     
     .. |галка| image:: _static/galka.png
+        :scale: 42 %
 
 .. figure:: _static/card7.png
     :scale: 60 %
@@ -108,6 +112,7 @@
 1. Введите **Уникальное имя** по-своему усмотрению и нажмите |галка|
 
     .. |галка| image:: _static/galka.png
+        :scale: 42 %
 
 .. figure:: _static/card12.png
     :scale: 60 %
@@ -179,6 +184,7 @@
 4. Перед Вами откроется **список событий** с разбивкой по дням и месяцам. Чтобы перейти обратно в профиль, нажмите |назад|
 
     .. |назад| image:: _static/back.png
+        :scale: 20 %
 
 .. figure:: _static/card20.png
     :scale: 60 %

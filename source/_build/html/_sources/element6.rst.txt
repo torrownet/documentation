@@ -72,6 +72,7 @@
 7. Если хотите, чтобы при создании клиентом заявки Вам **приходило уведомление**, то поставьте |галка| в указанное поле.
 
     .. |галка| image:: _static/galka.png
+        :scale: 42 %
 
 .. figure:: _static/service/application/application7.png
     :scale: 42 %

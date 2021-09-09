@@ -11,11 +11,15 @@ body {
     color: white;
 }
 div.document {
-    background-color: white;
+    background-color: #eeef;
 }
 
 .wy-nav-content-wrap {
-    background-color: white;
+    background-color: #eeef;
+}
+
+.wy-nav-content {
+    background: #eeef;
 }
 
 .wy-nav-top{display:none}
@@ -34,7 +38,18 @@ div.document {
 }
 
 .wy-side-nav-search {
-    background-color: #eeef;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border-color: #01192d;
+}
+
+.wy-side-nav-search input[type="text"] {
+    width: 100%;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border-color: #01192d;
 }
 
 .thumb-wrap {
@@ -52,4 +67,211 @@ div.document {
     height: 100%;
     border-width: 0;
     outline-width: 0;
+}
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+    color: #5F4B8B;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 1.618em;
+    margin: 12px 0 0;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 85%;
+    white-space: nowrap;
+}
+
+.wy-menu-vertical a {
+    font-size: 100%;
+    color: #323232;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    background-color: inherit;
+}
+
+.wy-menu-vertical a:hover {
+    background-color: unset;
+    opacity: 1;
+}
+  
+.wy-menu-vertical li.current > a {
+    background-color: #5F4B8B;
+    color: white;
+}
+  
+.wy-menu-vertical li.current > a span.toctree-expand {
+    display: block;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+  
+.wy-menu-vertical li.current > a span.toctree-expand:before {
+    display: block;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+  
+.wy-menu-vertical li.current > a span.toctree-expand:hover {
+    color: white;
+}
+  
+.wy-menu-vertical li.current > a:hover {
+    background-color: #01192d;
+    color: white;
+}
+  
+.wy-menu-vertical li.current > a:hover span.toctree-expand {
+    color: white;
+}
+  
+.wy-menu-vertical .toctree-l1 {
+    opacity: 0.5;
+}
+  
+.wy-menu-vertical .toctree-l1:hover {
+    opacity: 1;
+    background-color: inherit;
+}
+  
+.wy-menu-vertical li.toctree-l1.current {
+    opacity: 1;
+    background-color: inherit;
+}
+  
+.wy-menu-vertical li.toctree-l1.current > a {
+    border: 0px;
+}
+  
+.wy-menu-vertical .toctree-l2:hover {
+    background-color: #566673;
+}
+  
+.wy-menu-vertical li.toctree-l2.current > a {
+    background-color: #566673;
+    color: white;
+}
+  
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
+    background-color: #e4e7ea;
+    color: #838383;
+}
+  
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {
+    color: #3d3d3d;
+}
+  
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover span.toctree-expand {
+    color: #3d3d3d;
+}
+  
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3.current > a {
+    color: #3d3d3d;
+}
+  
+.wy-menu-vertical li.toctree-l2 a {
+    border: 0px;
+    background-color: #5f4b8b59;
+    color: #fcfcfc;
+}
+  
+.wy-menu-vertical li.toctree-l2 a span.toctree-expand {
+    display: block;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+  
+.wy-menu-vertical li.toctree-l2 a span.toctree-expand:before {
+    display: block;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+  
+.wy-menu-vertical li.toctree-l2 a span.toctree-expand:hover {
+    color: white;
+}
+  
+.wy-menu-vertical li.toctree-l2 a:hover {
+    background-color: #5f4b8b59;
+    color: #fcfcfc;
+}
+  
+.wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
+    color: white;
+}
+  
+.wy-menu-vertical li.toctree-l3.current > a {
+    background-color: #e4e7ea;
+    color: #838383;
+}
+  
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a {
+    background-color: #e4e7ea;
+    color: #838383;
+}
+  
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4.current > a {
+    color: #3d3d3d;
+}
+
+.wy-side-scroll {
+    background-color: #ffffff;
+}
+
+.rst-content {
+    color: #3d3d3d;
+}
+
+a {
+  color: #5F4B8B;
+}
+
+a:hover {
+    color: #8e79bd;
+}
+  
+a:visited {
+    color: #b79af7ad;
+}
+
+.rst-content .note {
+    color: #003274;
+    background: #E6E6E6;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+  
+.rst-content .note .admonition-title {
+    display: none;
+}
+
+.rst-content .attentaion {
+    color: #605000;
+    background: #ffedcc52;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.rst-content .attentaion .admonition-title {
+    background: #f0b37e82;
+    display: block;
+}
+  
+.rst-content .hint {
+    color: #3D3D3D;
+    background: #5f4b8b12;
+    margin-bottom: 1rem;
+}
+  
+.rst-content .hint .admonition-title {
+    display: block;
+    background: #a392c7bd;
+}
+
+.rst-content .highlight {
+    background: #f5f5f5;
 }

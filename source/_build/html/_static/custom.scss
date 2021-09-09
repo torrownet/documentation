@@ -16,16 +16,13 @@ Then you can edit and make changes to this file and see the results by doing the
 
 $rk-blue: #01192d;
 $rk-green: #009568;
-$rk-tor: #5F4B8B;
-$rk-tor-light: #8e79bd;
-$rk-backtor: #eeef
 $rk-green-lighter: hsl(162, 100%, 37%);
 $rk-background: #f5f5f5;
 $rk-white: #f5f5f5;
 $rk-dark: #3d3d3d;
 $rk-warning-background: #fcf4cc;
 $rk-warning-font: #605000;
-$rk-info-background: #E6E6E6;
+$rk-info-background: #ccddf3;
 $rk-info-font: #003274;
 $rk-light-blue: #566673;
 $rk-gray: #838383;
@@ -39,18 +36,18 @@ $rk-pink: #d26a98;
 
 //all links are green
 a {
-  color: $rk-tor;
+  color: $rk-green;
   &:hover {
-    color: $rk-tor-light;
+    color: $rk-green-lighter;
   }
   &:visited {
-    color: $rk-tor;
+    color: $rk-green;
   }
 }
 
 // right content -- docs
 .rst-content {
-  color: $rk-backtor;
+  color: $rk-dark;
 
   // code color
   code.literal {
