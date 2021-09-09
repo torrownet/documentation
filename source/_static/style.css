@@ -251,26 +251,25 @@ a:visited {
 
 .rst-content .attentaion {
     color: #605000;
-    background: #fcf4cc;
+    background: #ffedcc52;
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
 .rst-content .attentaion .admonition-title {
-    background: #e6c2a3;
+    background: #f0b37e82;
     display: block;
 }
   
 .rst-content .hint {
     color: #3D3D3D;
-    background: #defae4;
-    padding: 1rem;
+    background: #5f4b8b12;
     margin-bottom: 1rem;
 }
   
 .rst-content .hint .admonition-title {
     display: block;
-    background: #a3e6ca;
+    background: #a392c7bd;
 }
 
 .rst-content .highlight {
