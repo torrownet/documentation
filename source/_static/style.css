@@ -15,7 +15,7 @@ div.document {
 }
 
 .wy-nav-content-wrap {
-    background-color: white;
+    background-color: #eeef;
 }
 
 .wy-nav-content {
@@ -39,6 +39,13 @@ div.document {
 
 .wy-side-nav-search {
     background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border-color: #01192d;
+}
+
+.wy-side-nav-search input[type="text"] {
     width: 100%;
     border-radius: 4px;
     padding: 6px 12px;
@@ -75,6 +82,18 @@ div.document {
     white-space: nowrap;
 }
 
+.wy-menu-vertical a {
+    font-size: 100%;
+    color: #323232;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    background-color: inherit;
+}
+
 .wy-side-scroll {
     background-color: #ffffff;
+}
+
+a {
+    color: #01192d;
 }
