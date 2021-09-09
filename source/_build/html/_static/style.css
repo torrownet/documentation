@@ -33,6 +33,10 @@ div.document {
     width: 200px;
 }
 
+.wy-side-nav-search {
+    background-color: #eeef;
+}
+
 .thumb-wrap {
     position: relative;
     padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */

@@ -11,11 +11,15 @@ body {
     color: white;
 }
 div.document {
-    background-color: white;
+    background-color: #eeef;
 }
 
 .wy-nav-content-wrap {
     background-color: white;
+}
+
+.wy-nav-content {
+    background: #eeef;
 }
 
 .wy-nav-top{display:none}
@@ -33,6 +37,14 @@ div.document {
     width: 200px;
 }
 
+.wy-side-nav-search {
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border-color: #01192d;
+}
+
 .thumb-wrap {
     position: relative;
     padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
@@ -48,4 +60,21 @@ div.document {
     height: 100%;
     border-width: 0;
     outline-width: 0;
+}
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+    color: #5F4B8B;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 1.618em;
+    margin: 12px 0 0;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 85%;
+    white-space: nowrap;
+}
+
+.wy-side-scroll {
+    background-color: #ffffff;
 }
