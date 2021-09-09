@@ -32,19 +32,19 @@ Then you can edit and make changes to this file and see the results by doing the
 }
 
 a {
-  color: #009568;
+  color: #5F4B8B;
 }
 
 a:hover {
-  color: #00bd84;
+  color: #e96187;
 }
 
 a:visited {
-  color: #009568;
+  color: #1f1f1f;
 }
 
 .rst-content {
-  color: #3d3d3d;
+  color: #0a0a0a;
 }
 
 .rst-content code.literal {
@@ -56,8 +56,8 @@ a:visited {
 }
 
 .rst-content .note {
-  color: #003274;
-  background: #ccddf3;
+  color: #000;
+  background: #ecf4ff;
   padding: 1rem;
   margin-bottom: 1rem;
 }
@@ -91,7 +91,7 @@ a:visited {
 
 .wy-side-nav-search input[type="text"] {
   width: 100%;
-  border-radius: 0px;
+  border-radius: 4px;
   padding: 6px 12px;
   border-color: #01192d;
 }
