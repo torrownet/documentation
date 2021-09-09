@@ -256,6 +256,14 @@ a:visited {
     margin-bottom: 1rem;
 }
   
+.wy-alert.wy-alert-warning {
+    background:#fcf4cc;
+}
+
+.wy-alert-title {
+    background: #e6c2a3;
+}
+
 .rst-content .attentaion .admonition-title {
     display: none;
 }
@@ -267,6 +275,10 @@ a:visited {
     margin-bottom: 1rem;
 }
   
+.wy-alert-warning.hint .admonition-title {
+    background: #a3e6ca;
+}
+
 .rst-content .hint .admonition-title {
     display: none;
     background: #a3e6ca;
