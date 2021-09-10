@@ -30,6 +30,7 @@ div.document {
         display: block;
         position: sticky;
         top: 0;
+        background: #eeef;
     }
 }
 
@@ -103,7 +104,7 @@ div.document {
 
 .wy-menu-vertical a {
     font-size: 100%;
-    color: #323232;
+    color: #e96187;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     background-color: inherit;
@@ -245,17 +246,24 @@ div.document {
     color: #3d3d3d;
 }
 
-a {
-  color: #5F4B8B;
-}
 
-a:hover {
-    color: #8e79bd;
-}
-  
-a:visited {
+.rst-content .section ul li>:first-child {
+    margin-top: 0;
     color: #5F4B8B;
 }
+
+.rst-content .section ul li>:first-child:hover{
+    margin-top: 0;
+    color: #8e79bd;
+}
+
+/* a:hover { */
+    /* color: #8e79bd; */
+/* } */
+  
+/* a:visited { */
+    /* color: #5F4B8B; */
+/* } */
 
 .rst-content .note {
     color: #003274;
