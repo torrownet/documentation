@@ -1,1 +1,1 @@
-renku-sphinx-theme==0.2.2
+# renku-sphinx-theme==0.2.2

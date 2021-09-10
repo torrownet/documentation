@@ -11,25 +11,35 @@ body {
     color: white;
 }
 div.document {
-    background-color: #eeef;
+    background-color: #FFFFFF;
 }
 
 .wy-nav-content-wrap {
-    background-color: #eeef;
+    background-color: #FFFFFF;
 }
 
 .wy-nav-content {
-    background: #eeef;
+    background: #FFFFFF;
 }
 
 .wy-nav-top{display:none}
 
+.wy-nav-top a {
+    color: #5F4B8B;
+    font-weight: 700;
+}
+
+.wy-breadcrumbs li a:first-child {
+    padding-left: 0;
+    color: #5f4b8b;
+}
 
 @media screen and (max-width: 800px) {
     .wy-nav-top {
         display: block;
         position: sticky;
         top: 0;
+        background: #eeef;
     }
 }
 
@@ -37,8 +47,18 @@ div.document {
     width: 200px;
 }
 
+.fa:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    color: #5F4B8B;
+}
+
 .wy-side-nav-search {
-    background-color: #FFFFFF;
+    background-color: #eeef;
     width: 100%;
     border-radius: 4px;
     padding: 6px 12px;
@@ -50,6 +70,15 @@ div.document {
     border-radius: 4px;
     padding: 6px 12px;
     border-color: #01192d;
+}
+
+.wy-side-nav-search .wy-dropdown>a, .wy-side-nav-search>a {
+    color: #5F4B8B;
+    font-size: 100%;
+    font-weight: 700;
+    display: inline-block;
+    padding: 4px 6px;
+    margin-bottom: .809em;
 }
 
 .thumb-wrap {
@@ -84,7 +113,7 @@ div.document {
 
 .wy-menu-vertical a {
     font-size: 100%;
-    color: #323232;
+    color: #e96187;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     background-color: inherit;
@@ -128,7 +157,7 @@ div.document {
 }
   
 .wy-menu-vertical .toctree-l1 {
-    opacity: 0.5;
+    opacity: 0.8;
 }
   
 .wy-menu-vertical .toctree-l1:hover {
@@ -219,30 +248,42 @@ div.document {
 }
 
 .wy-side-scroll {
-    background-color: #ffffff;
+    background-color: #eeef;
 }
 
 .rst-content {
     color: #3d3d3d;
 }
 
-a {
-  color: #5F4B8B;
-}
 
-a:hover {
-    color: #8e79bd;
-}
-  
-a:visited {
+.rst-content .section ul li>:first-child {
+    margin-top: 0;
     color: #5F4B8B;
 }
 
+.rst-content .section ul li>:first-child:hover{
+    margin-top: 0;
+    color: #8e79bd;
+}
+
+a {
+    color: #5F4B8B;
+}
+
+/* a:hover { */
+    /* color: #8e79bd; */
+/* } */
+  
+/* a:visited { */
+    /* color: #5F4B8B; */
+/* } */
+
 .rst-content .note {
     color: #003274;
-    background: #E6E6E6;
+    background: #f5f5f5;
     padding: 1rem;
     margin-bottom: 1rem;
+    border-left: solid #d3d3d3;
 }
   
 .rst-content .note .admonition-title {
@@ -274,4 +315,8 @@ a:visited {
 
 .rst-content .highlight {
     background: #f5f5f5;
+}
+
+.git-ribbon {
+    display: none;
 }
