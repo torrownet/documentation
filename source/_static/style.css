@@ -37,6 +37,16 @@ div.document {
     width: 200px;
 }
 
+.fa:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    color: #5F4B8B;
+}
+
 .wy-side-nav-search {
     background-color: #eeef;
     width: 100%;
@@ -50,6 +60,15 @@ div.document {
     border-radius: 4px;
     padding: 6px 12px;
     border-color: #01192d;
+}
+
+.wy-side-nav-search .wy-dropdown>a, .wy-side-nav-search>a {
+    color: #5F4B8B;
+    font-size: 100%;
+    font-weight: 700;
+    display: inline-block;
+    padding: 4px 6px;
+    margin-bottom: .809em;
 }
 
 .thumb-wrap {
