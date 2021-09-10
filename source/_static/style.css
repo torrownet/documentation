@@ -24,6 +24,15 @@ div.document {
 
 .wy-nav-top{display:none}
 
+.wy-nav-top a {
+    color: #5F4B8B;
+    font-weight: 700;
+}
+
+.wy-breadcrumbs li a:first-child {
+    padding-left: 0;
+    color: #5f4b8b;
+}
 
 @media screen and (max-width: 800px) {
     .wy-nav-top {
@@ -255,6 +264,10 @@ div.document {
 .rst-content .section ul li>:first-child:hover{
     margin-top: 0;
     color: #8e79bd;
+}
+
+a {
+    color: #5F4B8B;
 }
 
 /* a:hover { */
