@@ -280,9 +280,10 @@ a {
 
 .rst-content .note {
     color: #003274;
-    background: #E6E6E6;
+    background: #f5f5f5;
     padding: 1rem;
     margin-bottom: 1rem;
+    border-left: solid #d3d3d3;
 }
   
 .rst-content .note .admonition-title {
