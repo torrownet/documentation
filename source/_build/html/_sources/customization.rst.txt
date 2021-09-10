@@ -68,6 +68,7 @@
 1. Зайдите в Ваш профиль |профиль| и нажмите **Настройки**
 
     .. |профиль| image:: _static/profile.png
+        :scale: 42 %
 
 .. figure:: _static/calend1.png
     :scale: 60 %

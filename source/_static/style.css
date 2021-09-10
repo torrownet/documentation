@@ -11,7 +11,7 @@ body {
     color: white;
 }
 div.document {
-    background-color: #eeef;
+    background-color: #FFFFFF;
 }
 
 .wy-nav-content-wrap {
@@ -219,7 +219,7 @@ div.document {
 }
 
 .wy-side-scroll {
-    background-color: #ffffff;
+    background-color: #eeef;
 }
 
 .rst-content {
@@ -274,4 +274,8 @@ a:visited {
 
 .rst-content .highlight {
     background: #f5f5f5;
+}
+
+.git-ribbon {
+    display: none;
 }
