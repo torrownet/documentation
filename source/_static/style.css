@@ -15,11 +15,11 @@ div.document {
 }
 
 .wy-nav-content-wrap {
-    background-color: #eeef;
+    background-color: #FFFFFF;
 }
 
 .wy-nav-content {
-    background: #eeef;
+    background: #FFFFFF;
 }
 
 .wy-nav-top{display:none}
@@ -38,7 +38,7 @@ div.document {
 }
 
 .wy-side-nav-search {
-    background-color: #FFFFFF;
+    background-color: #eeef;
     width: 100%;
     border-radius: 4px;
     padding: 6px 12px;
