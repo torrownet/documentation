@@ -167,5 +167,60 @@
 Заказ на время
 """"""""""""""
 
+.. figure:: _static/service/order_on_time/imk1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: _static/service/order_on_time/imk2.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: _static/service/order_on_time/imk1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: _static/service/order_on_time/imk1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: _static/service/order_on_time/imk1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: _static/service/order_on_time/imk1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: _static/service/order_on_time/imk1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: _static/service/order_on_time/imk1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: _static/service/order_on_time/imk1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: _static/service/order_on_time/imk1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: _static/service/order_on_time/imk1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
 Аренда
 """"""
