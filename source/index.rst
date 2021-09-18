@@ -13,28 +13,28 @@
 .. _`службе поддержки`: support@torrow.net
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Общая информация
    
    introduction
-   registration
+   registration/registration.rst
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Элементы Torrow
 
-   elements
-   element1
-   element2
-   element3
-   element4
-   element5
-   element6
-   element7
+   elements.rst
+   buisness-card/element1.rst
+   note/element2.rst
+   contact/element3.rst
+   event/element4.rst
+   calendar/element5.rst
+   service/index.rst
+   resource/index.rst
 
 .. toctree::
    :maxdepth: 2
    :caption: Настройка приложения
    
-   customization
-   faq
+   customization/index.rst
+   faq/index.rst

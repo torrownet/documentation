@@ -1,5 +1,6 @@
 .. _elements-label:
 
+==================
 Описание элементов
 ==================
 
@@ -14,10 +15,10 @@
    :maxdepth: 2
    :caption: Элементы Torrow
 
-   element1
-   element2
-   element3
-   element4
-   element5
-   element6
-   element7
+   buisness-card/element1.rst
+   note/element2.rst
+   contact/element3.rst
+   event/element4.rst
+   calendar/element5.rst
+   service/index.rst
+   resource/index.rst
