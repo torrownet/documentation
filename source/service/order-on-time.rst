@@ -121,6 +121,7 @@
 -----------------------------
 
 .. toctree::
+    :maxdepth: 1
     :caption: Настройка услуги
 
     add-materials-customization
