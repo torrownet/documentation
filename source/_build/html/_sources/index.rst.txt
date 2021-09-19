@@ -13,14 +13,14 @@
 .. _`службе поддержки`: support@torrow.net
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Общая информация
    
    introduction
    registration/registration.rst
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Элементы Torrow
 
    elements.rst

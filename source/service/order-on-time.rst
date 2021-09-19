@@ -1,3 +1,5 @@
+.. _orderontime-label:
+
 ==============
 Заказ на время
 ==============
@@ -100,7 +102,7 @@
 .. note::
 
     * :ref:`timetable-label`
-    * :ref:`restrictionы-label`
+    * :ref:`restrictions-label`
     * :ref:`execution-label`
     * :ref:`required-label`
     

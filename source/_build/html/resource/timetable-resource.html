@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Настройка расписания ресурса &mdash; Torrow.net  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Настройка стоимости ресурса" href="price-resource.html" />
+    <link rel="prev" title="Продажа" href="sale.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Torrow.net
+          
+
+          
+            
+            <img src="../_static/Logo2.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Общая информация</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Что такое Torrow?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../registration/registration.html">Регистрация в приложении</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Элементы Torrow</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../elements.html">Описание элементов</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../note/element2.html">Заметка</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact/element3.html">Контакт</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../event/element4.html">Событие</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../calendar/element5.html">Календарь</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../service/index.html">Услуга</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Ресурс</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="sale.html">Продажа</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="rent-resource.html">Аренда</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Настройка расписания ресурса</a></li>
+<li class="toctree-l3"><a class="reference internal" href="price-resource.html">Настройка стоимости ресурса</a></li>
+<li class="toctree-l3"><a class="reference internal" href="options-resource.html">Настройка параметров ресурса</a></li>
+<li class="toctree-l3"><a class="reference internal" href="conditions-resource.html">Настройка условий использования ресурса</a></li>
+<li class="toctree-l3"><a class="reference internal" href="relations-resource.html">Настройка связи с другими ресурсами</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="specification.html">Спецификация</a></li>
+<li class="toctree-l2"><a class="reference internal" href="payment-resource.html">Оплата</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Настройка расписания ресурса</a></li>
+<li class="toctree-l2"><a class="reference internal" href="price-resource.html">Настройка стоимости ресурса</a></li>
+<li class="toctree-l2"><a class="reference internal" href="options-resource.html">Настройка параметров ресурса</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conditions-resource.html">Настройка условий использования ресурса</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relations-resource.html">Настройка связи с другими ресурсами</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Настройка приложения</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../customization/index.html">Настройка приложения Torrow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html">Часто задаваемые вопросы</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Torrow.net</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../elements.html">Описание элементов</a> &raquo;</li>
+        
+          <li><a href="index.html">Ресурс</a> &raquo;</li>
+        
+          <li><a href="sale.html">Продажа</a> &raquo;</li>
+        
+      <li>Настройка расписания ресурса</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/resource/timetable-resource.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="timetableresource-label">
+<span id="id1"></span><h1>Настройка расписания ресурса<a class="headerlink" href="#timetableresource-label" title="Permalink to this headline">¶</a></h1>
+<p>Чтобы настроить <strong>расписание ресурса</strong>:</p>
+<ol class="arabic simple">
+<li><p>Нажмите на поле <strong>Расписание</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk20.png"><img alt="alternate text" src="../_images/mimk20.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Нажмите на текст <strong>Добавить промежуток времени</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk21.png"><img alt="alternate text" src="../_images/mimk21.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Нажмите на <strong>поле с датой</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk22.png"><img alt="alternate text" src="../_images/mimk22.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Установите дату начала и окончания периода, затем нажмите <strong>Установить</strong>.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Вы можете установить любой интервал времени, но для настройки <strong>расписания рабочего дня</strong> необходимо <strong>выбрать равные значения</strong>.</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk23.png"><img alt="alternate text" src="../_images/mimk23.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Нажмите на <strong>поле со временем</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk24.png"><img alt="alternate text" src="../_images/mimk24.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="6">
+<li><p>Установите время начала и окончания рабочего дня, затем нажмите <strong>Установить</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk25.png"><img alt="alternate text" src="../_images/mimk25.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="7">
+<li><p>Нажмите на поле <strong>Повтор</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk26.png"><img alt="alternate text" src="../_images/mimk26.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="8">
+<li><p>Нажмите на поле <strong>Частота</strong>. По умолчанию <strong>Не повторяется</strong>.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>По умолчанию <strong>Не повторяется</strong>.</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk27.png"><img alt="alternate text" src="../_images/mimk27.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="9">
+<li><p>Выберите подходящий вариант из списка.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Если Вы работаете не каждый день, то выберите значение <strong>Каждую неделю</strong>.</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk28.png"><img alt="alternate text" src="../_images/mimk28.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="10">
+<li><p>В появившемся окне выберите те дни, когда Вы работаете.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk29.png"><img alt="alternate text" src="../_images/mimk29.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="11">
+<li><p>Нажмите на поле <strong>Повторять до</strong>. Выберите период времени, до которого необходимо повторять данное расписание.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk30.png"><img alt="alternate text" src="../_images/mimk30.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="12">
+<li><p>Установите <strong>год, месяц и дату</strong> окончания периода.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk31.png"><img alt="alternate text" src="../_images/mimk31.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="13">
+<li><p>Нажмите <a class="reference internal" href="../_images/galka2.png"><img alt="галка" src="../_images/galka2.png" style="width: 30.24px; height: 30.24px;" /></a>, чтобы сохранить изменения.</p>
+</li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk32.png"><img alt="alternate text" src="../_images/mimk32.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="14">
+<li><p>При необходимости введите <strong>описание</strong> и нажмите <a class="reference internal" href="../_images/galka2.png"><img alt="галка" src="../_images/galka2.png" style="width: 30.24px; height: 30.24px;" /></a>. Ваше расписание <strong>сохранено</strong>, теперь Вы можете продолжить редактирование <strong>Ресурса</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/mimk33.png"><img alt="alternate text" src="../_images/mimk33.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="price-resource.html" class="btn btn-neutral float-right" title="Настройка стоимости ресурса" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="sale.html" class="btn btn-neutral float-left" title="Продажа" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
