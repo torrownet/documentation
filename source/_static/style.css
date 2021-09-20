@@ -184,8 +184,8 @@ div.document {
 }
   
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
-    background-color: #e4e7ea;
-    color: #838383;
+    background-color: #eeef;
+    color: #2d185a;
 }
   
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {
@@ -258,6 +258,11 @@ div.document {
 .rst-content section ul li {
     margin-top: 0;
     color: #5F4B8B;  
+}
+
+.rst-content .section ul li :hover {
+    margin-top: 0;
+    color: #8e79bd;
 }
 
 .rst-content .section ul li>:first-child {
