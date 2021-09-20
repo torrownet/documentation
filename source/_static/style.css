@@ -161,6 +161,7 @@ div.document {
 }
   
 .wy-menu-vertical .toctree-l1:hover {
+    color: #2d185a;
     opacity: 1;
     background-color: inherit;
 }
