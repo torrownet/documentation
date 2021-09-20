@@ -283,9 +283,9 @@ a:visited {
     color: #5F4B8B;
 }
 
-/* a:hover { */
-    /* color: #8e79bd; */
-/* } */
+a:hover {
+    color: #8e79bd;
+}
   
 /* a:visited { */
     /* color: #5F4B8B; */
