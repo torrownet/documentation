@@ -7,7 +7,7 @@
     .. |плюс| image:: media/plus.png
         :scale: 42 %
 
-.. figure:: media/vloj1.png
+.. figure:: media/invest_element/vloj1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
@@ -17,28 +17,28 @@
     .. |массив| image:: media/reserved.png
         :scale: 42 %
 
-.. figure:: media/vloj2.png
+.. figure:: media/invest_element/vloj2.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 3. Выберите необходимый **элемент**.
 
-.. figure:: media/vloj3.png
+.. figure:: media/invest_element/vloj3.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 4. Нажмите на кнопку **Вложить**.
 
-.. figure:: media/vloj4.png
+.. figure:: media/invest_element/vloj4.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 5. **Готово!** Вы вложили выбранный элемент в текущий.
 
-.. figure:: media/vloj5.png
+.. figure:: media/invest_element/vloj5.png
     :scale: 42 %
     :alt: alternate text
     :align: center

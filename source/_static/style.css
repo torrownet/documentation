@@ -113,7 +113,7 @@ div.document {
 
 .wy-menu-vertical a {
     font-size: 100%;
-    color: #e96187;
+    color: #2d185a;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     background-color: inherit;
@@ -125,8 +125,8 @@ div.document {
 }
   
 .wy-menu-vertical li.current > a {
-    background-color: #5F4B8B;
-    color: white;
+    background-color: #bcb5cc;
+    color: #2d185a;
 }
   
 .wy-menu-vertical li.current > a span.toctree-expand {
@@ -202,8 +202,8 @@ div.document {
   
 .wy-menu-vertical li.toctree-l2 a {
     border: 0px;
-    background-color: #5f4b8b59;
-    color: #fcfcfc;
+    background-color: #eeef;
+    color: #2d185a;
 }
   
 .wy-menu-vertical li.toctree-l2 a span.toctree-expand {

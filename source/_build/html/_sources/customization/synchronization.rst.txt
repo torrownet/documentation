@@ -11,35 +11,35 @@
 
 1. Зайдите в стандартный календарь на Вашем устройстве и перейдите в **главное меню**.
 
-.. figure:: media/calend8.png
+.. figure:: media/calend_synchronization/calend8.png
     :scale: 60 %
     :alt: alternate text
     :align: center
 
-2. Нажмите на кнопку **Управление календарями**
+1. Нажмите на кнопку **Управление календарями**
 
-.. figure:: media/calend9.png
+.. figure:: media/calend_synchronization/calend9.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 3. Перед Вами список **подключенных к устройству календарей**. Чтобы добавить возможные календари, которые не отображаются в списке, нажмите на **кнопку в правом верхнем углу**.
 
-.. figure:: media/calend10.png
+.. figure:: media/calend_synchronization/calend10.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 4. В данном случае в списке активных отсутствует календарь **Outlook**. Чтобы подключить Outlook, нажмите на соответствующее поле и внесите данные от учетной записи почтового ящика.
 
-.. figure:: media/calend11.png
+.. figure:: media/calend_synchronization/calend11.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 5. После ввода данных с последующей авторизацией наш список будет выглядеть следующим образом. Теперь вернитесь к списку **подключенных календарей**.
 
-.. figure:: media/calend12.png
+.. figure:: media/calend_synchronization/calend12.png
     :scale: 42 %
     :alt: alternate text
     :align: center
@@ -48,7 +48,7 @@
 
 .. hint:: Обратите внимание, что по-умолчанию календарь Outlook называется **Календарь**. Таким же образом он будет отображаться в списке доступных календарей в приложении Torrow.
 
-.. figure:: media/calend13.png
+.. figure:: media/calend_synchronization/calend13.png
     :scale: 42 %
     :alt: alternate text
     :align: center
@@ -68,28 +68,28 @@
     .. |профиль| image:: media/profile.png
         :scale: 42 %
 
-.. figure:: media/calend1.png
+.. figure:: media/calend_synchronization/calend1.png
     :scale: 60 %
     :alt: alternate text
     :align: center
 
 2. Выберите **Календарь**
 
-.. figure:: media/calend2.png
+.. figure:: media/calend_synchronization/calend2.png
     :scale: 60 %
     :alt: alternate text
     :align: center
 
 3. Выберите параметр **Синхронизация**
 
-.. figure:: media/calend3.png
+.. figure:: media/calend_synchronization/calend3.png
     :scale: 60 %
     :alt: alternate text
     :align: center
 
 4. Нажмите на раскрывающийся список **Синхронизация события с календарем**
 
-.. figure:: media/calend4.png
+.. figure:: media/calend_synchronization/calend4.png
     :scale: 60 %
     :alt: alternate text
     :align: center
@@ -98,21 +98,21 @@
 
 .. hint:: Обратите внимание на название календаря Outlook. Он может отличаться от приведенного.
     
-.. figure:: media/calend5.1.png
+.. figure:: media/calend_synchronization/calend5.1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 6. На изображении ниже первоначальный вариант календаря Outlook **до синхронизации**
 
-.. figure:: media/calend7.1.png
+.. figure:: media/calend_synchronization/calend7.1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 7. Календарь Outlook **после синхронизации**. Информация о событиях заведенных в Torrow теперь отображается в календаре Outlook. В личном календаре пользователя Torrow также появятся встречи, которые были заведены под учетной записью Outlook.
 
-.. figure:: media/calend8.1.png
+.. figure:: media/calend_synchronization/calend8.1.png
     :scale: 42 %
     :alt: alternate text
     :align: center

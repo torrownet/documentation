@@ -4,7 +4,7 @@
 
 1. Нажмите на элемент и **удерживайте** несколько секунд.
 
-.. figure:: media/prikrep1.png
+.. figure:: media/attach_element/prikrep1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
@@ -13,7 +13,7 @@
 
 .. hint:: Если элемент находится **в корне**, например, контакт -> заметка -> заметка, то появится окно, где можно **выбрать за каким элементом, помимо текущего, его закрепить**.
 
-.. figure:: media/prikrep2.png
+.. figure:: media/attach_element/prikrep2.png
     :scale: 42 %
     :alt: alternate text
     :align: center
@@ -23,7 +23,7 @@
     .. |скрепка| image:: media/pin-stroke.png
         :scale: 42 %
 
-.. figure:: media/prikrep3.png
+.. figure:: media/attach_element/prikrep3.png
     :scale: 42 %
     :alt: alternate text
     :align: center
