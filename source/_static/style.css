@@ -255,13 +255,17 @@ div.document {
     color: #3d3d3d;
 }
 
+.rst-content section ul li {
+    margin-top: 0;
+    color: #5F4B8B;  
+}
 
 .rst-content .section ul li>:first-child {
     margin-top: 0;
     color: #5F4B8B;
 }
 
-.rst-content .section ul li>:first-child:hover{
+.rst-content .section ul li>:first-child:hover {
     margin-top: 0;
     color: #8e79bd;
 }
