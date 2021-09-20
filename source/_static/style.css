@@ -148,8 +148,8 @@ div.document {
 }
   
 .wy-menu-vertical li.current > a:hover {
-    background-color: #01192d;
-    color: white;
+    background-color: #a393c5;
+    color: #2d185a;
 }
   
 .wy-menu-vertical li.current > a:hover span.toctree-expand {
@@ -179,8 +179,8 @@ div.document {
 }
   
 .wy-menu-vertical li.toctree-l2.current > a {
-    background-color: #566673;
-    color: white;
+    background-color: #eeef;
+    color: #2d185a;
 }
   
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
@@ -225,8 +225,8 @@ div.document {
 }
   
 .wy-menu-vertical li.toctree-l2 a:hover {
-    background-color: #5f4b8b59;
-    color: #fcfcfc;
+    background-color: #e2e2e2;
+    color: #2d185a;
 }
   
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
