@@ -167,11 +167,11 @@ div.document {
     opacity: 0.85;
 }
   
-.wy-menu-vertical li.toctree-l1:hover {
-    color: #8e79bd;
-    opacity: 1;
-    background-color: inherit;
-}
+/* .wy-menu-vertical li.toctree-l1:hover { */
+    /* color: #8e79bd; */
+    /* opacity: 1; */
+    /* background-color: inherit; */
+/* } */
   
 .wy-menu-vertical li.toctree-l1.current {
     opacity: 1;
