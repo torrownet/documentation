@@ -167,6 +167,10 @@ div.document {
     opacity: 0.85;
 }
   
+.wy-menu-vertical li.toctree-l1 a:hover {
+    color: #8e79bd;
+}
+
 /* .wy-menu-vertical li.toctree-l1:hover { */
     /* color: #8e79bd; */
     /* opacity: 1; */
