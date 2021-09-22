@@ -185,7 +185,12 @@ div.document {
 .wy-menu-vertical li.toctree-l1.current > a {
     border: 0px;
 }
-  
+
+.wy-menu-vertical li.toctree-l1.current > a:hover {
+    border: 0px;
+    color: #2d185a;
+}
+
 .wy-menu-vertical .toctree-l2:hover {
     background-color: #566673;
 }
