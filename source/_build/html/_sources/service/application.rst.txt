@@ -55,97 +55,70 @@
     :alt: alternate text
     :align: center
 
-7. Если хотите, чтобы при создании клиентом заявки Вам **приходило уведомление**, то поставьте |галка| в указанное поле.
+7. Добавьте **дополнительные материалы**, если они необходимы. **Если необходимости в них нет, пропустите данный пункт**.
+
+.. hint:: Если добавить в услугу дополнительные материалы, то Заказчик при совершении операций получит вложенный элемент (например: ссылку на курс, заметку с какой-либо информацией, туристический маршрут и др.). Чтобы узнать как настроить доп. материалы, перейдите по ссылке: :ref:`materials-label`.
+
+.. figure:: media/application/application18.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+8. Добавьте **способ оплаты**, если необходимо. **Если необходимости в них нет, пропустите пункты 8-9**.
+
+.. hint:: Вы можете подключить любой возможный способ оплаты: наличные, перевод, банковской картой, qiwi и др. Чтобы узнать как настроить оплату, перейдите по ссылке: :ref:`payment-label`.
+
+.. figure:: media/application/application19.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+9. Выберите необходимый способ оплаты и нажмите |галка|.
+
+.. figure:: media/application/application20.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+10. Если хотите, чтобы при создании клиентом заявки Вам **приходило уведомление**, то поставьте |галка| в указанное поле.
 
     .. |галка| image:: media/galka.png
         :scale: 42 %
 
-.. figure:: media/application/application7.png
+.. figure:: media/application/application21.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
-8. Укажите исполнителя услуги (**ответственное лицо**). Для этого нажмите на поле **Исполнители**.
+11. Разместите **фотографию** в Вашей **услуге**. Это привлечет больший интерес клиентов.
 
-.. figure:: media/application/application8.png
+.. figure:: media/application/application22.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
-9. В **поисковой строке** введите необходимый контакт. Затем выберите его и нажмите кнопку **Добавить**.
+12. Вам необходимо заполнить поля: **Расписание**, **Ограничения**, **Исполнение** и **Обязательные поля для записи**.
+
+.. note::
+
+    * :ref:`timetable-label`
+    * :ref:`restrictions-label`
+    * :ref:`execution-label`
+    * :ref:`required-label`
     
-.. figure:: media/application/application9.png
+.. figure:: media/application/application23.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
-10. Нажмите на поле **Шаги записи**.
+13. Ваша услуга типа **Заявка** готова! Осталось добавить **ресурсы** (:ref:`resources-label`).
 
-.. figure:: media/application/application10.png
+.. figure:: media/application/application24.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
-11. Нажмите на поле **Добавить еще шаг записи на услугу**.
-
-.. hint:: Вы можете добавить до 50 шагов записи.
-
-.. figure:: media/application/application11.png
-    :scale: 42 %
-    :alt: alternate text
-    :align: center
-
-12. Впишите **название шага записи** в указанное поле. Затем нажмите на **Тип использования**.
-   
-.. hint:: При использовании услуги данное название будет отображено в верхней части экрана во время выбора **ресурса** (:ref:`resources-label`).
-
-.. figure:: media/application/application12.png
-    :scale: 42 %
-    :alt: alternate text
-    :align: center
-
-13. Выберите необходимый вариант в зависимости от предполагаемой **услуги** и нажмите |галка|.
-
-.. hint::
-    
-    * **Продажа** - выбирать в случае, если товар количественно ограничен. Например: игрушки, кулинарные блюда, виды одежды и т.д.
-    * **Спецификация** - выбирать в случае, если товар количественно не ограничен. Например: стрижка, услуги тренера, занятие в музыкальной школе и т.д.
-    * **Аренда** - выбирать в случае, если товар сдается в аренду на какой-то интервал времени. Напрмер: аренда квартиры, аренда антиквариата, аренда рабочей силы и т.д.
-
-.. figure:: media/application/application13.png
-    :scale: 42 %
-    :alt: alternate text
-    :align: center
-
-14. Нажмите на поле **Обязательные поля для записи**.
-
-.. figure:: media/application/application14.png
-    :scale: 42 %
-    :alt: alternate text
-    :align: center
-
-15. Отметьте необходимые пункты |галка| и укажите **дополнительные данные для заказа** (если они требуются).
-
-.. figure:: media/application/application15.png
-    :scale: 42 %
-    :alt: alternate text
-    :align: center
-
-16. Разместите **фотографию** в Вашей **услуге**. Это привлечет больший интерес клиентов. Если все поля заполнены **сохраните изменения**, нажав кнопку |галка|.
-
-.. figure:: media/application/application16.png
-    :scale: 42 %
-    :alt: alternate text
-    :align: center
-
-17. Ваша услуга типа **заявка** готова! Осталось добавить **ресурсы** (:ref:`resources-label`).
-
-.. figure:: media/application/application17.png
-    :scale: 42 %
-    :alt: alternate text
-    :align: center
-
-------------------------------
+-----------------------------
 
 .. toctree::
     :maxdepth: 1

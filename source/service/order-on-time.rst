@@ -111,7 +111,7 @@
     :alt: alternate text
     :align: center
 
-13. Ваша услуга типа **заявка** готова! Осталось добавить **ресурсы** (:ref:`resources-label`).
+13. Ваша услуга типа **Заказ на время** готова! Осталось добавить **ресурсы** (:ref:`resources-label`).
 
 .. figure:: media/order_on_time/order13.png
     :scale: 42 %
