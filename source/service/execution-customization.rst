@@ -277,3 +277,13 @@
     :scale: 42 %
     :alt: alternate text
     :align: center
+
+---------------------------------
+
+.. note::
+
+    * :ref:`materials-label`
+    * :ref:`payment-label`
+    * :ref:`timetable-label`
+    * :ref:`restrictions-label`
+    * :ref:`required-label`

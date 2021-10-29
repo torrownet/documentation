@@ -147,13 +147,15 @@
     :align: center
 -----------------------
 
-.. toctree::
-    :maxdepth: 1
-    :caption: Настройка услуги
+----------------
+Настройка услуги
+----------------
 
-    add-materials-customization
-    payment-customization
-    timetable-customization
-    restrictions-customization
-    execution-customization
-    required-fields-customization
+.. note::
+
+    * :ref:`materials-label`
+    * :ref:`payment-label`
+    * :ref:`timetable-label`
+    * :ref:`restrictions-label`
+    * :ref:`execution-label`
+    * :ref:`required-label`

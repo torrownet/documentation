@@ -174,7 +174,7 @@
     :alt: alternate text
     :align: center
 
-1.  Блок **Расписание** заполнен, теперь можете сохранить изменения, нажав на |галка| или продолжить редактирование других блоков.
+22.  Блок **Расписание** заполнен, теперь можете сохранить изменения, нажав на |галка| или продолжить редактирование других блоков.
 
 .. figure:: media/time_service/timetable21.png
     :scale: 42 %
@@ -183,12 +183,10 @@
 
 ----------------------------
 
-.. toctree::
-    :maxdepth: 1
-    :caption: Настройка услуги
+.. note::
 
-    add-materials-customization
-    payment-customization
-    restrictions-customization
-    execution-customization
-    required-fields-customization
+    * :ref:`materials-label`
+    * :ref:`payment-label`
+    * :ref:`restrictions-label`
+    * :ref:`execution-label`
+    * :ref:`required-label`

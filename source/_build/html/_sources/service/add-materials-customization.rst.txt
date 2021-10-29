@@ -122,3 +122,11 @@
     :align: center
 
 -----------------------------
+
+.. note::
+
+    * :ref:`payment-label`
+    * :ref:`timetable-label`
+    * :ref:`restrictions-label`
+    * :ref:`execution-label`
+    * :ref:`required-label`
