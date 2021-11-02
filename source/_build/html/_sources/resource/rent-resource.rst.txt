@@ -2,6 +2,10 @@
 Аренда
 ======
 
+----------------
+Создание ресурса
+----------------
+
 1. Зайдите в элемент или раздел, где хотите создать **ресурс** и нажмите |плюс|.
 
     .. |плюс| image:: media/plus.png
@@ -64,7 +68,7 @@
     :alt: alternate text
     :align: center
 
-9. Выберите необходимый контакт, который будет **связан с ресурсом**. Нажмите на |галка|.
+9. Выберите необходимый контакт, который будет **связан с ресурсом** (если хотите закрепить за ним сотрудника). Нажмите на |галка|.
 
     .. |галка| image:: media/galka.png
         :scale: 42 %
@@ -115,12 +119,14 @@
 
 --------------------
 
-.. toctree::
-    :maxdepth: 1
-    :caption: Настройка ресурса
+-----------------
+Настройка ресурса
+-----------------
 
-    timetable-resource
-    price-resource
-    options-resource
-    conditions-resource
-    relations-resource
+.. note::
+
+    * :ref:`timetableresource-label`
+    * :ref:`priceresource-label`
+    * :ref:`optionsresource-label`
+    * :ref:`conditionsresource-label`
+    * :ref:`relationsresource-label`
