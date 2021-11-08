@@ -112,3 +112,12 @@
     :scale: 42 %
     :alt: alternate text
     :align: center
+
+-------------------------
+
+.. note::
+
+    * :ref:`priceresource-label`
+    * :ref:`optionsresource-label`
+    * :ref:`conditionsresource-label`
+    * :ref:`relationsresource-label`
