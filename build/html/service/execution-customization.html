@@ -1,0 +1,524 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Настройка исполнения &mdash; Torrow.net  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Настройка обязательных полей для записи" href="required-fields-customization.html" />
+    <link rel="prev" title="Настройка ограничений" href="restrictions-customization.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Torrow.net
+          
+
+          
+            
+            <img src="../_static/Logo2.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Общая информация</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Что такое Torrow?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../registration/registration.html">Регистрация в приложении</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Элементы Torrow</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../elements.html">Описание элементов</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../buisness-card/element1.html">Визитка</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../note/element2.html">Заметка</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact/element3.html">Контакт</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../event/element4.html">Событие</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../calendar/element5.html">Календарь</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Услуга</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="application.html">Заявка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="session.html">Запись на сеанс</a></li>
+<li class="toctree-l2"><a class="reference internal" href="time-recording.html">Запись на время</a></li>
+<li class="toctree-l2"><a class="reference internal" href="order-on-time.html">Заказ на время</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rent.html">Аренда</a></li>
+<li class="toctree-l2"><a class="reference internal" href="add-materials-customization.html">Настройка дополнительных материалов</a></li>
+<li class="toctree-l2"><a class="reference internal" href="payment-customization.html">Настройка оплаты</a></li>
+<li class="toctree-l2"><a class="reference internal" href="timetable-customization.html">Настройка расписания</a></li>
+<li class="toctree-l2"><a class="reference internal" href="restrictions-customization.html">Настройка ограничений</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Настройка исполнения</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Назначение исполнителя</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Настройка шагов записи</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="required-fields-customization.html">Настройка обязательных полей для записи</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../resource/index.html">Ресурс</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Настройка приложения</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../customization/index.html">Настройка приложения Torrow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html">Часто задаваемые вопросы</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Torrow.net</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../elements.html">Описание элементов</a> &raquo;</li>
+        
+          <li><a href="index.html">Услуга</a> &raquo;</li>
+        
+      <li>Настройка исполнения</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/service/execution-customization.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="execution-label">
+<span id="id1"></span><h1>Настройка исполнения<a class="headerlink" href="#execution-label" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>Назначение исполнителя<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Укажите исполнителя услуги (<strong>ответственное лицо</strong>). Для этого нажмите на поле <strong>Исполнители</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step1.png"><img alt="alternate text" src="../_images/step1.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>В <strong>поисковой строке</strong> введите необходимый контакт. Затем выберите его и нажмите кнопку <strong>Добавить</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step1.2.png"><img alt="alternate text" src="../_images/step1.2.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id3">
+<h2>Настройка шагов записи<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Для услуги типа <strong>Запись на сеанс</strong> не указываются <strong>Шаги записи</strong>.</p>
+</div>
+<ol class="arabic simple">
+<li><p>Нажмите на поле <strong>Шаги записи</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step1.3.png"><img alt="alternate text" src="../_images/step1.3.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Нажмите на поле <strong>Добавить еще шаг записи на услугу</strong>. Вид как на изображении ниже присутствует только у услуги типа <strong>Заявка</strong> (отсутствует Шаг - <strong>Выбор времени</strong>). В случае настройки других услуг пропустите пункт <strong>2</strong> и перейдите к <strong>3</strong>.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Вы можете добавить до 50 шагов записи.</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step1.4.png"><img alt="alternate text" src="../_images/step1.4.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Нажмите на поле <strong>Формат выбора времени</strong>. Данный шаг отсутсвует для услуги типа <strong>Заявка</strong> (если Вы настраиваете заявку, перейдите к <strong>пункту 7</strong>).</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step2.png"><img alt="alternate text" src="../_images/step2.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Выберите необходимый вариант.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<ul class="simple">
+<li><p><strong>Дата</strong> - при использовании услуги клиент сможет выбрать необходимую дату выполнения заказа (1 шаг записи).</p></li>
+<li><p><strong>Дата и время</strong> - при использовании услуги клиент сможет выбрать необходимую дату и время выполнения заказа (2 шага записи).</p></li>
+</ul>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step2.1.png"><img alt="alternate text" src="../_images/step2.1.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Укажите <strong>Длительность по умолчанию</strong> (например, длительность онлайн-урока или тренировки 1 час).</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step3.png"><img alt="alternate text" src="../_images/step3.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="6">
+<li><p>Если необходимо, укажите <strong>минимальную и максимальную длительность</strong> (например, для заявки с типом <strong>Аренда</strong>: мин. время аренды 7 дней, максимальное 30 дней. В таком случае клиент не сможет арендовать товар менее, чем на 7 дней и более, чем на 30 дней). Теперь нажмите на надпись <strong>Добавить еще шаг записи на услугу</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step4.png"><img alt="alternate text" src="../_images/step4.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="7">
+<li><p>Впишите <strong>название шага записи</strong> в указанное поле. Затем нажмите на <strong>Тип использования</strong>.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>При использовании услуги данное название будет отображено в верхней части экрана во время выбора <strong>ресурса</strong> (<a class="reference internal" href="../resource/index.html#resources-label"><span class="std std-ref">Ресурс</span></a>).</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step5.png"><img alt="alternate text" src="../_images/step5.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic" start="8">
+<li><p>Выберите необходимый вариант в зависимости от предполагаемой <strong>услуги</strong> и нажмите <a class="reference internal" href="../_images/galka2.png"><img alt="галка" src="../_images/galka2.png" style="width: 30.24px; height: 30.24px;" /></a>.</p>
+<blockquote>
+<div></div></blockquote>
+</li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<ul class="simple">
+<li><p><strong>Продажа</strong> - выбирать в случае, если товар количественно ограничен. Например: игрушки, кулинарные блюда, виды одежды и т.д.</p></li>
+<li><p><strong>Спецификация</strong> - выбирать в случае, если товар количественно не ограничен. Например: стрижка, услуги тренера, занятие в музыкальной школе и т.д.</p></li>
+<li><p><strong>Аренда</strong> - выбирать в случае, если товар сдается в аренду на какой-то интервал времени. Например: аренда квартиры, аренда антиквариата, аренда рабочей силы и т.д.</p></li>
+<li><p><strong>Очередь</strong> - выбирать данный тип использования, если к услуге подключено несколько исполнителей в виде ресурсов, которые самостоятельно разбирают заказы. Например: заявка на пробное занятие в спортивную школу, заявку получит тот тренер, который раньше примет заказ и т.д.</p></li>
+</ul>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step6.png"><img alt="alternate text" src="../_images/step6.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="9">
+<li><p>Типы использования <strong>Спецификация</strong>, <strong>Аренда</strong> и <strong>Продажа</strong> имеют одинаковую настройку шага. Поставьте <a class="reference internal" href="../_images/galka2.png"><img alt="галка" src="../_images/galka2.png" style="width: 30.24px; height: 30.24px;" /></a> <strong>Скрыть шаг при записи</strong>, если хотите, чтобы он не отображался при записи клиентом. <strong>Выбор ресурсов без просмотра</strong> необходим для записи с типом <strong>Очередь</strong>, поэтому оставьте данное поле <strong>пустым</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step6.1.png"><img alt="alternate text" src="../_images/step6.1.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="10">
+<li><p>Определите какое <strong>минимальное и максимальное</strong> количество ресурсов можно выбрать на данном шаге.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step6.2.png"><img alt="alternate text" src="../_images/step6.2.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="11">
+<li><p>Задайте хештеги, которые будут отображаться в шаге записи на услугу в виде вкладок с ресурсами.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Распределение по вкладкам на шаге записи будет зависеть от хештегов, которые Вы зададите при создании ресурса.</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step6.3.png"><img alt="alternate text" src="../_images/step6.3.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="12">
+<li><p>Тип использования <strong>Очередь</strong> имеет более сложную структуру и функциональность. Установите значение <strong>Овербукинг ресурсов</strong>.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<ul class="simple">
+<li><p>Если значение <strong>Овербукинг ресурсов</strong> больше <strong>1</strong>, то клиенты смогут записаться на услугу даже в том случае, если ресурс закончился (например, такой подход используется при продаже авиабилетов, так как есть вероятность, что билеты будут сданы перед вылетом).</p></li>
+<li><p>Если задать значение равное <strong>0</strong> ограничений по данному числу ресурсов не будет.</p></li>
+</ul>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step7.png"><img alt="alternate text" src="../_images/step7.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="13">
+<li><p>Перейдите к <strong>Фильтрации заказов для очереди</strong>.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<ul class="simple">
+<li><p><strong>Начало периода</strong> - время начала проверки заказа до его начала (если оставить пустым, ограничений по дате начала проверки не будет).</p></li>
+<li><p><strong>Окончание периода</strong> - время окончания проверки заказа до его начала (например, если установить значение 24 часа, то проверка Заказа закончится за 24 часа до записи).</p></li>
+</ul>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step8.png"><img alt="alternate text" src="../_images/step8.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="14">
+<li><p>Нажмите на поле <strong>Статус заказа</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step9.png"><img alt="alternate text" src="../_images/step9.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="15">
+<li><p>Выберите какой <strong>статус заказа</strong> будет на момент прохождения данного шага записи.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<ul class="simple">
+<li><p><strong>Не учитывается</strong> - статус не изменится.</p></li>
+<li><p><strong>Согласуется</strong> - заказ находится на проверке.</p></li>
+<li><p><strong>Запланирован</strong> - заказ ожидает выполнения.</p></li>
+<li><p><strong>В работе</strong> - заказ находится в работе.</p></li>
+<li><p><strong>Выполнен</strong> - заказ выполнен (завершен).</p></li>
+</ul>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step10.png"><img alt="alternate text" src="../_images/step10.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="16">
+<li><p>Укажите <strong>время начала</strong> и <strong>время окончания</strong> фильтрации.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p><strong>Время начала</strong> и <strong>время окончания</strong> - это интервал времени Заказчика, когда с ним можно связаться. Например, у Заказчика 20:00, а у Менеджера, который хочет принять Заказ 14:00. Если время окончания меньше 20:00, то Менеджеру в очереди не поступит Заказ, чтобы не беспокоить Заказчика в позднее время. Будут передаваться лишь Заказы, которые попадают в текущий интервал времени.</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step10.1.png"><img alt="alternate text" src="../_images/step10.1.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="17">
+<li><p>Перейдите к <strong>Обработке заказов в очереди</strong>. Нажмите на поле <strong>Выполнить операцию с заказом</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step11.png"><img alt="alternate text" src="../_images/step11.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="18">
+<li><p>Выберите необходимый пункт.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<ul class="simple">
+<li><p><strong>Не выполнять операцию</strong> - заказ не будет <strong>Запланирован</strong>.</p></li>
+<li><p><strong>Запланировать</strong> - статус заказа изменится на <strong>Запланирован</strong>.</p></li>
+</ul>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step12.png"><img alt="alternate text" src="../_images/step12.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="19">
+<li><p>Установите значение <strong>Задержки при возврате</strong>. Это время, на которое будет отложен заказ при освобождении ресурса.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step13.png"><img alt="alternate text" src="../_images/step13.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="20">
+<li><p>Перейдите к <strong>Участие ресурса в заказе</strong>. Нажмите на поле <strong>Изменить участие на</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step14.png"><img alt="alternate text" src="../_images/step14.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="21">
+<li><p>Выберите необходмый тип участия ресурса.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<ul class="simple">
+<li><p><strong>Не участвует</strong> - данный ресурс не будет назначаться исполнителем заказа.</p></li>
+<li><p><strong>Заказчик</strong> - данный ресурс не будет назначаться исполнителем заказа.</p></li>
+<li><p><strong>Сопровождающий</strong> - данный ресурс будет назначен сопровождающим заказа.</p></li>
+<li><p><strong>Исполнитель</strong> - данный ресурс будет назначен исполнителем заказа.</p></li>
+</ul>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step15.png"><img alt="alternate text" src="../_images/step15.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="22">
+<li><p>Нажмите на поле <strong>Доступность ресурса во время заказа</strong></p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step16.png"><img alt="alternate text" src="../_images/step16.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="23">
+<li><p>Выберите <strong>тип доступности</strong> ресурса во время заказа.</p></li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<ul class="simple">
+<li><p><strong>Занят</strong> - в расписании исполнителя будет отмечено занятое время.</p></li>
+<li><p><strong>Свободен</strong> - в расписании исполнителя не будет изменений.</p></li>
+</ul>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step17.png"><img alt="alternate text" src="../_images/step17.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="24">
+<li><p>Поставьте <a class="reference internal" href="../_images/galka2.png"><img alt="галка" src="../_images/galka2.png" style="width: 30.24px; height: 30.24px;" /></a> в <strong>Не показывать в календаре</strong>, чтобы в расписании исполнителя отображался заказ. <strong>Оставьте поле пустым</strong>, если этого не нужно.</p></li>
+</ol>
+<blockquote>
+<div></div></blockquote>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step18.png"><img alt="alternate text" src="../_images/step18.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="25">
+<li><p>Если Вы хотите переместить шаг выше, то нажмите на кнопку <strong>Переместить</strong>. В таком случае клиент увидит этот шаг раньше других.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step19.png"><img alt="alternate text" src="../_images/step19.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="26">
+<li><p>Сохраните изменения, для этого нажмите на <a class="reference internal" href="../_images/galka2.png"><img alt="галка" src="../_images/galka2.png" style="width: 30.24px; height: 30.24px;" /></a>. Если Вы хотите <strong>добавить другие шаги</strong>, нажмите на надпись повторите действия, <strong>начиная с пункта 2</strong>.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step20.png"><img alt="alternate text" src="../_images/step20.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<ol class="arabic simple" start="27">
+<li><p><strong>Готово!</strong> Вы настроили <strong>Исполнение</strong> услуги.</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/step21.png"><img alt="alternate text" src="../_images/step21.png" style="width: 210.0px; height: 426.71999999999997px;" /></a>
+</div>
+<hr class="docutils" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="add-materials-customization.html#materials-label"><span class="std std-ref">Настройка дополнительных материалов</span></a></p></li>
+<li><p><a class="reference internal" href="payment-customization.html#payment-label"><span class="std std-ref">Настройка оплаты</span></a></p></li>
+<li><p><a class="reference internal" href="timetable-customization.html#timetable-label"><span class="std std-ref">Настройка расписания</span></a></p></li>
+<li><p><a class="reference internal" href="restrictions-customization.html#restrictions-label"><span class="std std-ref">Настройка ограничений</span></a></p></li>
+<li><p><a class="reference internal" href="required-fields-customization.html#required-label"><span class="std std-ref">Настройка обязательных полей для записи</span></a></p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="required-fields-customization.html" class="btn btn-neutral float-right" title="Настройка обязательных полей для записи" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="restrictions-customization.html" class="btn btn-neutral float-left" title="Настройка ограничений" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

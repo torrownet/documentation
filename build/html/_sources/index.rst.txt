@@ -6,14 +6,35 @@
 Добро пожаловать в Torrow!
 ==========================
 
-**В руководстве вы сможете найти всю информацию о продукте компании Torrow Technologies**
+В руководстве вы сможете найти всю информацию о продукте компании Torrow Technologies.
+
+
+.. note:: Разделы постоянно пополняются, если Вы не нашли ответ на свой вопрос, можете написать его нашей `службе поддержки`_
+.. _`службе поддержки`: support@torrow.net
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Общая информация
+   
+   introduction
+   registration/registration.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Элементы Torrow
 
+   elements.rst
+   buisness-card/element1.rst
+   note/element2.rst
+   contact/element3.rst
+   event/element4.rst
+   calendar/element5.rst
+   service/index.rst
+   resource/index.rst
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+   :caption: Настройка приложения
+   
+   customization/index.rst
+   faq/index.rst

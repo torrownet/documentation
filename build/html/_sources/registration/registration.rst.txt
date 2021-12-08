@@ -1,0 +1,74 @@
+Регистрация в приложении
+========================
+
+Управляйте жизнью и бизнесом со смартфона
+-----------------------------------------
+
+.. rst-class:: centered
+.. note:: **Torrow — приложение для создания комьюнити и ведения бизнеса, личных проектов, семейных планов.**
+
+Вы можете установить приложение на любой известный смартфон. Выберите подходящую платформу из списка:
+
+.. figure:: media/googleplay.png
+    :scale: 21 %
+    :target: https://play.google.com/store/apps/details?id=net.torrow&hl=ru&gl=US
+    :align: center
+
+.. figure:: media/appstore.png
+    :scale: 21 %
+    :target: https://apps.apple.com/ru/app/id1459111062
+    :align: center
+
+.. figure:: media/huawei.png
+    :scale: 21 %
+    :target: https://apkapp.gallery/dl/103841785/Torrow/
+    :align: center
+
+.. note:: **Примечание:** Если у Вас смартфон марки Xiaomi, необходимо настроить push-уведомления после прохождения регистрации в приложении Torrow. Подробная инструкция находится в разделе
+    :ref:`faq-label`.
+
+----------------
+
+Пройдите короткую регистрацию
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Введите **номер телефона**
+
+.. figure:: media/1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+2. Укажите **ФИО** и **местоположение**
+
+.. figure:: media/2.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+3. Ознакомьтесь с коротким **роликом** и/или нажмите **ДАЛЕЕ**
+
+.. figure:: media/3.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+4. **Готово!** Вы можете создать свою первую визитку и начать работу с приложением
+
+.. figure:: media/4.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+5. **Настало время ознакомиться с** :ref:`elements-label`.
+
+-----------------
+
+Полезные ссылки
+---------------
+
+Более подробную информацию о нас вы можете получить на сайте: `info.torrow.net`_.
+    .. _`info.torrow.net`: https://www.info.torrow.net/
+
+Web-версия приложения Torrow_
+    .. _Torrow: https://torrow.net/
