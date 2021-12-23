@@ -1,7 +1,7 @@
 .. _cases-label:
 
 ======
-Кейс "Клининговая компания"
+Примеры кейсов
 ======
 
 .. note:: **Кейсы Torrow** -  примеры использования приложения для комфортного ознакомления с функционалом приложения.
@@ -9,8 +9,12 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: Примеры настройки кейсов
+   :caption: Готовые примеры настройки кейсов
 
    cleaning/cleaning.rst
+   beauty/beauty.rst
+   consulting/consulting.rst
+   rent/rent.rst
+   photostudio/photostudio.rst
 
 

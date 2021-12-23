@@ -34,7 +34,7 @@
     :alt: alternate text
     :align: center
 
-5. Выберите на **необходимый элемент**.
+5. Выберите **необходимый элемент**.
 
 .. figure:: media/Additional_materials/material5.png
     :scale: 42 %
