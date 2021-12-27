@@ -11,6 +11,7 @@
    :maxdepth: 1
    :caption: Готовые примеры настройки кейсов
 
+   edit_service/edit_service.rst
    cleaning/cleaning.rst
    beauty/beauty.rst
    consulting/consulting.rst
