@@ -3,7 +3,6 @@
 ==================================
 
 
-
    .. |плюс| image:: media/plus.png
       :width: 21
       :alt: alternative text
