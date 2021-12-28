@@ -3,6 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. meta::
+   :meta name: yandex-verification
+   :content: fca596c52f605567
+
 Добро пожаловать в Torrow!
 ==========================
 
