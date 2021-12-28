@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 .. meta::
-   :meta name: yandex-verification
+   :name: yandex-verification
    :content: fca596c52f605567
 
 Добро пожаловать в Torrow!
