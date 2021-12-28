@@ -54,8 +54,8 @@
 
 1. Для того, чтоб настроить **услугу** (:ref:`service-label`), как Вам удобно, нажмите на |точка| и выберите **Изменить**
 
-.. figure:: media/gif/editt_service.jpg
-    :scale: 70 %
+.. figure:: media/gif/service_start1.png
+    :scale: 53 %
     :alt: alternate text
     :align: center
 
