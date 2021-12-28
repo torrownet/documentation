@@ -46,4 +46,5 @@
    cases/index.rst
 
 
-See :download:`yandex <_static/yandex_fca596c52f605567.html>`.
+.. raw:: html
+   :file: yandex_fca596c52f605567.html
