@@ -44,3 +44,6 @@
    :caption: Примеры настройки кейсов
 
    cases/index.rst
+
+
+See :download:`yandex <_static/yandex_fca596c52f605567.html>`.
