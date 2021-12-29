@@ -10,9 +10,12 @@
 
 **Регистрация в Torrow**
 
-Для начала работы с **Torrow** пройдите регистрацию
-(:ref:`registration-label`)
+Для начала работы с **Torrow** пройдите регистрацию (:ref:`registration-label`) и заполните **Визитку** (:ref:`buisnesscard-label`)
 
+.. figure:: media/gif/bcard.png
+   :scale: 60 %
+   :alt: alternate text
+   :align: center
 
    .. |плюс| image:: media/plus.png
       :width: 21
@@ -23,20 +26,26 @@
    .. |галка| image:: media/galka.png
       :width: 21
       :alt: alternative text
+   .. |точка| image:: media/tochka.png
+      :width: 21
+      :alt: alternative text
 
 -------------------------
+
 **Создание Раздела**
 
-1. Нажмите на иконку в верхнем правом углу и выберите пункт **Добавить раздел**.
+1. Нажмите на |точка| в верхнем правом углу и выберите пункт **Добавить раздел**.
 
-.. figure:: media/gif/add_section.gif
+.. figure:: media/gif/add_razdel.png
    :scale: 60 %
    :alt: alternate text
    :align: center
 
+--------------------
+
 2. Назовите раздел, как Вам удобно и выберите подходящую иконку. Для завершения нажмите |галка|.
 
-.. figure:: media/gif/create_section.gif
+.. figure:: media/gif/razdel.png
    :scale: 60 %
    :alt: alternate text
    :align: center
@@ -45,9 +54,9 @@
 
 **Создание Контакта**
 
-1) Войдите в созданный Вами раздел, нажмите |плюс| и выберите иконку |контакт| (:ref:`contact-label`).
+1) Войдите в созданный Вами раздел, нажмите |плюс| в правом нижнем углу и выберите иконку |контакт| (:ref:`contact-label`).
       
-.. figure:: media/gif/create_contact.gif
+.. figure:: media/gif/add_contact.png
    :scale: 60 %
    :alt: alternative text
    :align: center
