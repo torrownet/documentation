@@ -202,3 +202,31 @@
     :scale: 70 %
     :alt: alternate text
     :align: center
+
+
+5. Какой-то текст.
+
+.. container:: row 
+    
+    .. container:: column-3
+        
+        .. figure:: media/gif/delete_resource.png
+            :scale: 30 %
+            :alt: alternate text
+            :align: center
+
+            Можно подпись по длиннне
+    
+    .. container:: column-3
+        
+        .. figure:: media/gif/delete_resource.png
+            :scale: 30 %
+            :alt: alternate text
+            :align: center
+    
+    .. container:: column-3
+        
+        .. figure:: media/gif/delete_resource.png
+            :scale: 30 %
+            :alt: alternate text
+            :align: center

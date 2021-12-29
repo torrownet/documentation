@@ -347,3 +347,23 @@ a:hover {
 .git-ribbon {
     display: none;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+}
+
+.column-2 {
+    flex: 50%;
+}
+.column-3 {
+    flex: 33%;
+}
+.column-4 {
+    flex: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    .row { height: auto; }
+}
