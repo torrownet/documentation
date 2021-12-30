@@ -2,7 +2,7 @@
 Интеграция c Тильдой
 ====================
 
-.. figure:: Tilda.png
-   :scale: 100 %
+.. image:: Tilda.png
+   :height: 2000 px
    :alt: alternate text
    :align: center
