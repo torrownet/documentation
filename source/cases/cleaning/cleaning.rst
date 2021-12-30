@@ -43,6 +43,13 @@
 
 --------------------
 
+.. figure:: media/gif/Tilda.jpg
+   :scale: 100 %
+   :alt: alternate text
+   :align: center
+
+--------------------
+
 2. Назовите раздел, как Вам удобно и выберите подходящую иконку. Для завершения нажмите |галка|.
 
 .. figure:: media/gif/razdel2.png
