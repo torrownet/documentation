@@ -106,6 +106,7 @@
    :scale: 53 %
    :alt: alternative text
    :align: center
+.. hint:: text
 
 ---------------------
 
