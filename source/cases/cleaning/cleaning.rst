@@ -13,7 +13,7 @@
 Для начала работы с **Torrow** пройдите регистрацию (:ref:`registration-label`) и заполните **Визитку** (:ref:`buisnesscard-label`)
 
 .. figure:: media/gif/bcard.png
-   :scale: 60 %
+   :scale: 53 %
    :alt: alternate text
    :align: center
 
@@ -37,7 +37,7 @@
 1. Нажмите на |точка| в верхнем правом углу и выберите пункт **Добавить раздел**.
 
 .. figure:: media/gif/add_razdel.png
-   :scale: 60 %
+   :scale: 53 %
    :alt: alternate text
    :align: center
 
@@ -45,8 +45,8 @@
 
 2. Назовите раздел, как Вам удобно и выберите подходящую иконку. Для завершения нажмите |галка|.
 
-.. figure:: media/gif/razdel.png
-   :scale: 60 %
+.. figure:: media/gif/razdel2.png
+   :scale: 53 %
    :alt: alternate text
    :align: center
 
@@ -54,39 +54,43 @@
 
 **Создание Контакта**
 
-1) Войдите в созданный Вами раздел, нажмите |плюс| в правом нижнем углу и выберите иконку |контакт| (:ref:`contact-label`).
+1) Войдите в созданный Вами раздел, нажмите |плюс|, потом на |меню|  и выберите иконку |контакт| (:ref:`contact-label`).
       
 .. figure:: media/gif/add_contact.png
-   :scale: 60 %
+   :scale: 53 %
    :alt: alternative text
    :align: center
 
-2) Заполните **Контакт** от лица Компании. Настройте **тип доступности** контакта, подходящим Вам способом.
+--------------------
+
+2) Заполните **Контакт** от лица Компании. 
       
-.. figure:: media/gif/set_accesstype.gif
-   :scale: 60 %
-   :alt: alternative text
-   :align: center     
-          
-3) Настройте **внешний вид** Вашего аккаунта.
-          
-.. figure:: media/gif/set_imagesize.gif
-   :scale: 60 %
+.. figure:: media/gif/clining_info12.png
+   :scale: 53 %
    :alt: alternative text
    :align: center
 
-4) Добавьте **Уникальное имя** Вашему контакту
+--------------------
 
-.. figure:: media/gif/set_uniqname.gif
-   :scale: 60 %
+.. figure:: media/gif/clining_info2.png
+   :scale: 53 %
    :alt: alternative text
    :align: center
+
+--------------------
           
-       
-5) Вернитесь в раздел и создайте **Контакт** "База клиентов" для хранения данных о клиентах
+3) Настройте **тип доступности** контакта, подходящим Вам способом. Добавьте **Уникальное имя** Вашему контакту и измените **внешний вид** Вашего аккаунта.
+          
+.. figure:: media/gif/edit_contactinfo2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+    
+4) Вернитесь в раздел и создайте **Контакт** "База клиентов" для хранения данных о клиентах
       
-.. figure::  media/gif/create_clientbase.gif
-   :scale: 60 %
+.. figure::  media/gif/client_base2.png
+   :scale: 53 %
    :alt: alternative text
    :align: center
 
@@ -96,27 +100,80 @@
 Создание Услуги
 --------------------------------------------------------------------
 
-1) Откройте **Контакт** и создайте **Услугу** (:ref:`service-label`).
+1) Откройте **Контакт**, нажмите |плюс| в правом нижнем углу, потом на |меню| и выберите **Создать услугу** (:ref:`service-label`).
    
-.. figure:: media/gif/create_service.gif
-   :scale: 60 %
+.. figure:: media/gif/create_service2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+---------------------
+
+2) Установите **Тип услуги** - Запись на время. Заполните поля **Название**, **Описание**. Загрузите Фотографию.
+
+.. figure:: media/gif/service_info2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+---------------------
+
+3) Заполните **Расписание** услуги. Настройте поля **Выравнивание времени**, **Вид расписания по умолчанию** и **Время регистрации**.
+
+.. figure:: media/gif/service_timetable2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+---------------------
+
+4) Установите рабочее время Вашей компании.
+
+.. figure:: media/gif/service_timeedit2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+.. figure:: media/gif/set_reginfo12.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+.. figure:: media/gif/set_reginfo22.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+.. figure:: media/gif/set_reginfo32.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+.. figure:: media/gif/set_stepedit2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+.. figure:: media/gif/set_stepnew2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+.. figure:: media/gif/set_stepnewinfo2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+.. figure:: media/gif/set_steps2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+.. figure:: media/gif/set_steptime2.png
+   :scale: 53 %
    :alt: alternative text
    :align: center
      
-2) Установите **Тип услуги** - Запись на время
-      
-.. figure:: media/gif/set_servicetype.gif
-   :scale: 60 %
-   :alt: alternative text
-   :align: center
-      
-3) Заполните **Расписание** услуги
-   
-.. figure:: media/gif/set_schedule.gif
-   :scale: 60 %
-   :alt: alternative text
-   :align: center
-      
 4) Установите необходимые **Шаги записи** (к примеру Выбор пакета услуги)
        
 .. figure:: media/gif/set_newstep.gif
