@@ -40,13 +40,14 @@
    :scale: 53 %
    :alt: alternate text
    :align: center
-
+   
 --------------------
 
 .. figure:: media/gif/Tilda.jpg
    :scale: 100 %
    :alt: alternate text
    :align: center
+   :figclass: tildaimg
 
 --------------------
 

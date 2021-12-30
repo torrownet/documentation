@@ -65,6 +65,13 @@ div.document {
     border-color: #01192d;
 }
 
+.tildaimg {
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
 .wy-side-nav-search input[type="text"] {
     width: 100%;
     border-radius: 4px;
