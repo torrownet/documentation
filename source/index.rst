@@ -39,7 +39,7 @@
    :maxdepth: 2
    :caption: Настройка приложения
    
-   integration
+   integration/integration.rst
    customization/index.rst
    faq/index.rst
 
