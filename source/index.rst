@@ -44,7 +44,7 @@
    faq/index.rst
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Примеры настройки кейсов
 
    cases/index.rst
