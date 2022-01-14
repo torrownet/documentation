@@ -29,7 +29,9 @@
    .. |точка| image:: media/tochka.png
       :width: 21
       :alt: alternative text
-
+   .. |меню| image:: media/reserved.png
+      :width: 21
+      :alt: alternative text
 -------------------------
 
 **Создание Раздела**
@@ -128,71 +130,109 @@
 
 ---------------------
 
-4) Установите рабочее время Вашей компании.
+4) Установите часы и дни работы Вашей компании.
 
 .. figure:: media/gif/service_timeedit2.png
    :scale: 53 %
    :alt: alternative text
    :align: center
 
-.. figure:: media/gif/set_reginfo12.png
-   :scale: 53 %
-   :alt: alternative text
-   :align: center
+---------------------
 
-.. figure:: media/gif/set_reginfo22.png
-   :scale: 53 %
-   :alt: alternative text
-   :align: center
-
-.. figure:: media/gif/set_reginfo32.png
-   :scale: 53 %
-   :alt: alternative text
-   :align: center
-
-.. figure:: media/gif/set_stepedit2.png
-   :scale: 53 %
-   :alt: alternative text
-   :align: center
-
-.. figure:: media/gif/set_stepnew2.png
-   :scale: 53 %
-   :alt: alternative text
-   :align: center
-
-.. figure:: media/gif/set_stepnewinfo2.png
-   :scale: 53 %
-   :alt: alternative text
-   :align: center
+5) Установите необходимые **Шаги записи** (к примеру Выбор пакета услуги)
 
 .. figure:: media/gif/set_steps2.png
    :scale: 53 %
    :alt: alternative text
    :align: center
 
+---------------------
+
+6) Добавьте **новый шаг** записи, **переместите его вверх** при необходимости, или **удалите** лишний.
+
+.. figure:: media/gif/set_stepedit2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+---------------------
+
+7) Впишите **название**, выберите **тип использования**. Также можно выбрать **Выбор ресурсов без просмотра**
+   
+.. figure:: media/gif/set_stepnewinfo2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+---------------------
+
+8) Для шага Выбор времени можно изменить **Формат выбора времени** - **Дата** или **Дата и время**. Если у ваших услуг разная длительность, то **Длительность по умолчанию** установите 0.
+
 .. figure:: media/gif/set_steptime2.png
    :scale: 53 %
    :alt: alternative text
    :align: center
-     
-4) Установите необходимые **Шаги записи** (к примеру Выбор пакета услуги)
-       
-.. figure:: media/gif/set_newstep.gif
-   :scale: 60 %
-   :alt: alternative text
-   :align: center
-         
-5) Выберите необходимые **Контактные данные**, которые Вы хотите получить от пользователя при записи
-      
-.. figure:: media/gif/set_contactinfo.gif
-   :scale: 60 %
+
+---------------------
+
+9) Также можно настроить **Контактные данные**, которые Вы будете получать от клиента при записи. Если хотите, чтоб на Вашу услугу могли записываться без регистрации в Torrow, установите галочку **Запись без регистрации в Torrow**. 
+
+.. figure:: media/gif/set_reginfo12.png
+   :scale: 53 %
    :alt: alternative text
    :align: center
 
-6) **Прикрепите** услугу к Контакту, чтобы он был виден Вашим клиентам.
+---------------------
+
+10) Прикрепите контакт, в который будут сохраняться данные о Ваших клиентах.
+     
+.. figure:: media/gif/set_reginfo32.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+---------------------
+
+11) Выберите необходимые **Контактные данные**, которые Вы хотите получить от пользователя при записи. Можно **добавить новое поле**, **удалить** существующее и отметить **обязательное поле**.
+
+.. figure:: media/gif/set_reginfo22.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+---------------------
+
+12) **Прикрепите** услугу к Контакту, чтобы она была видна Вашим клиентам: зажмите и долго удерживайте элемент, нажмите **Прикрепление к элементам**.
        
-.. figure:: media/gif/pin_service.gif
-   :scale: 60 %
+.. figure:: media/gif/set_pin1.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+-------------------
+
+13) Нажмите на переключатель 
+
+.. figure:: media/gif/set_pin2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+-------------------
+
+14) Включите в Ваш контакт.
+
+.. figure:: media/gif/set_pin3.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+-------------------
+
+15) Теперь Ваша услуга видна другим пользователям.
+
+.. figure:: media/gif/set_pin4.png
+   :scale: 53 %
    :alt: alternative text
    :align: center
 
@@ -201,24 +241,64 @@
 **Создание Ресурсов**
 
 
-1) Вернитесь в контакт и создайте **Ресурс** (:ref:`resources-label`)
+1) Вернитесь в контакт и создайте **Ресурс** (:ref:`resources-label`). Нажмите на |плюс| в правом нижнем углу, далее на |меню|.
    
-.. figure:: media/gif/create_resource.gif
-   :scale: 60 %
+.. figure:: media/gif/set_resource1.png
+   :scale: 53 %
    :alt: alternative text
    :align: center 
 
-2) Установите **Стоимость ресурса**
-         
-.. figure:: media/gif/set_resourceprice.gif
-   :scale: 60 %
+----------------------
+
+2) В списке элементов выберите **создать ресурс**
+
+.. figure:: media/gif/set_resource2.png
+   :scale: 53 %
    :alt: alternative text
    :align: center 
 
-3) Установите **Параметры ресурса** и **Условия  использования**
-       
-.. figure:: media/gif/set_paramandcond.gif
-   :scale: 60 %
+----------------------
+
+3) Установите **тип использования** - **Спецификация**. Заполните **Название**, **Описание** и добавьте фотографию.
+
+.. figure:: media/gif/set_resource3.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center 
+
+----------------------
+
+4) Укажите **Стоимость** оказываемой услуги
+
+.. figure:: media/gif/set_resource4.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center 
+
+----------------------
+
+5) Заполните **Параметры**: **Длительность** услуги, установите Минимальное и Максимальное значение - 1
+
+.. figure:: media/gif/set_resource5.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center 
+
+----------------------
+
+6) Назначьте **Использование** ресурса
+
+.. figure:: media/gif/set_resource6.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center 
+
+----------------------
+
+7) Выберите созданную ранее **услугу**, определите шаг, на котором используется ресурс. Также можно установить порядковый номер.
+
+.. figure:: media/gif/set_resource7.png
+   :scale: 53 %
    :alt: alternative text
    :align: center 
 
@@ -230,8 +310,28 @@
 
 Добавьте при необходимости **Заметки** (:ref:`zametka-label`).
 
-.. figure:: media/gif/add_note.gif
-   :scale: 60 %
+1) Нажмите на |плюс| в правом нижнем углу и выберите заметку
+
+.. figure:: media/gif/set_note1.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+----------------------
+
+2) Напишите название и заполните текст заметки
+
+.. figure:: media/gif/set_note2.png
+   :scale: 53 %
+   :alt: alternative text
+   :align: center
+
+----------------------
+
+3) При необходимости добавьте обложку, нажав на скрепку в правом нижнем углу
+
+.. figure:: media/gif/set_note3.png
+   :scale: 53 %
    :alt: alternative text
    :align: center
 
