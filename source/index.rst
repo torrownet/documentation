@@ -42,6 +42,7 @@
    integration/integration.rst
    customization/index.rst
    faq/index.rst
+   widget/index.rst
 
 .. toctree::
    :maxdepth: 2
