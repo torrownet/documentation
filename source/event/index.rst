@@ -11,7 +11,7 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: fwfwe
+   :caption: Виды событий
 
    single.rst
    repeated.rst
