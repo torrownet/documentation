@@ -108,3 +108,66 @@
 --------------------------
 Клиент переходит на сайт компании. Виджет онлайн-записи вызывается при нажатии на кнопку
 --------------------------
+
+1) Клиент открывает сайт компании, нажимает на кнопку **Онлайн-запись**
+
+.. figure:: media/images/button1.png
+    :scale: 53 %
+    :alt: alternative text
+    :align: center
+
+--------------------------
+
+2) Выбирает подходящую ему услугу
+
+.. figure:: media/images/button2.png
+    :scale: 53 %
+    :alt: alternative text
+    :align: center
+
+--------------------------
+
+3) Нажимает на подходящую **дату** для проведения **консультации**
+
+.. figure:: media/images/button3.png
+    :scale: 53 %
+    :alt: alternative text
+    :align: center
+
+--------------------------
+
+4) Выбирает удобное ему **время**
+
+.. figure:: media/images/button4.png
+    :scale: 53 %
+    :alt: alternative text
+    :align: center
+
+--------------------------
+
+5) Проверяет детали заказа
+
+.. figure:: media/images/button5.png
+    :scale: 53 %
+    :alt: alternative text
+    :align: center
+
+--------------------------
+
+6) Заполняет свои контактные данные, а также по желанию оставляет **Примечание**. Нажимает на кнопку **Записаться**.
+
+.. figure:: media/images/button6.png
+    :scale: 53 %
+    :alt: alternative text
+    :align: center
+
+--------------------------
+
+7) Готово! Данные переданы менеджеру, после подтверждения заказа клиенту поступит информация о проведении консультации на указанный почтовый ящик или телефон.
+
+.. figure:: media/images/button7.png
+    :scale: 53 %
+    :alt: alternative text
+    :align: center
+
+--------------------------
