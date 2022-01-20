@@ -45,12 +45,16 @@
     :alt: alternate text
     :align: center  
 
+-----------------
+
 2. Назовите **Раздел**, как Вам удобно и выберите подходящую иконку. Для завершения нажмите |галка|.
 
 .. figure:: media/gif/set_sectionname.gif
     :scale: 60 %
     :alt: alternate text
     :align: center
+
+-----------------
 
 3. Прикрепите в **Личных настройках** нужную **Визитку**
 
@@ -70,6 +74,8 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 2) Заполните **Контакт** от лица Компании
 
 .. figure:: media/gif/contact_info.gif
@@ -77,13 +83,17 @@
     :alt: alternative text
     :align: center   
 
+-----------------
+
 3) Настройте **тип доступности** контакта, подходящим Вам способом
          
 .. figure:: media/gif/set_dostup.gif
     :scale: 60 %
     :alt: alternative text
     :align: center     
-          
+
+-----------------
+
 4) Настройте **внешний вид** Вашего аккаунта
           
 .. figure:: media/gif/set_imagesize.gif
@@ -91,12 +101,16 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 5) Добавьте **Уникальное имя** Вашему контакту
 
 .. figure:: media/gif/set_uninamec.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 6) Вернитесь в раздел и создайте **Контакт** "База контактов" для хранения данных о клиентах
       
@@ -120,13 +134,17 @@
     :scale: 60 %
     :alt: alternative text
     :align: center
-      
+
+-----------------
+
 2) Заполните **Расписание** услуги. Выберите **Вид расписания по умолчанию**. Установите **Время регистрации** на услугу
    
 .. figure:: media/gif/set_easytimetable.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 3. Выберите необходимые **Контактные данные**, которые Вы хотите получить от пользователя при записи.
 Укажите контакт **База контактов** для хранения информации
@@ -135,13 +153,17 @@
     :scale: 60 %
     :alt: alternative text
     :align: center
-         
+
+-----------------
+
 4) **Прикрепите** услугу к Контакту, чтобы она была видна Вашим клиентам (нажмите и долго удерживайте элемент).
        
 .. figure:: media/gif/set_easypin.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 Запись на консультацию
 
@@ -165,6 +187,8 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 2) Запишите **Название** услуги
    
 .. figure:: media/gif/service_name.gif
@@ -172,26 +196,34 @@
     :alt: alternative text
     :align: center
 
-1) Установите **Тип услуги** Запись на время
+-----------------
+
+3) Установите **Тип услуги** Запись на время
       
 .. figure:: media/gif/set_servicetype.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
-       
+
+-----------------
+
 4) Заполните **Расписание** услуги
    
 .. figure:: media/gif/set_timetable.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
-      
+
+-----------------
+
 5) Выберите **Вид расписания по умолчанию** услуги
    
 .. figure:: media/gif/set_typetimetable.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 6) Установите **Время регистрации** на услугу
    
@@ -200,19 +232,25 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 7) Установите необходимые **Ограничения** и **Шаги записи** (к примеру Вид услуги), если одновременно на одну услугу могут записаться несколько человек, то **Квоту использования** не нужно заполнять.
        
 .. figure:: media/gif/set_steps.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
-         
+
+-----------------
+
 8) Установите необходимые **Контактные данные**, которые Вы хотите получить от пользователя при записи
       
 .. figure:: media/gif/set_reginfo.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 9) Укажите контакт **База контактов** для хранения информации
 
@@ -221,12 +259,16 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 10) Настройте **внешний вид** Вашей услуги.
           
 .. figure:: media/gif/set_imsizeusluga.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 11) **Прикрепите** услугу к Контакту, чтобы она была видна Вашим клиентам (нажмите и долго удерживайте элемент).
        
@@ -246,6 +288,8 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 2) Установите **Тип ресурса**, по умолчанию - **Спецификация**.
    
 3) Установите **Расписание** ресурса.
@@ -254,7 +298,9 @@
     :scale: 60 %
     :alt: alternative text
     :align: center
-     
+
+-----------------
+
 4) Заполните **Описание** ресурса, загрузите обложку.
          
 5) Выберите **Условия использования** ресурса  
@@ -263,6 +309,8 @@
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 Теперь вы можете заполнить **Контакт** своими **Услугами** и начать пользоваться сервисом.
 

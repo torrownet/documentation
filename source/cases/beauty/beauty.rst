@@ -44,6 +44,8 @@
     :alt: alternate text
     :align: center  
 
+-----------------
+
 2. Назовите раздел, как Вам удобно и выберите подходящую иконку. Для завершения нажмите |галка|.
 
 .. figure:: media/gif/create_section.gif
@@ -62,6 +64,8 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 2) Заполните **Контакт** от лица Компании
 
 .. figure:: media/gif/beauty_contact.gif
@@ -69,13 +73,17 @@
     :alt: alternative text
     :align: center   
 
+-----------------
+
 3) Настройте **тип доступности** контакта, подходящим Вам способом. Рекомендуем, установить "по ссылке"
          
 .. figure:: media/gif/set_accesstypeb.gif
     :scale: 60 %
     :alt: alternative text
     :align: center     
-          
+
+-----------------
+
 4) Настройте **Внешний вид** Вашего аккаунта, так он будет более привлекательным
           
 .. figure:: media/gif/set_image_size.gif
@@ -83,12 +91,16 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 5) Добавьте **Уникальное имя** Вашему контакту
 
 .. figure:: media/gif/set_uniname.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 6) Вернитесь в раздел и создайте **Контакт** "База контактов" для хранения данных о клиентах
       
@@ -111,14 +123,18 @@
     :scale: 60 %
     :alt: alternative text
     :align: center
-     
+
+-----------------
+
 2) Установите **Тип услуги** - **Запись на время**
       
 .. figure:: media/gif/set_servicetype.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
- 
+
+-----------------
+
 3) Заполните **Место** и **Описание**
       
 .. figure:: media/gif/set_adress_info.gif
@@ -126,19 +142,25 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 4) Установите **Расписание** услуги
    
 .. figure:: media/gif/set_schedule.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
-      
+
+---------------     
+
 5) Установите **Вид расписания по умолчанию** услуги
    
 .. figure:: media/gif/set_timetable.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 6) Установите **Время регистрации** на услугу
    
@@ -147,13 +169,17 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 7) Установите необходимые **Ограничения** и **Шаги записи** (к примеру Вид услуги). Отметьте "Выбор ресурсов без просмотра"
        
 .. figure:: media/gif/set_steps.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
-         
+
+-----------------
+
 8) Установите необходимые **Контактные данные**, которые Вы хотите получить от пользователя при записи
       
 .. figure:: media/gif/set_contactinfo.gif
@@ -161,12 +187,16 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 9) Настройте **внешний вид** Вашей услуги.
           
 .. figure:: media/gif/set_imageservice.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 10) **Прикрепите** услугу к Контакту, чтобы она была видна Вашим клиентам (нажмите и долго удерживайте элемент).
        
@@ -186,6 +216,8 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 2) Установите **Тип ресурса** Спецификация
    
 .. figure:: media/gif/set_resourcetype.gif
@@ -193,34 +225,44 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 3) Установите **Расписание** ресурса
 
 .. figure:: media/gif/set_resourceschedule.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
-     
+
+-----------------
+
 4) Заполните **Описание** ресурса
       
 .. figure:: media/gif/set_resourceinfo.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
-    
+
+-----------------
+
 5) Установите **Стоимость**
       
 .. figure:: media/gif/set_price.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
-    
+
+-----------------
+
 6) Укажите **Параметры** ресурса
       
 .. figure:: media/gif/set_resourceparameters.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
-    
+
+-----------------
+
 7) Выберите **Условия использования** ресурса  
    
 .. figure:: media/gif/set_useresource.gif
@@ -241,6 +283,8 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 2) Создайте **Ресурсы** с обобщенными названиями, не задавая дополнительные параметры и цену.
    Установите новые **Условия использования** для каждого ресурса
 
@@ -248,6 +292,8 @@
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 3) Теперь на Ваши **Услуги** можно записываться
 
@@ -271,6 +317,8 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 2) Назовите **Заметку** и загрузите обложку
    
 .. figure:: media/gif/set_nameandphoto.gif
@@ -278,12 +326,16 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 3) Измените размер обложки и заполните необходимую информацию
 
 .. figure:: media/gif/set_noteimage.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 Внутри **Заметки** можно создавать другие **Заметки** с разными темами и объявлениями, а также **Контакты**, **События** и другие **Элементы Torrow**.
 
@@ -305,12 +357,16 @@
     :alt: alternative text
     :align: center
 
+-----------------
+
 2) Загрузите обложку **Календаря** и выберите **Вид расписания по умолчанию**.
    
 .. figure:: media/gif/set_calendarview.gif
     :scale: 60 %
     :alt: alternative text
     :align: center
+
+-----------------
 
 **Добавление Событий**
 
