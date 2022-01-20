@@ -30,7 +30,7 @@
    buisness-card/element1.rst
    note/element2.rst
    contact/element3.rst
-   event/index.rst
+   event/elements4.rst
    calendar/element5.rst
    service/index.rst
    resource/index.rst

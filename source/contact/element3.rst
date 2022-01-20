@@ -11,5 +11,58 @@
 Создание контакта
 -----------------
 
+   .. |плюс| image:: media/plus.png
+      :width: 21
+      :alt: alternative text
+   .. |контакт| image:: media/contact.png
+      :width: 21
+      :alt: alternative text
+
+1) Нажмите |плюс| и выберите иконку |контакт| (:ref:`contact-label`).
+      
+.. figure:: media/
+    :scale: 60 %
+    :alt: alternative text
+    :align: center
+
+-----------------
+
+2) Заполните **Контакт** от лица Компании
+
+.. figure:: media/
+    :scale: 60 %
+    :alt: alternative text
+    :align: center   
+
+-----------------
+
+
 Настройка контакта
+-----------------
+
+1) Настройте **тип доступности** контакта, подходящим Вам способом. Рекомендуем, установить "по ссылке"
+         
+.. figure:: media/
+    :scale: 60 %
+    :alt: alternative text
+    :align: center     
+
+-----------------
+
+4) Настройте **Внешний вид** Вашего аккаунта, так он будет более привлекательным
+          
+.. figure:: media/
+    :scale: 60 %
+    :alt: alternative text
+    :align: center
+
+-----------------
+
+5) Добавьте **Уникальное имя** Вашему контакту
+
+.. figure:: media/
+    :scale: 60 %
+    :alt: alternative text
+    :align: center
+
 -----------------
