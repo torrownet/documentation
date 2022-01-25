@@ -17,50 +17,75 @@
    .. |контакт| image:: media/contact.png
       :width: 21
       :alt: alternative text
+   .. |галка| image:: media/galka.png
+      :width: 21
+      :alt: alternative text
 
 1) Нажмите |плюс| и выберите иконку |контакт| (:ref:`contact-label`).
       
-.. figure:: media/
+.. figure:: media/img/create_contact.png
     :scale: 60 %
     :alt: alternative text
     :align: center
 
 -----------------
 
-2) Заполните **Контакт** от лица Компании
+2) Заполните **Контакт** и нажмите на |галка|
 
-.. figure:: media/
+.. figure:: media/img/contact_info.png
     :scale: 60 %
     :alt: alternative text
     :align: center   
 
 -----------------
 
+3) Укажите **визитку**. Если вам не нужно, чтоб контакт был виден другим пользователям, то отключите тумблер **прикрепить**
+
+.. figure:: media/img/create.png
+    :scale: 60 %
+    :alt: alternative text
+    :align: center   
+
+-----------------
 
 Настройка контакта
 -----------------
 
 1) Настройте **тип доступности** контакта, подходящим Вам способом. Рекомендуем, установить "по ссылке"
          
-.. figure:: media/
+.. figure:: media/img/private_sett.png
     :scale: 60 %
     :alt: alternative text
     :align: center     
 
 -----------------
 
-4) Настройте **Внешний вид** Вашего аккаунта, так он будет более привлекательным
+.. figure:: media/img/availability.png
+    :scale: 60 %
+    :alt: alternative text
+    :align: center     
+
+-----------------
+
+2) Настройте **Внешний вид** Вашего аккаунта, так он будет более привлекательным
           
-.. figure:: media/
+.. figure:: media/img/public_sett.png
     :scale: 60 %
     :alt: alternative text
     :align: center
 
 -----------------
 
-5) Добавьте **Уникальное имя** Вашему контакту
+3) Добавьте **Уникальное имя** Вашему контакту
 
-.. figure:: media/
+.. figure:: media/img/unique_name
+    :scale: 60 %
+    :alt: alternative text
+    :align: center
+
+-----------------
+
+.. figure:: media/img/image_size
     :scale: 60 %
     :alt: alternative text
     :align: center

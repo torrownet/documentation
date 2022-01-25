@@ -39,10 +39,12 @@
    :maxdepth: 2
    :caption: Настройка приложения
    
+   design/design.rst
+   widget/index.rst
    integration/integration.rst
    customization/index.rst
    faq/index.rst
-   widget/index.rst
+   
 
 .. toctree::
    :maxdepth: 2
