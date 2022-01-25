@@ -78,14 +78,14 @@
 
 3) Добавьте **Уникальное имя** Вашему контакту
 
-.. figure:: media/img/unique_name
+.. figure:: media/img/unique_name.png
     :scale: 60 %
     :alt: alternative text
     :align: center
 
 -----------------
 
-.. figure:: media/img/image_size
+.. figure:: media/img/image_size.png
     :scale: 60 %
     :alt: alternative text
     :align: center
