@@ -24,3 +24,4 @@
 
     widget-lite
     widget-hard
+    widget-script
