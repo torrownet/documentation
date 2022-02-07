@@ -24,4 +24,4 @@
 
     widget-lite
     widget-hard
-    widget-script
+    widget-reworkedpage
