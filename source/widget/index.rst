@@ -30,7 +30,8 @@
          Пример упрощенного виджета
 
          Виджет можно встроить в Ваш сайт! 
-         Настроить :ref:`widgetdifiform`         
+
+         Настроить :ref:`widgeteasyform`         
 
 2. Полный виджет
      .. figure:: media/WidgetFull.png
@@ -41,7 +42,8 @@
          Пример полного виджета
 
          Окошко приложения может открываться прямо у Вас на сайте! 
-         Настроить :ref:`widgeteasyform`
+
+         Настроить :ref:`widgetdifiform`
 
 .. toctree::
      :maxdepth: 1
