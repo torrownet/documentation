@@ -31,7 +31,10 @@
 
          Виджет можно встроить в Ваш сайт! 
 
-         Настроить :ref:`widgeteasyform`         
+         Настроить :ref:`widgeteasyform`       
+
+Варианты установки:
+     1)            
 
 2. Полный виджет
      .. figure:: media/WidgetFull.png
@@ -45,9 +48,13 @@
 
          Настроить :ref:`widgetdifiform`
 
+Варианты установки:
+     1) 
+
 .. toctree::
-     :maxdepth: 1
+     :maxdepth: 3
      :caption: Также ознакомьтесь со следующими страницами
 
      widget-options
      widget-setup
+
