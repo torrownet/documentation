@@ -12,6 +12,8 @@
     :alt: alternate text
     :align: center
 
+--------------------------
+
 2. Из раскрывающегося **списка** выберите |массив|.
 
     .. |массив| image:: media/reserved.png
@@ -22,6 +24,8 @@
     :alt: alternate text
     :align: center
 
+----------------------------------
+
 3. Выберите необходимый **элемент**.
 
 .. figure:: media/invest_element/vloj3.png
@@ -29,12 +33,16 @@
     :alt: alternate text
     :align: center
 
+------------------------------
+
 4. Нажмите на кнопку **Вложить**.
 
 .. figure:: media/invest_element/vloj4.png
     :scale: 42 %
     :alt: alternate text
     :align: center
+
+------------------------------
 
 5. **Готово!** Вы вложили выбранный элемент в текущий.
 

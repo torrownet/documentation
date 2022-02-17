@@ -11,6 +11,7 @@
    :maxdepth: 2
    :caption: FAQ
    
+   contact_base
    share-element
    attach-element
    invest-element
