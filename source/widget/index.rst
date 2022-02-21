@@ -60,7 +60,7 @@
 
 .. raw:: html
 
-    <iframe src="https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking" height="490px" width="120%"></iframe> 
+    <iframe src="https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking" height="490px" width="150%"></iframe> 
 
 :ref:`Подробнее<widget-option-1-2>`
 
