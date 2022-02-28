@@ -8,10 +8,10 @@
 .. _`службе поддержки`: support@torrow.net
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: FAQ
    
-
+   edit-element
    contact_base
    service_order
    share-element
@@ -20,4 +20,3 @@
    calendar-outlook
    time_zone
    unique_name
-   edit
