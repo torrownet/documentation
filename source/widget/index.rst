@@ -36,7 +36,7 @@
 .. note:: **Полная версия виджета** - обладает всеми функциями записи и оплаты.
 
 .. figure:: media/WidgetFullV.png
-      :scale: 60 %
+      :scale: 50 %
       :align: center
       :alt: Альтернативный текст
 
@@ -48,30 +48,38 @@
 
 1) Виджет открывается по ссылке на отдельной странице
 
+Пользователь получает ссылку на полный виджет и переходит по ней.
+
 .. figure:: media/gif/widgetFullLink.gif
       :scale: 70%
       :align: center
       :alt: Альтернативный текст
 
-      :ref:`Подробнее<widget-option-2-1>`
+      :ref:`Подробнее<widget-option-1-1>`
 
 
 2) Виджет встроен на страницу сайта
 
+Пользователь прямо на сайте пользуется виджетом!
+
 .. raw:: html
 
-    <iframe src="https://web.torrow.net/app/tabs/tab-announcement/service;id=1b5903ed42bf48b428fb31ee7af27866" height="500px" width="60%"></iframe> 
+    <iframe src="https://web.torrow.net/app/tabs/tab-announcement/service;id=1b5903ed42bf48b428fb31ee7af27866" height="400px" width="50%"></iframe> 
 
-:ref:`Подробнее<widget-option-2-2>`
+:ref:`Подробнее<widget-option-1-2>`
 
 3) Виджет открывается по кнопке 
    
+Пользователь прямо на сайте может вызвать окно с полным виджетом!
+
 .. figure:: media/gif/widgetFullButton2.gif
-      :height: 600
+      :height: 500
       :align: center
       :alt: Альтернативный текст
 
-      :ref:`Подробнее<widget-option-2-3>`
+      :ref:`Подробнее<widget-option-1-3>`
+
+Вы также можете использовать свою кнопку на сайте! :ref:`Подробнее<widget-option-1-4>`
 
 -----------------------------
 
@@ -92,32 +100,40 @@
 
 1) *Виджет открывается по ссылке на отдельной странице*
 
+Пользователь получает ссылку и переходит по ней.
+
 .. figure:: media/gif/widgetEasyLink.gif
-      :scale: 70 %
+      :scale: 60 %
       :align: center
       :alt: Альтернативный текст
 
-      :ref:`Подробнее<widgetoption-1-1>`
+      :ref:`Подробнее<widgetoption-2-1>`
 
 
 2) *Виджет встроен на страницу сайта*
+
+Пользователь использует Ваш сайт и там находит виджет.
 
 .. raw:: html
 
     <iframe src="https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking" height="490px" width="150%"></iframe> 
 
-:ref:`Подробнее<widget-option-1-2>`
+:ref:`Подробнее<widget-option-2-2>`
 
 
 3) Виджет открывается по кнопке 
 
+Пользователь использует Ваш сайт и вызывает окно с упрощенным виджетом прямо на сайте!
+
 .. figure:: media/gif/widgetEasyButton2.gif
-      :height: 600
+      :height: 500
       :align: center
       :alt: Альтернативный текст
 
-      :ref:`Подробнее<widget-option-1-3>`
+      :ref:`Подробнее<widget-option-2-3>`
 
+
+Вы также можете использовать свою кнопку на сайте! :ref:`Подробнее.<widget-option-2-4>`
 
 -------------------------------------------------
 
