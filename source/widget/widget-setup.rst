@@ -21,7 +21,7 @@
 Как добавить виджет?
 ~~~~~~~~~~~~~~~~~~~~
 
- .. |точка| image:: media/tochka.png
+.. |точка| image:: media/tochka.png
       :width: 21
       :alt: alternative text
 
@@ -69,7 +69,7 @@
 
      <torrow-widget
          id="torrow-widget"
-         url="https://torrow.net/app/tabs/tab-search/service;id=aae6803edb08c6832f4e02a7f26929b58?closeButtonHidden=true&tabBarHidden=true"
+         url="https://web.torrow.net/app/tabs/tab-announcement/service;id=1b5903ed42bf48b428fb31ee7af27866"
          modal="right"
          modal-active="true"
          show-widget-button="true"
@@ -151,7 +151,7 @@
      
      <torrow-widget
          id="torrow-widget"
-         url="https://torrow.net/app/tabs/tab-search/service;id=aae6803edb08c6832f4e02a7f26929b58?closeButtonHidden=true&tabBarHidden=true"
+         url="https://web.torrow.net/app/tabs/tab-announcement/service;id=1b5903ed42bf48b428fb31ee7af27866"
          modal="right"
          modal-active="false"
          show-widget-button="false"
