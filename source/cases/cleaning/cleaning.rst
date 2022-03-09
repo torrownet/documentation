@@ -13,23 +13,23 @@
 Для начала работы с **Torrow** пройдите регистрацию (:ref:`registration-label`) и заполните **Визитку** (:ref:`buisnesscard-label`)
 
 .. figure:: media/gif/bcard.png
-   :scale: 53 %
-   :alt: alternate text
-   :align: center
+    :scale: 53 %
+    :alt: alternate text
+    :align: center
 
-   .. |плюс| image:: media/plus.png
+.. |плюс| image:: media/plus.png
       :width: 21
       :alt: alternative text
-   .. |контакт| image:: media/contact.png
+.. |контакт| image:: media/contact.png
       :width: 21
       :alt: alternative text
-   .. |галка| image:: media/galka.png
+.. |галка| image:: media/galka.png
       :width: 21
       :alt: alternative text
-   .. |точка| image:: media/tochka.png
+.. |точка| image:: media/tochka.png
       :width: 21
       :alt: alternative text
-   .. |меню| image:: media/reserved.png
+.. |меню| image:: media/reserved.png
       :width: 21
       :alt: alternative text
 -------------------------

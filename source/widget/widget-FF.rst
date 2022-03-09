@@ -10,9 +10,7 @@
       :align: center
       :alt: Альтернативный текст
 
-      Пример полного виджета
-
-      Окошко приложения может открываться прямо у Вас на сайте! :ref:`Настроить!<widgetdifiform>`
+      :ref:`Настроить!<widgetdifiform>`
 
 **Примеры установок**
 
@@ -36,14 +34,15 @@
 Пользователь прямо на сайте пользуется виджетом!
 
 .. raw:: html
-
-    <iframe src="https://web.torrow.net/app/tabs/tab-announcement/service;id=1b5903ed42bf48b428fb31ee7af27866" height="400px" width="50%"></iframe> 
+      :align: center
+      
+    <iframe src="https://web.torrow.net/app/tabs/tab-announcement/service;id=1b5903ed42bf48b428fb31ee7af27866" height="690px" width="50%"></iframe> 
 
 :ref:`Подробнее<widget-option-1-2-2>`
 
 .. _widget-ff-exmpl-3::
 
-3) Виджет открывается по кнопке 
+1) Виджет открывается по кнопке 
    
 Пользователь прямо на сайте может вызвать окно с полным виджетом!
 
@@ -54,7 +53,7 @@
 
       :ref:`Подробнее<widget-option-1-3-3>`
 
-Вы также можете использовать свою кнопку на сайте! :ref:`Подробнее<widget-option-1-4-4>`
+.. hint:: Вы также можете использовать свою кнопку на сайте! :ref:`Подробнее<widget-option-1-4-4>`
 
 -----------------------------
 
