@@ -378,3 +378,7 @@ a:hover {
         flex-direction: row;
         width: 100%;}
 }
+
+.ethical-rtd .ethical-sidebar {
+    display: none !important;
+}
