@@ -1,3 +1,5 @@
 {
-    "restructuredtext.confPath": "${workspaceFolder}\\source"
+    "restructuredtext.confPath": "${workspaceFolder}\\source",
+    "esbonio.server.enabled": true,
+    "esbonio.sphinx.confDir": "c:\\Users\\Egutiya.S\\Documents\\GitHub\\documentation\\source"
 }
