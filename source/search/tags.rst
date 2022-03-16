@@ -1,0 +1,275 @@
+=======================
+Хештеги, поиск и быстрые фильтры
+=======================
+
+
+
+    .. |профиль| image:: media/profile.png
+        :scale: 42 %
+    .. |точка| image:: media/tochka.png
+        :scale: 42 %
+
+
+Тэги можно задать
+
+.. figure:: media/tags/tag3.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+Обычный тэг
+
+.. figure:: media/tags/tag25.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag26.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag30.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+.. hint:: Элементы видны в Общих данных, если Тип доступности у них - **Открытый** (ссылка на тип доступности)
+
+.. figure:: media/tags/tag31.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+
+Прописываем категории 
+
+.. figure:: media/tags/tag4.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag5.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+
+Тэги для элементов
+
+.. figure:: media/tags/tag8.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+Прописываем категории в родительском элементе (где создается ресурс)
+
+.. figure:: media/tags/tag4.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag5.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+после того, как добавлены категории, можно задавать хештеги группы для элементов
+
+.. figure:: media/tags/tag13.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+Отмечаем нужные теги
+
+.. figure:: media/tags/tag6.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+Удобно назначать тэги для ресурсов
+
+.. hint:: Хештеги группы можно задать для **вложенных** элементов, если они прикреплены к родительскому (см. пункт )
+
+.. figure:: media/tags/tag10.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+.. hint:: Прикрепленные элементы будут видны всем. Если вы хотите, чтобы они были скрыты, то пропишите **Категории** вручную для каждого элемента
+
+Выделите элемент долгим нажатием, выберите в выпадающем меню **прикрепление к элементам**. Отметьте группы, к которым элемент будет прикреплен (Ссылка на ФАК, как прикреплять элементы)
+
+.. figure:: media/tags/tag11.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag12.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag33.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag34.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag35.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+Быстрый фильтр в поиске
+
+.. figure:: media/tags/tag27.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag29.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+.. figure:: media/tags/tag28.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+.. figure:: media/tags/tag20.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+Как работает быстрый фильтр
+
+.. figure:: media/tags/tag21.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag22.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag23.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag24.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+Для создания **меню** в услуге также можно использовать хештеги
+
+Тэги задаются в услуге. Прописываем категории в услуге на нужно шаге использования
+
+.. figure:: media/tags/tag1.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+.. figure:: media/tags/tag2.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+После назначения всех ресурсов и прописывания у них тэгов, меню в готовой услуге будет выглядеть таким образом
+
+.. figure:: media/tags/tag7.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------
+
+
+.. figure:: media/tags/tag14.png
+    :scale: 60 %
+    :alt: alternate text
+    :align: center
+
+-------------------------------

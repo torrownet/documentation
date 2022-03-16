@@ -21,6 +21,7 @@
    
    introduction
    registration/registration.rst
+   integration/integration.rst
 
 .. toctree::
    :maxdepth: 2
@@ -41,7 +42,7 @@
    
    design/design.rst
    widget/index.rst
-   integration/integration.rst
+   search/search.rst
    customization/index.rst
    faq/index.rst
    
