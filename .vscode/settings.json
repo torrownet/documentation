@@ -1,3 +1,5 @@
 {
-    "restructuredtext.confPath": "${workspaceFolder}\\source"
+    "restructuredtext.confPath": "${workspaceFolder}\\source",
+    "esbonio.sphinx.confDir": "c:\\Users\\Semyonova.E\\Desktop\\documentation\\source",
+    "esbonio.server.enabled": true
 }
