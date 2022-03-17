@@ -12,6 +12,7 @@
    :caption: FAQ
    
    edit-element
+   save-elem
    contact_base
    service_order
    share-element
