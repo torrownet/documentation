@@ -1,7 +1,7 @@
 .. _widgetdifiform2:
 
 Полный виджет
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 .. note:: **Полная версия виджета** - обладает всеми функциями записи и оплаты.
 
@@ -34,11 +34,18 @@
 Пользователь прямо на сайте пользуется виджетом!
 
 .. raw:: html
-      :align: center
-      
-    <iframe src="https://web.torrow.net/app/tabs/tab-announcement/service;id=1b5903ed42bf48b428fb31ee7af27866" height="690px" width="50%"></iframe> 
 
-:ref:`Подробнее<widget-option-1-2-2>`
+    <h1 align="center">
+    <iframe src="https://web.torrow.net/app/tabs/tab-announcement/service;id=1b5903ed42bf48b428fb31ee7af27866" height="690px" width="50%" align="center"></iframe> 
+    </h1>
+
+.. Не удалять текст ниже (он нужен, чтобы ref распологалася по середине)
+.. figure:: media/gif/widgetFullLink.gif
+      :scale: 0%
+      :align: center
+      :alt: Альтернативный текст
+
+      :ref:`Подробнее<widget-option-1-2-2>`
 
 .. _widget-ff-exmpl-3::
 
