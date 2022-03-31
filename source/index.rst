@@ -21,6 +21,7 @@
    
    introduction
    registration/registration.rst
+   templates/template_ind.rst
    integration/integration.rst
 
 .. toctree::
