@@ -43,7 +43,7 @@
    
    design/design.rst
    widget/index.rst
-   widget/online-booking.rst
+   widgetOnlineBooking/online-booking.rst
    search/search.rst
    customization/index.rst
    faq/index.rst
