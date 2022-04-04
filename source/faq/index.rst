@@ -17,6 +17,7 @@
    service_order
    share-element
    attach-element
+   qr-code.rst
    invest-element
    calendar-outlook
    time_zone

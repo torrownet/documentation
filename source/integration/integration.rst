@@ -10,3 +10,4 @@
       
    tilda
    vk-widget
+   yandex-map

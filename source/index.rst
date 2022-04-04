@@ -23,6 +23,7 @@
    registration/registration.rst
    templates/template_ind.rst
    integration/integration.rst
+   promotion/promotion.rst
 
 .. toctree::
    :maxdepth: 2
