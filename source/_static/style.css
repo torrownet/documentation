@@ -124,6 +124,7 @@ div.document {
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     background-color: inherit;
+    font-weight: normal;
 }
 
 .wy-menu-vertical a:hover {
