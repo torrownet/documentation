@@ -13,6 +13,7 @@
    
    edit-element
    save-elem
+   access_type
    contact_base
    service_order
    share-element
@@ -24,3 +25,4 @@
    unique_name
    payment
    element-order
+   reports
