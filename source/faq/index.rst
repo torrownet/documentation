@@ -25,4 +25,3 @@
    unique_name
    payment
    element-order
-   reports

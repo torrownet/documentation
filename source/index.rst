@@ -40,6 +40,14 @@
 
 .. toctree::
    :maxdepth: 2
+   :caption: Работа в приложении
+
+   work_at_app/client_base
+   work_at_app/reports
+   work_at_app/access_rights
+
+.. toctree::
+   :maxdepth: 2
    :caption: Настройка приложения
    
    design/design.rst
