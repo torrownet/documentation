@@ -302,14 +302,17 @@ div.document {
 
 a {
     color: #5F4B8B;
+    font-weight: bold;
 }
 
 a:visited {
     color: #5F4B8B;
+    font-weight: bold;
 }
 
 a:hover {
     color: #8e79bd;
+    font-weight: bold;
 }
   
 .rst-content .note {
