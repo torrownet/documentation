@@ -301,6 +301,11 @@ div.document {
     /* color: #8e79bd; */
 /* } */
 
+.rst-content .section ol li>:first-child, .rst-content .section ul li>:first-child, .rst-content .toctree-wrapper ol li>:first-child, .rst-content .toctree-wrapper ul li>:first-child, .rst-content section ol li>:first-child, .rst-content section ul li>:first-child {
+    margin-top: 0;
+    font-weight: normal;
+}
+
 a {
     color: #5F4B8B;
     font-weight: bold;
