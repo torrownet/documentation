@@ -52,7 +52,7 @@
     :alt: alternative text
     :align: center
 
-6. Укажите ваш контакт torrow или ссылку на наш виджет онлайн-записи. Сохраните изменения.
+6. Укажите ваш :ref:`контакт torrow <contact-label>` или ссылку на ваш :ref:`виджет онлайн-записи <widget-label>`. Сохраните изменения.
 
 .. figure:: media/yandex/yandex6.png
     :scale: 60 %
