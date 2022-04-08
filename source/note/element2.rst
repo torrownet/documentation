@@ -31,7 +31,7 @@
    .. |переключатель| image:: media/prin.png
       :width: 21
       :alt: alternative text
-   .. |прикреп| image:: media/pin-stroke.png
+   .. |глаз| image:: media/invisible.png
       :width: 21
       :alt: alternative text
 
@@ -80,9 +80,9 @@
 
 --------------------
 
-6. Значок |прикреп| означает, что она видна для других пользователей
+6. Значок |глаз| означает, что она не видна для других пользователей
 
-.. figure:: media/note/note8.png
+.. figure:: media/note/note_unpin2.png
     :scale: 53 %
     :alt: alternate text
     :align: center
