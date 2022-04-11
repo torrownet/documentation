@@ -307,7 +307,7 @@
 
 1. Чтобы поделиться ссылкой на страницу Онлайн-школы, нажмите на |точка| в правом верхнем углу
 
-.. figure:: media/mpz11.png
+.. figure:: media/rights/mpz11.png
     :scale: 42 %
     :alt: alternate text
     :align: center

@@ -61,6 +61,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Примеры настройки кейсов
+   :caption: Примеры настройки услуг
 
    cases/index.rst

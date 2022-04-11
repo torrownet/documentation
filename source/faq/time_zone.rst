@@ -55,27 +55,18 @@
 
 -------------
 
-6. Теперь при записи на услугу с другим часовым поясом - будет указываться часовой пояс услуги
+6. Теперь при записи на услугу будет указываться Ваш часовой пояс
 
-.. figure:: media/time-zone/time_zone6.png
+.. figure:: media/time-zone/time_zone10.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 -------------
 
-7. При выборе времени, на которое записаться, **сверху** показывается **время услуги**, а **снизу - по Вашему часовому поясу**
+7. В деталях заказа также будет указываться Ваш часовой пояс 
 
-.. figure:: media/time-zone/time_zone7.png
-    :scale: 42 %
-    :alt: alternate text
-    :align: center
-
--------------
-
-8. В деталях заказа также будет указано двойное время
-
-.. figure:: media/time-zone/time_zone8.png
+.. figure:: media/time-zone/time_zone11.png
     :scale: 42 %
     :alt: alternate text
     :align: center

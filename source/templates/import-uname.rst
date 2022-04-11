@@ -33,6 +33,8 @@
     * почасовая_аренда
     * запись_консультация
 
+    `Больше шаблонов Вы можете найти здесь <https://info.torrow.net/templates>`_
+
 .. figure:: media/template9.png
     :scale: 53 %
     :alt: alternate text
