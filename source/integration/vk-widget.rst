@@ -15,28 +15,28 @@
 2. Выберите из списка сообщество, куда хотите установить виджет и нажмите **Добавить**.
 
 .. figure:: media/vk/vk-widget1.png
-    :scale: 60 %
+    :scale: 70 %
     :alt: alternative text
     :align: center
 
 3. Вы получите следующее сообщение.
 
 .. figure:: media/vk/vk-widget2.png
-    :scale: 60 %
+    :scale: 70 %
     :alt: alternative text
     :align: center
 
 4. Теперь просто перейдите в свое сообщество. В разделе меню уже будет расположена кнопка записи.
 
 .. figure:: media/vk/vk-widget3.png
-    :scale: 40 %
+    :scale: 50 %
     :alt: alternative text
     :align: center
 
 5. Нажмите на кнопку записи. При первичном нажатии Вы получите инструкцию по установке мини-приложения torrow.
 
 .. figure:: media/vk/vk-widget4.png
-    :scale: 50 %
+    :scale: 60 %
     :alt: alternative text
     :align: center
 
