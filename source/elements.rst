@@ -12,7 +12,7 @@
 .. hint:: Все элементы окрашены в цвета ваших соответствующих визиток для удобной визуальной навигации.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Элементы Torrow
 
    buisness-card/element1.rst

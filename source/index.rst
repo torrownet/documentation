@@ -16,18 +16,17 @@
 .. _`службе поддержки`: support@torrow.net
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Общая информация
    
    introduction
    registration/registration.rst
-   templates/template_ind.rst
-   integration/integration.rst
    promotion/promotion.rst
+   integration/integration.rst
 
 .. toctree::
-   :maxdepth: 2
    :caption: Элементы Torrow
+   :maxdepth: 1
 
    elements.rst
    buisness-card/element1.rst
@@ -39,28 +38,32 @@
    resource/index.rst
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Работа в приложении
 
+   templates/template_ind.rst
    work_at_app/client_base
    work_at_app/reports
    work_at_app/access_rights
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Настройка приложения
    
    design/design.rst
    widget/index.rst
    widgetOnlineBooking/online-booking.rst
    search/search.rst
-   customization/index.rst
-   faq/index.rst
-   
-   
+   customization/synchronization.rst
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Примеры настройки услуг
 
    cases/index.rst
+
+.. toctree::
+   :maxdepth: 2
+   :caption: FAQ
+
+   faq/index.rst

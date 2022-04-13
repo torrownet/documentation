@@ -8,8 +8,9 @@
 .. _`службе поддержки`: support@torrow.net
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: FAQ
+   :includehidden:
    
    edit-element
    save-elem
