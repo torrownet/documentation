@@ -23,6 +23,8 @@
    registration/registration.rst
    promotion/promotion.rst
    integration/integration.rst
+   widget/index.rst
+   widgetOnlineBooking/online-booking.rst
 
 .. toctree::
    :caption: Элементы Torrow
@@ -51,8 +53,6 @@
    :caption: Настройка приложения
    
    design/design.rst
-   widget/index.rst
-   widgetOnlineBooking/online-booking.rst
    search/search.rst
    customization/synchronization.rst
 
