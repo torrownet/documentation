@@ -21,9 +21,9 @@
 Пользователь получает ссылку на полный виджет и переходит по ней. 
 
 .. figure:: media/gif/widgetFullLink.gif
-       :scale: 60 %
-       :align: center
-       :alt: Альтернативный текст
+      :scale: 55 %
+      :align: center
+      :alt: Альтернативный текст
 
 _____________________________________________________________________
 
@@ -36,7 +36,7 @@ _____________________________________________________________________
 .. raw:: html
 
     <h1 align="center">
-    <iframe src="https://web.torrow.net/app/tabs/tab-announcement/service;id=1b5903ed42bf48b428fb31ee7af27866" height="690px" width="50%" align="center"></iframe> 
+    <iframe src="https://web.torrow.net/app/tabs/tab-announcement/service;id=1b5903ed42bf48b428fb31ee7af27866" height="600px" width="70%" align="center"></iframe> 
     </h1>
 
 _____________________________________________________________________
@@ -47,8 +47,8 @@ _____________________________________________________________________
    
 Пользователь прямо на сайте может вызвать окно с полным виджетом! 
 
-.. figure:: media/gif/widgetFullButton2.gif
-      :scale: 50 %
+.. figure:: media/gif/WidgetFullButton2.gif
+      :scale: 40 %
       :align: center
       :alt: Альтернативный текст
 
@@ -56,6 +56,6 @@ _____________________________________________________________________
 .. note:: Вы также можете использовать свою кнопку на сайте! 
 
 .. figure:: media/gif/widget-ff-customButton.gif
-      :scale: 50 %
+      :scale: 40 %
       :align: center
       :alt: Альтернативный текст
