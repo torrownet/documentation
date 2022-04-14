@@ -41,7 +41,7 @@
 
 3) Укажите **визитку**. Если вам не нужно, чтоб контакт был виден другим пользователям, то отключите тумблер **прикрепить**
 
-.. figure:: media/img/create.png
+.. figure:: media/img/create2.png
     :scale: 60 %
     :alt: alternative text
     :align: center   
@@ -51,28 +51,21 @@
 Настройка контакта
 -----------------
 
-1) Настройте **тип доступности** контакта, подходящим Вам способом. Рекомендуем, установить "по ссылке"
-         
-.. figure:: media/img/private_sett.png
+1) Перейдите в **Общие настройки** и настройте Ваш аккаунт, так он будет более привлекательным
+               
+.. figure:: media/img/public_sett.png
     :scale: 60 %
     :alt: alternative text
-    :align: center     
+    :align: center
 
 -----------------
+
+2) Настройте **тип доступности** контакта, подходящим Вам способом. Рекомендуем, установить "по ссылке"
 
 .. figure:: media/img/availability.png
     :scale: 60 %
     :alt: alternative text
     :align: center     
-
------------------
-
-2) Настройте **Внешний вид** Вашего аккаунта, так он будет более привлекательным
-          
-.. figure:: media/img/public_sett.png
-    :scale: 60 %
-    :alt: alternative text
-    :align: center
 
 -----------------
 
@@ -84,6 +77,8 @@
     :align: center
 
 -----------------
+
+4) Настройте **Внешний вид** Вашего аккаунта, выбрав размер изображения
 
 .. figure:: media/img/image_size.png
     :scale: 60 %
