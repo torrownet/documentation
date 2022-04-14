@@ -59,7 +59,7 @@ d. Готово!
          id="torrow-widget"
          url="https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking"
          modal="right"
-         modal-active="true"
+         modal-active="false"
          show-widget-button="true"
      ></torrow-widget>
      <script src="https://cdn-public.torrow.net/widget/torrow-widget3.js" defer></script>
@@ -87,7 +87,7 @@ f. Добавьте следующий скрипт:
         var buttonCollection =  document.getElementsByClassName('send-appeal')
         if(buttonCollection.length) {
             buttonCollection[0].addEventListener('click', event => 
-            {document.querySelector('#torrow-widget-second').setAttribute('modal-active', 'true')})
+            {document.querySelector('#torrow-widget').setAttribute('modal-active', 'true')})
         }
     </script>
 
@@ -102,18 +102,18 @@ g. Готово!
          id="torrow-widget"
          url="https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking"
          modal="right"
-         modal-active="true"
-         show-widget-button="true"
+         modal-active="false"
+         show-widget-button="false"
      ></torrow-widget>
      <script>
         var buttonCollection =  document.getElementsByClassName('send-appeal')
         if(buttonCollection.length) {
             buttonCollection[0].addEventListener('click', event => 
-            {document.querySelector('#torrow-widget-second').setAttribute('modal-active', 'true')})
+            {document.querySelector('#torrow-widget').setAttribute('modal-active', 'true')})
         }
      </script>     
      <script src="https://cdn-public.torrow.net/widget/torrow-widget3.js" defer></script>
 
-Для более  поднробной настройки страницы нажмите сюда:
+Для более поднробной настройки :ref:`обратитесь к параметрам виджета.<.. _widgetEFinst:>`
 
 .. note:: Обратите внимание, где указано название *CSS Class Name:* **send-appeal** внутри скрипта! В это место необходимо вводить заданное Вами значение.
