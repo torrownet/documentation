@@ -21,7 +21,7 @@
 Пользователь получает ссылку на полный виджет и переходит по ней. 
 
 .. figure:: media/gif/widgetFullLink.gif
-    :scale: 55 %
+    :scale: 60 %
     :alt: alternative text
     :align: center
 
