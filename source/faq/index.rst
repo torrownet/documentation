@@ -14,6 +14,7 @@
    
    edit-element
    save-elem
+   delete-element
    access_type
    contact_base
    service_order
