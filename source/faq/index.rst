@@ -25,6 +25,7 @@
    calendar-outlook
    time_zone
    unique_name
+   feedback
    payment
    element-order
    metrika
