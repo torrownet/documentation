@@ -20,12 +20,14 @@
    service_order
    share-element
    attach-element
+   notification
    qr-code.rst
    invest-element
    calendar-outlook
    time_zone
    unique_name
    feedback
+   notice
    payment
    element-order
    metrika
