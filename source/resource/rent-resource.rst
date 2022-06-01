@@ -1,3 +1,5 @@
+.. _rent-resource-label:
+
 ======
 Аренда
 ======
