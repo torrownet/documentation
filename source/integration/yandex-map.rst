@@ -161,7 +161,7 @@
 .. figure:: media/yandex/yandex-beauty9.png
     :scale: 42 %
     :alt: alternative text
-    :align: centerc:\Users\Oksin.A\Desktop\Manual\documentation\source\_build\html\service\index.html
+    :align: center
 
 9. Далее Ваш профиль будет находиться на проверке у Яндекс.карт. При завершении модерации у организации появится кнопка **Записаться онлайн**.
 
