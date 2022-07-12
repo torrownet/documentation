@@ -21,7 +21,7 @@
          modal-active="true"
          show-widget-button="true"
      ></torrow-widget>
-     <script src="https://cdn-public.torrow.net/widget/torrow-widget3.js" defer></script>
+     <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>
      
 
 Параметры скрипта

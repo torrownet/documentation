@@ -84,7 +84,7 @@ d. Готово!
          modal-active="false"
          show-widget-button="true"
      ></torrow-widget>
-     <script src="https://cdn-public.torrow.net/widget/torrow-widget3.js" defer></script>
+     <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>
     
 
 Для более подробной настройки страницы :ref:`нажмите сюда.<widgetEFinst>`
@@ -138,7 +138,7 @@ g. Готово!
             {document.querySelector('#torrow-widget').setAttribute('modal-active', 'true')})
         }
      </script>     
-     <script src="https://cdn-public.torrow.net/widget/torrow-widget3.js" defer></script>
+     <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>
 
 Для более подробной настройки :ref:`обратитесь к параметрам виджета.<widgetEFinst>`
 
