@@ -84,3 +84,16 @@
 
 *Пример полностью настроенного текста политики конфиденциальности:*
 https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking?agreementText=Даю согласие Torrow Technologies на обработку персональных данных в соответствии с {{политикой}}&agreementUrl=https://info.torrow.net/useragreement&prefilledFields=Имя_Какое-то имя&prefilledFields=MainEmail_asdsad@asd.asd&checkAgreementCheckboxVisible=true
+
+.. raw:: html
+   
+   <torrow-widget
+      id="torrow-widget"
+      url="https://web.torrow.net/app/tabs/tab-search/service;id=103edf7f8c4affcce3a659502c23a?closeButtonHidden=true&tabBarHidden=true"
+      modal="right"
+      modal-active="false"
+      show-widget-button="true"
+      button-text="Заявка эксперту"
+      modal-width="550px"
+   ></torrow-widget>
+   <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>

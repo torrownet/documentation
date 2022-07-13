@@ -24,3 +24,16 @@
 * `Запись на услугу в салон <https://torrow.net/app/tabs/tab-search/note;id=aae6103ebd77d60f317b58700019ab3d9>`_ | `Загрузить шаблон <https://trrw.me/Ya4KZXVZN1Fwn34>`_
 
 .. hint:: При нажатии на надпись **Загрузить шаблон**, он автоматически появится в Разделе **Бизнес** Вашего аккаунта. Если Вы не зарегистрированы, то после нажатия нужно будет авторизоваться в системе.
+
+.. raw:: html
+   
+   <torrow-widget
+      id="torrow-widget"
+      url="https://web.torrow.net/app/tabs/tab-search/service;id=103edf7f8c4affcce3a659502c23a?closeButtonHidden=true&tabBarHidden=true"
+      modal="right"
+      modal-active="false"
+      show-widget-button="true"
+      button-text="Заявка эксперту"
+      modal-width="550px"
+   ></torrow-widget>
+   <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>

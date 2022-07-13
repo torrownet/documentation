@@ -109,3 +109,15 @@ g. Готово!
 
 .. note:: Обратите внимание, где указано название *CSS Class Name:* **send-appeal** внутри скрипта! В это место необходимо вводить заданное Вами значение.
     
+.. raw:: html
+   
+   <torrow-widget
+      id="torrow-widget"
+      url="https://web.torrow.net/app/tabs/tab-search/service;id=103edf7f8c4affcce3a659502c23a?closeButtonHidden=true&tabBarHidden=true"
+      modal="right"
+      modal-active="false"
+      show-widget-button="true"
+      button-text="Заявка эксперту"
+      modal-width="550px"
+   ></torrow-widget>
+   <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>
