@@ -157,5 +157,12 @@
       show-widget-button="true"
       button-text="Заявка эксперту"
       modal-width="550px"
+      button-style = "rectangle"
+      button-size = "60"
+      button-y = "top"
    ></torrow-widget>
    <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>
+
+.. raw:: html
+
+   <script src="https://code.jivo.ru/widget/m8kFjF91Tn" async></script>
