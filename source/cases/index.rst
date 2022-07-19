@@ -16,6 +16,7 @@
    consulting/consulting.rst
    rent/rent.rst
    photostudio/photostudio.rst
+   yoga/yoga.rst
 
 
 .. raw:: html
