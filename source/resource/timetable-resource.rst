@@ -8,7 +8,7 @@
 .. raw:: html
     
     <div class="thumb-wrap">
-        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=yENUW0e9F8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yENUW0e9F8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 Чтобы настроить **Расписание ресурса**:
