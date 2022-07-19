@@ -8,6 +8,13 @@
 
 Вы можете бесплатно размещать неограниченное количество услуг в разных категориях.
 
+.. rst-class:: centered
+.. raw:: html
+    
+    <div class="thumb-wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=AIaMZ5c4EZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 .. hint:: В Torrow предусмотрены следующие виды **Услуг**:
     
     * **Запись на сеанс** — Каждое событие в расписании услуги создается вручную с индивидуальными параметрами. Клиенты не имеют возможности влиять на время и параметры события. Например: мероприятия, групповые тренировки, мастер-классы, расписания в учебных учреждениях.
