@@ -25,6 +25,30 @@
 
 .. hint:: При нажатии на надпись **Загрузить шаблон**, он автоматически появится в Разделе **Бизнес** Вашего аккаунта. Если Вы не зарегистрированы, то после нажатия нужно будет авторизоваться в системе.
 
+-----------------
+Установка шаблона
+-----------------
+
+.. rst-class:: centered
+.. raw:: html
+    
+    <div class="thumb-wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6tEu5PY4hKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+---------------------------
+
+-----------------
+Настройка шаблона
+-----------------
+
+.. rst-class:: centered
+.. raw:: html
+    
+    <div class="thumb-wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5S4haOUL5Hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 .. raw:: html
    
    <torrow-widget

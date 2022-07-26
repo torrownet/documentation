@@ -4,9 +4,17 @@
 Виджет Вконтакте (VKontakte)
 ============================
 
-.. note:: Раздел находится в разработке.
-
 .. note:: **Виджет Вконтакте** - это мини-приложение torrow, которое можно разместить в Вашем сообществе. С помощью него можно организовать запись на любые виды услуг и принимать оплату от клиентов.
+
+
+.. rst-class:: centered
+.. raw:: html
+    
+    <div class="thumb-wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rmqwO1yboec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+-------------------------------
 
 ---------------------------------------
 Установка Виджета Вконтакте (VKontakte)
