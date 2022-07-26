@@ -11,6 +11,7 @@
    tilda
    vk-widget
    yandex-map
+   insales
 
 .. raw:: html
    
