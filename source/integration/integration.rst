@@ -12,6 +12,7 @@
    vk-widget
    yandex-map
    insales
+   fo
 
 .. raw:: html
    
