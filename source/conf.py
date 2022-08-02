@@ -234,8 +234,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'Torrow.tex', 'Instruction for torrow app',
-   'Torrow Technologies', 'manual'),
+  ('index', 'Torrow.tex', u'Instruction for torrow app',
+   u'Torrow Technologies', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
