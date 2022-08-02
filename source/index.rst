@@ -76,11 +76,11 @@
    search/search.rst
    customization/synchronization.rst
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Примеры настройки услуг
+.. .. toctree::
+..    :maxdepth: 1
+..    :caption: Примеры настройки услуг
 
-   cases/index.rst
+..    cases/index.rst
 
 .. toctree::
    :maxdepth: 2
