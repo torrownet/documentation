@@ -7,3 +7,4 @@ ym(86945178, "init", {
      accurateTrackBounce:true,
      webvisor:true
 });
+console.log('test')
