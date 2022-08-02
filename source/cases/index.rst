@@ -1,17 +1,23 @@
-Что такое Torrow?
-=================
+.. _cases-label:
 
-**Torrow** - это приложение для создания комьюнити и ведения бизнеса, личных проектов, семейных планов.
+======
+Готовые примеры использования
+======
 
-Короткий демо-ролик о Torrow
-----------------------------
+.. note:: **Кейсы Torrow** -  примеры использования приложения для комфортного ознакомления с функционалом приложения.
 
-.. rst-class:: centered
-.. raw:: html
-    
-    <div class="thumb-wrap">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/N5lQwP2_U78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+
+.. toctree::
+   :maxdepth: 1
+
+   edit_service/edit_service.rst
+   cleaning/cleaning.rst
+   beauty/beauty.rst
+   consulting/consulting.rst
+   rent/rent.rst
+   photostudio/photostudio.rst
+   yoga/yoga.rst
+
 
 .. raw:: html
    
