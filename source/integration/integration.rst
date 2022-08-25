@@ -13,6 +13,7 @@
    yandex-map
    insales
    fo
+   zoom
 
 .. raw:: html
    
