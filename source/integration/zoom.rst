@@ -3,10 +3,10 @@ Zoom Integration
 ====================
 
 
-**Instruction for connecting Zoom to the services in Torrow**
+**Instruction for connecting Zoom to services in Torrow**
 
 You can easily connect Zoom to your Torrow services.
-The integration allows you to create a meeting link while creating requests or orders for your services.
+The integration allows you to create a meeting link while creating orders for your services.
 
 1. Sign up or sign in for Torrow
 
@@ -20,7 +20,7 @@ The integration allows you to create a meeting link while creating requests or o
 
 ------------------------------
 
-3. From the created service page open the **Common settings** section and click the **Integrations** item
+3. On the page of the created service, open the **Common settings** section and click **Integrations** item
 
 .. figure:: media/zoom/integration-setting.png
    :scale: 50 %
@@ -29,7 +29,7 @@ The integration allows you to create a meeting link while creating requests or o
 
 ------------------------------
 
-4. Switch the Zoom integration to the **On** position. You need to be authorized and provide access to your **Zoom** account
+4. Switch the Zoom integration to **On**. You need to be authorized and provide access to your **Zoom** account
 
 .. figure:: media/zoom/integration-zoom.png
    :scale: 50 %
@@ -60,6 +60,14 @@ The integration allows you to create a meeting link while creating requests or o
 
     * Go to the **Common settings** in Torrow app -> click **Integrations** and switch off the **Zoom**
     * Or login to your **Zoom Account** in browser -> navigate to the **Zoom App Marketplace** -> search for the Torrow app and click **Remove**
+
+------------------------------
+
+8. If you or your customers update some fields (**Name**, **StartTime**, **Duration**) in the created order, Torrow will also update this information in your Zoom account
+
+------------------------------
+
+9. You can't delete an order. You can only change the status to **Cancelled** or **Rejected**. So, **Torrow will never delete a meeting in Zoom**. You can do it yourself manually in your Zoom account.
 
 ------------------------------
 
