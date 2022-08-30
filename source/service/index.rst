@@ -42,6 +42,7 @@
     timetable-customization
     restrictions-customization
     execution-customization
+    steps-customization
     required-fields-customization
     
 .. raw:: html
