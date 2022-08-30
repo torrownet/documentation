@@ -65,6 +65,11 @@ The integration allows you to create a meeting link while creating orders for yo
 
 8. If you or your customers update some fields (**Name**, **StartTime**, **Duration**) in the created order, Torrow will also update this information in your Zoom account
 
+.. figure:: media/zoom/integration-update.png
+   :scale: 25 %
+   :alt: alternate text
+   :align: center
+
 ------------------------------
 
 9. You can't delete an order. You can only change the status to **Cancelled** or **Rejected**. So, **Torrow will never delete a meeting in Zoom**. You can do it yourself manually in your Zoom account.
