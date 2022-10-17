@@ -14,7 +14,7 @@
 
 1. Перейдите в Ваш аккаунт amoCRM и вызовите **Инструменты разработчика** с помощью клавиши **F12**.
 
-.. figure:: media/amocrm/amo0.png
+.. figure:: media/amoCRM/amo0.png
     :scale: 40 %
     :alt: alternative text
     :align: center
@@ -25,7 +25,7 @@
 
 2. В появившемся окне выберите **Console** (консоль).
 
-.. figure:: media/amocrm/amo1.png
+.. figure:: media/amoCRM/amo1.png
     :scale: 60 %
     :alt: alternative text
     :align: center
@@ -38,7 +38,7 @@
 
     "https://hooks.torrow.net/webhook/amocrm?subdomain="+AMOCRM.widgets.system.subdomain+"&userHash="+AMOCRM.widgets.system.amohash+"&userLogin="+AMOCRM.widgets.system.amouser
 
-.. figure:: media/amocrm/amo2.png
+.. figure:: media/amoCRM/amo2.png
     :scale: 60 %
     :alt: alternative text
     :align: center
@@ -47,7 +47,7 @@
 
 4. Вы получите ссылку (вебхук), которая нужна для передачи информации о заказах из приложения. Скопируйте данную ссылку.
 
-.. figure:: media/amocrm/amo3.png
+.. figure:: media/amoCRM/amo3.png
     :scale: 60 %
     :alt: alternative text
     :align: center
@@ -56,7 +56,7 @@
 
 5. Зайдите в свою услугу в приложении torrow и перейдите к **Общим настройкам**. Нажмите на поле **Интеграции**.
 
-.. figure:: media/amocrm/amo4.png
+.. figure:: media/amoCRM/amo4.png
     :scale: 42 %
     :alt: alternative text
     :align: center
@@ -66,7 +66,7 @@
 
 6. Из списка интеграций выберите **Webhook**.
 
-.. figure:: media/amocrm/amo5.png
+.. figure:: media/amoCRM/amo5.png
     :scale: 42 %
     :alt: alternative text
     :align: center
@@ -77,7 +77,7 @@
 
 .. hint:: Рекомендуем по умолчанию выбрать: Создание заказа (CreateOrder), Заказ отменен (CaseCancel), Обновление заказа/события (UpdateCase), Изменено время заказа/события (UpdateCaseTime).
 
-.. figure:: media/amocrm/amo6.png
+.. figure:: media/amoCRM/amo6.png
     :scale: 42 %
     :alt: alternative text
     :align: center
@@ -86,7 +86,7 @@
 
 8. После сохранения новая интеграция будет выглядеть, как на скриншоте ниже, а также получит состояние **Активный**.
 
-.. figure:: media/amocrm/amo7.png
+.. figure:: media/amoCRM/amo7.png
     :scale: 42 %
     :alt: alternative text
     :align: center
