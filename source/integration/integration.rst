@@ -14,6 +14,7 @@
    insales
    fo
    zoom
+   amocrm
 
 .. raw:: html
    
