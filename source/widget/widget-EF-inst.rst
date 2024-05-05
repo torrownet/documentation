@@ -127,7 +127,7 @@
 Параметр **prefilledFields=<Имя поля>_<Пред заполняемое значение>**:
 
 1. prefilledFields=Имя_Какое-то имя 
-2. ``prefilledFields=MainEmail_asdsad@asd.asd``
+2. prefilledFields=MainEmail_asdsad@asd.asd
 
  .. hint::
    Параметры контактной информации, имя которых начинается на * , не показываются пользователю, но могут иметь предопределенные значения.
