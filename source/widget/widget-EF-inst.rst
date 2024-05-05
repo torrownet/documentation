@@ -135,13 +135,13 @@
 
 * **Параметры бронирования услуги с учетом предопределенных ресурсов** 
 
-Параметр **createOrderResourceParams**=<**groupId**>_<**resourceId**>_<**amount**>
+Параметр **createOrderResourceParams=<groupId>_<resourceId>_<amount>**
 
 *Пример:* createOrderResourceParams=645dfa391fcf4c996b0f8114_aae6303f1c9faa8aa1fcf4c996b0f819f_1
 
 * **Применение пользовательских стилей к виджету онлайн записи.** 
 
-Параметр **customStylesUrl**=<**Url**>
+Параметр **customStylesUrl=<Url>**
 
 *Пример:* customStylesUrl=https://pastebin.com/raw/3D6rd4ec
 
