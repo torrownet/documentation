@@ -32,8 +32,7 @@
 
 .. code-block::
 
-    <iframe> 
-    height="500px" width="250px" src="https://web.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking"
+    <iframe height="500px" width="250px" src="https://web.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking">
     </iframe>
 
 ------------------------------

@@ -60,6 +60,49 @@
 
 .. hint:: Если Ваш сайт не адаптируется под мобильную версию, кнопка виджета также будет малых размеров. В таком случае добавьте параметр: **preserve-ratio = "true"**, чтобы кнопка вызова виджета приняла корректные габариты.
 
+Параметры упрощенного виджета
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    +------------------------+--------------------------------+------------------------+
+    | Название               | Параметр                       | Значения               |
+    +========================+================================+========================+
+    | Показывать число       | showAvailableSlots=            | true                   |
+    | свободных слотов       | true                           | false                  |
+    |                        |                                |                        |
+    +------------------------+--------------------------------+------------------------+
+    | Часовой пояс           | timezone=                      | Europe/Moscow          |
+    |                        | Europe/Moscow                  |                        |
+    +------------------------+--------------------------------+------------------------+
+    | Язык и форматирование  | culture=ru-RU                  | ru-RU                  |
+    |                        |                                | en-En                  |
+    +------------------------+--------------------------------+------------------------+
+    | Ссылка переадресации   | redirectUrl=<ссылка>           | Правильный Url         |
+    | после записи на услугу |                                |                        |
+    +------------------------+--------------------------------+------------------------+
+    | Предзаполненные        | prefilledFields=               | Форматированная строка |
+    | параметры записи       | <тип поля>_<значение>          |                        |
+    |                        |                                |                        |
+    +------------------------+--------------------------------+------------------------+
+    | Текст политики         | agreementText=<текст>          | Строка                 |
+    | конфиденциальности     |                                |                        |
+    +------------------------+--------------------------------+------------------------+
+    | Ссылка на документ с   | agreementUrl=<Url>             | Url                    |
+    | политикой              |                                |                        |
+    | конфиденциальности     |                                |                        |
+    +------------------------+--------------------------------+------------------------+
+    | Признак отображения    | checkAgreementCheckboxVisible= | true, false            |
+    | чекбокса знакомства    | true                           |                        |
+    | с политикой            |                                |                        |
+    +------------------------+--------------------------------+------------------------+
+    | Параметры бронирования | createOrderResourceParams=     | Строка                 |
+    | с предзаданным         | <groupId>_<resourceId>_<amount>|                        |
+    | ресурсом группы        |                                |                        |
+    +------------------------+--------------------------------+------------------------+
+    | Стили оформления       | customStylesUrl=<Url к CSS>    | URL к файлу с CSS      |
+    | виджета записи         |                                |                        |
+    |                        |                                |                        |
+    +------------------------+--------------------------------+------------------------+
+ 
 Настройка текста **политики конфиденциальности**:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -69,7 +112,7 @@
 
 * **Параметры Текста:**
 
-1. **agreementText** - Текст поля “Политика и конфиденциальность”. Содержит текст поля и слово(текст) по которому клиент переходит к документу. Вводить текст через пробел. В {{  }} (фигурных скобках) указать кликабельный текст, который будет содержать ссылку.
+1. **agreementText** - Текст поля “Политика и конфиденциальность”. Содержит текст поля и слово(текст) по которому клиент переходит к документу. Вводить текст через пробел. В **{{  }}** (фигурных скобках) указать кликабельный текст, который будет содержать ссылку.
 2. **agreementUrl** - ссылка на документ
 
 *Пример:* agreementText=Даю согласие Torrow Technologies на обработку персональных данных в соответствии с {{политикой}}
@@ -81,12 +124,87 @@
 
 * **Настройки автозаполнения полей контактной информации** 
 
-Параметр **prefilledFields** = (**Тип Поля** _ **Пред заполняемое значение**):
+Параметр **prefilledFields=Тип Поля_Пред заполняемое значение**:
 
 1. prefilledFields=Имя_Какое-то имя 
 2. prefilledFields=MainEmail_asdsad@asd.asd
 
-*Пример полностью настроенного текста политики конфиденциальности:*
+* **Параметры бронирования услуги с учетом предопределенных ресурсов** 
+
+Параметр **createOrderResourceParams**=<**groupId**>_<**resourceId**>_<**amount**>
+
+*Пример:* createOrderResourceParams=645dfa391fcf4c996b0f8114_aae6303f1c9faa8aa1fcf4c996b0f819f_1
+
+* **Применение пользовательских стилей к виджету онлайн записи.** 
+
+Параметр **customStylesUrl**=<**Url**>
+
+*Пример:* customStylesUrl=https://pastebin.com/raw/3D6rd4ec
+
+Пример CSS файла:
+.. code-block::
+      @font-face {
+      font-family: 'Tangerine';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/tangerine/v17/IurY6Y5j_oScZZow4VOxCZZMprNA4A.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      body {
+      font-family: 'Tangerine', serif !important;
+      text-shadow: 4px 4px 4px #aaa !important;
+      }
+      .border-torrowpurple-900 {
+      --tw-border-opacity: 1;
+      border-color: rgb(95 255 139 / var(--tw-border-opacity));
+      }
+      .bg-torrowpurple-900 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(95 255 139 / var(--tw-bg-opacity));
+      }
+      .fill-torrowpurple-900 {
+      fill: #5f4a8b;
+      }
+      .text-torrowpurple-900 {
+      --tw-text-opacity: 1;
+      color: rgb(95 255 139 / var(--tw-text-opacity));
+      }
+      .hover\:bg-torrowpurple-700:hover {
+      --tw-bg-opacity: 1;
+      background-color: rgb(127 255 162 / var(--tw-bg-opacity));
+      }
+      .hover\:bg-torrowpurple-900:hover {
+      --tw-bg-opacity: 1;
+      background-color: rgb(95 255 139 / var(--tw-bg-opacity));
+      }
+      .focus\:ring-torrowpurple-300:focus {
+      --tw-ring-opacity: 1;
+      --tw-ring-color: rgb(191 255 208 / var(--tw-ring-opacity));
+      }
+      .dark .dark\:bg-torrowpurple-600 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(143 255 173 / var(--tw-bg-opacity));
+      }
+      .dark .dark\:hover\:bg-torrowpurple-700:hover {
+      --tw-bg-opacity: 1;
+      background-color: rgb(127 255 162 / var(--tw-bg-opacity));
+      }
+      .dark .dark\:focus\:ring-torrowpurple-800:focus {
+      --tw-ring-opacity: 1;
+      --tw-ring-color: rgb(111 255 150 / var(--tw-ring-opacity));
+      }
+      .bg-pink-400 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(244 255 182 / var(--tw-bg-opacity));
+      }
+      .bg-pink-500 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(236 255 153 / var(--tw-bg-opacity));
+      }
+
+
+Пример ссылки на виджет
+~~~~~~~~~~~~~~~~~~~~~~~~
 https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking?agreementText=Даю согласие Torrow Technologies на обработку персональных данных в соответствии с {{политикой}}&agreementUrl=https://info.torrow.net/useragreement&prefilledFields=Имя_Какое-то имя&prefilledFields=MainEmail_asdsad@asd.asd&checkAgreementCheckboxVisible=true
 
 .. raw:: html
