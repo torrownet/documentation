@@ -45,6 +45,7 @@
    integration/integration.rst
    widget/index.rst
    widgetOnlineBooking/online-booking.rst
+   development/development-info.rst
 
 .. toctree::
    :caption: Элементы Torrow
