@@ -145,6 +145,7 @@
 *Пример:* customStylesUrl=https://pastebin.com/raw/3D6rd4ec
 
 Пример CSS файла:
+
 .. code-block::
       @font-face {
       font-family: 'Tangerine';
