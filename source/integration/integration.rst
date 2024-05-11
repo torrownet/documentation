@@ -15,6 +15,7 @@
    fo
    zoom
    amocrm
+   wazzup24
 
 .. raw:: html
    
