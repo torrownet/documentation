@@ -182,7 +182,7 @@
 
 * Ловец WebHook: https://webhook.site или https://hookbin.com
 
-* `Пример файла JSON`_:
+* `Пример файла JSON`_
   .. _`Пример файла JSON`: media/wazzup24/Sample_JSON.json
 
 .. raw:: html
