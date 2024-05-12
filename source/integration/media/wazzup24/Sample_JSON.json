@@ -1,0 +1,2721 @@
+{
+      "EventType": 3060,
+      "IntegrationConfigList": "1b5f0016df930bff7e19cd0f9d8ead0b",
+      "CaseItem": {
+        "CaseState": 20,
+        "CaseStateDate": null,
+        "CaseType": 1,
+        "StartDate": "2024-05-08T08:15:00Z",
+        "EndDate": "2024-05-08T08:30:00Z",
+        "RegistrationOpen": 604800,
+        "RegistrationClose": 3600,
+        "Description": null,
+        "PlaceId": null,
+        "BookingDuration": null,
+        "Place": "",
+        "ServiceId": "1b5f03ed96001255550ebaa2c51b7d31",
+        "GroupId": null,
+        "GroupCaseProperties": null,
+        "VisitCard": {
+          "Fields": [
+            {
+              "Number": 0,
+              "Value": "Запись №180",
+              "Expression": "{\"type\":\"Name\"}"
+            },
+            {
+              "Number": 1,
+              "Value": " ",
+              "Expression": "{\"type\":\"CaseType\",\"caseType\":\"Time\",\"beginDate\":\"Thu Oct 22 2020 18:00:00 GMT + 0000(UTC)\",\"endDate\":\"Thu Oct 22 2020 19:30:00 GMT + 0000(UTC)\"}"
+            },
+            {
+              "Number": 2,
+              "Value": "",
+              "Expression": "{\"type\":\"PlaceAddress\"}"
+            }
+          ]
+        },
+        "MaxConsumerQuantity": 1,
+        "Hidden": null,
+        "NeedApproval": true,
+        "BookingResourceList": [
+          {
+            "ResourceGroupId": "615b2625550ebaa2c51b7caf",
+            "Tid": "1b5f03f1e0335f18550ebaa2c51b8455",
+            "Amount": 1,
+            "Duration": null,
+            "SalePrice": 0,
+            "Discount": null,
+            "ConsumerBookingComment": null,
+            "UsageType": 1,
+            "ProcessingDate": "2024-05-08T08:15:00Z",
+            "UsageAmount": null
+          }
+        ],
+        "PriceProperties": null,
+        "PriceInfo": null,
+        "CheckinPermission": {
+          "UserAccessLevel": 2,
+          "ConsumerMinTimeSecBetweenCasesInService": null
+        },
+        "AvailableResources": null,
+        "BookingConsumerQuantity": null,
+        "ExecutorUsagePercent": 100,
+        "AppendixList": null,
+        "ParticipateFieldRequirements": {
+          "ParticipateFieldRequirementList": [
+            {
+              "ParticipationFieldType": 1,
+              "ParticipationFieldRequirementType": 3,
+              "Name": "ФИО"
+            },
+            {
+              "ParticipationFieldType": 7,
+              "ParticipationFieldRequirementType": 3,
+              "Name": "Телефон"
+            },
+            {
+              "ParticipationFieldType": 10,
+              "ParticipationFieldRequirementType": 2,
+              "Name": "Email"
+            },
+            {
+              "ParticipationFieldType": 101,
+              "ParticipationFieldRequirementType": 3,
+              "Name": "Тема встречи"
+            }
+          ],
+          "CommentFieldName": null
+        },
+        "ResourceGroupList": [
+          {
+            "GroupId": "615b2625550ebaa2c51b7caf",
+            "Order": 1,
+            "GroupName": "Тема встречи",
+            "MinResources": 1,
+            "MaxResources": 1,
+            "MaxTotalAmount": null,
+            "QuickFilterTags": null,
+            "UsageType": 1,
+            "ResourceIdList": null,
+            "BookingProperties": null
+          }
+        ],
+        "OrderNumber": {
+          "FullNumber": "№180",
+          "SequenceNumber": 180
+        },
+        "Priority": null,
+        "ClientGroupId": null,
+        "CaseActionProperties": {
+          "ProcessingParameters": "663a8071f91e4e5a66ef0f25_663a8071f91e4e5a66ef0f24_9",
+          "CaseActionList": []
+        },
+        "LoyaltyTransactionPropertiesList": [
+          {
+            "LoyaltySystemId": "1b5f03fbb4bc4bd9be660b6fc26b3ff3",
+            "TransactionValues": null,
+            "IsNewSubscription": false
+          }
+        ],
+        "ItemInfo": {
+          "Name": "Запись №180",
+          "ImageId": null,
+          "MasterInfo": null,
+          "AnyoneAccess": 2,
+          "SearchMode": 1,
+          "Rating": null,
+          "BlockInfo": null,
+          "GroupInfo": {
+            "ProcessingTimeout": null,
+            "ProcessingParameters": null,
+            "RolesToInclude": [
+              1,
+              5
+            ],
+            "RolesToSearchItems": null,
+            "RolesToSearchSubscribers": null,
+            "ItemTransformationRules": [
+              {
+                "ItemLinkRole": 5,
+                "If": 1,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 5,
+                "If": 5,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 1,
+                "Th": 1
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 5,
+                "Th": 5
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 3,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 2,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 6,
+                "Th": 6
+              }
+            ]
+          },
+          "SolutionData": {
+            "quickFilterTags": [],
+            "metrics": {
+              "yandexMetrics": "71926354"
+            },
+            "layoutType": 4,
+            "vk": {
+              "joinLink": "https://vk.com/call/join/Um2bqSvej-DrPZWTE6xx1mQiXUC8ei3EegpApQ-TrSw"
+            },
+            "externalAuthIds": [
+              "1b5f0017dfd1d281662f9c5eff9c30c4"
+            ]
+          },
+          "UniqueName": null,
+          "Tags": null,
+          "FeedbackOptions": null,
+          "IntegrationConfigIds": [
+            "1b5f001695aa5581662f9c5eff9c30c5",
+            "1b5f0016df930bff7e19cd0f9d8ead0b"
+          ],
+          "TorrowAccountId": null
+        },
+        "ObjectInfo": {
+          "DeleteState": 0,
+          "ArchiveState": 0,
+          "Version": 2,
+          "LastModified": "2024-05-07T19:26:41.746Z",
+          "CreateDate": "2024-05-07T19:26:41.68Z"
+        },
+        "Id": "1b5f03ec663a8071791d2443cf3e799c"
+      },
+      "Service": {
+        "Description": "Вы можете назначить встречу на свободное время.",
+        "ExecutorIdList": [
+          "1b5f03ea5cb6f462b791320001f6588f"
+        ],
+        "MaxConsumerQuantity": 1,
+        "NeedApproval": true,
+        "PlaceId": null,
+        "Place": "",
+        "BookingDuration": null,
+        "TimetableView": null,
+        "RegistrationClose": 3600,
+        "RegistrationOpen": 604800,
+        "TimeAlignment": 900,
+        "MarginTime": null,
+        "ExecutorUsagePercent": 100,
+        "OrderQuote": 1,
+        "Schedule": {
+          "ScheduleRanges": [
+            {
+              "Rid": "615b25a1550ebaa2c51b7b30",
+              "Beginning": "2021-10-04T07:00:00Z",
+              "Ending": "2021-10-04T09:00:00Z",
+              "RecurringConditions": {
+                "Cron": "0 7 * * 1-6",
+                "RemainingCount": -1,
+                "BeginDate": "2023-05-05T21:00:00Z",
+                "EndDate": "2044-10-30T21:00:00Z",
+                "WeeklyCron": null,
+                "FirstWeekDate": null,
+                "RepeatInterval": null
+              },
+              "Name": null
+            },
+            {
+              "Rid": "61e2c35ad205bc5ed5a09745",
+              "Beginning": "2022-01-15T11:00:00Z",
+              "Ending": "2022-01-15T17:00:00Z",
+              "RecurringConditions": {
+                "Cron": "0 11 * * 1-6",
+                "RemainingCount": -1,
+                "BeginDate": "2022-01-14T21:00:00Z",
+                "EndDate": "2045-12-30T21:00:00Z",
+                "WeeklyCron": null,
+                "FirstWeekDate": null,
+                "RepeatInterval": null
+              },
+              "Name": null
+            }
+          ],
+          "CalendarId": null,
+          "ScheduleRangeExceptions": null
+        },
+        "FirstWeekDate": null,
+        "ClientGroupId": null,
+        "ParticipateFieldRequirements": {
+          "ParticipateFieldRequirementList": [
+            {
+              "ParticipationFieldType": 1,
+              "ParticipationFieldRequirementType": 3,
+              "Name": "ФИО"
+            },
+            {
+              "ParticipationFieldType": 7,
+              "ParticipationFieldRequirementType": 3,
+              "Name": "Телефон"
+            },
+            {
+              "ParticipationFieldType": 10,
+              "ParticipationFieldRequirementType": 2,
+              "Name": "Email"
+            },
+            {
+              "ParticipationFieldType": 101,
+              "ParticipationFieldRequirementType": 3,
+              "Name": "Тема встречи"
+            }
+          ],
+          "CommentFieldName": null
+        },
+        "AppendixList": null,
+        "ResourceGroupList": [
+          {
+            "GroupId": "615b2625550ebaa2c51b7caf",
+            "Order": 1,
+            "GroupName": "Тема встречи",
+            "MinResources": 1,
+            "MaxResources": 1,
+            "MaxTotalAmount": null,
+            "QuickFilterTags": null,
+            "UsageType": 1,
+            "ResourceIdList": null,
+            "BookingProperties": null
+          }
+        ],
+        "SessionDurationProperties": {
+          "SessionDurationType": 4,
+          "DefaultDuration": 0,
+          "DefaultStartTime": 0,
+          "DefaultFinishTime": 0,
+          "SessionPrecisionType": 2,
+          "MaxSessionDuration": 0,
+          "MinSessionDuration": 0,
+          "TimeSelectionType": 2,
+          "StateManagementType": 1
+        },
+        "CheckInAllCases": false,
+        "NumeratorId": "1b5f00141e108b55b0013c0001836f99",
+        "StepDescriptionList": [
+          {
+            "StepOrder": 1,
+            "StepType": 2,
+            "Description": null,
+            "StepParameterList": [
+              {
+                "ParameterName": "AutoChoiceResource",
+                "ParameterValue": "false"
+              },
+              {
+                "ParameterName": "ResourceGroupId",
+                "ParameterValue": "615b2625550ebaa2c51b7caf"
+              },
+              {
+                "ParameterName": "HiddenStep",
+                "ParameterValue": "false"
+              },
+              {
+                "ParameterName": "HideResourceDetail",
+                "ParameterValue": "true"
+              }
+            ]
+          },
+          {
+            "StepOrder": 2,
+            "StepType": 1,
+            "Description": null,
+            "StepParameterList": null
+          }
+        ],
+        "ButtonName": null,
+        "PriceProperties": null,
+        "PriceInfo": null,
+        "CheckinPermission": {
+          "UserAccessLevel": 2,
+          "ConsumerMinTimeSecBetweenCasesInService": null
+        },
+        "CaseActionList": [
+          {
+            "Rid": "63623c0a866f5f269c85d929",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3001
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Вы записаны на встречу.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}You have an appointment.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Вы записаны на встречу.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}You have an appointment.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    3
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'sms_header' %}Вы записаны на встречу.{% include 'sms_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": null
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1001,
+                1003
+              ],
+              "CaseParticipantStateList": [
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d92f",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3001
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}К вам записались на встречу.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}You have an appointment.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}{% assign HIDE_DETAIL_SECTION = true %}К вам записались на встречу.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}You have an appointment.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}К вам записались на встречу.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}You have an appointment.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1002
+              ],
+              "CaseParticipantStateList": [
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d935",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3036
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Ваша встреча отменена.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Your appointment has been cancelled.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Ваша встреча отменена.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Your appointment has been cancelled.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Ваша встреча отменена.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Your appointment has been cancelled.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1001,
+                1003
+              ],
+              "CaseParticipantStateList": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d93b",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3036
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Ваша встреча отменена.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Your appointment has been cancelled.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Ваша встреча отменена.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Your appointment has been cancelled.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Ваша встреча отменена.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Your appointment has been cancelled.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1002
+              ],
+              "CaseParticipantStateList": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d941",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3044
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Ваша встреча подтверждена.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Your appointment is confirmed.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Ваша встреча подтверждена.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Your appointment is confirmed.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Ваша встреча подтверждена.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Your appointment is confirmed.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1001,
+                1003
+              ],
+              "CaseParticipantStateList": [
+                2
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d947",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3042
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}{% assign HIDE_RESOURCE_DESCRIPTION = true %}Изменено время встречи.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Appointment time changed.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}{% assign HIDE_RESOURCE_DESCRIPTION = true %}Изменено время встречи.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}{% assign HIDE_RESOURCE_DESCRIPTION = true %}Appointment time changed.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}{% assign HIDE_RESOURCE_DESCRIPTION = true %}Изменено время встречи.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}{% assign HIDE_RESOURCE_DESCRIPTION = true %}Appointment time changed.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1001,
+                1002,
+                1003
+              ],
+              "CaseParticipantStateList": [
+                1,
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d94d",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3043
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "Изменен адрес встречи. \rНовый адрес: {{Case.Place | truncate: 20, '..'}}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "Appointment address changed. \rNew address: {{Case.Place | truncate: 20, '..'}}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Изменен адрес встречи.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Appointment address changed.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Изменен адрес встречи.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Appointment address changed.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1001,
+                1002,
+                1003
+              ],
+              "CaseParticipantStateList": [
+                1,
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d953",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3041
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Изменена информация о встрече.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Appointment information changed.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Изменена информация о встрече.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Appointment information changed.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Изменена информация о встрече.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Appointment information changed.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1001,
+                1002,
+                1003
+              ],
+              "CaseParticipantStateList": [
+                1,
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d956",
+            "Type": 1,
+            "Trigger": {
+              "Type": 1,
+              "RelativeTime": -7200,
+              "OperationProperties": null,
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Напоминание о встрече.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Appointment reminder.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Напоминаем о Вашей встрече.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Reminder of your Appointment.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Напоминаем о Вашей встрече.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Reminder of your Appointment.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1001,
+                1003
+              ],
+              "CaseParticipantStateList": [
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d959",
+            "Type": 1,
+            "Trigger": {
+              "Type": 1,
+              "RelativeTime": -3600,
+              "OperationProperties": null,
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Напоминание о встрече.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Appointment reminder.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Напоминание о встрече.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Appointment reminder.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Напоминание о встрече.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Appointment reminder.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1002
+              ],
+              "CaseParticipantStateList": [
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d95f",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3045
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Участник подтвердил присутствие.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Participant confirmed the presence.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Участник подтвердил присутствие.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Participant confirmed the presence.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Участник подтвердил присутствие.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Participant confirmed the presence.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1002
+              ],
+              "CaseParticipantStateList": [
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d965",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3052
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Ваша оплата получена.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Your payment received.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Ваша оплата получена.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Your payment received.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Ваша оплата получена.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Your payment received.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1001,
+                1003
+              ],
+              "CaseParticipantStateList": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d96b",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3052
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Получена оплата участника.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Participant payment received.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Получена оплата участника.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Participant payment received.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Получена оплата участника.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Participant payment received.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1002
+              ],
+              "CaseParticipantStateList": [
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "63623c0a866f5f269c85d971",
+            "Type": 1,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3053
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  20,
+                  2,
+                  1,
+                  3
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Оформлен возврат оплаты.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}Refund of payment is issued.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Оформлен возврат оплаты.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}Refund of payment is issued.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Оформлен возврат оплаты.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Refund of payment is issued.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1001,
+                1003
+              ],
+              "CaseParticipantStateList": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": []
+            }
+          },
+          {
+            "Rid": "663a7f67f1456bb67ef795f5",
+            "Type": 6,
+            "Trigger": {
+              "Type": 2,
+              "RelativeTime": null,
+              "OperationProperties": {
+                "OperationTypeList": [
+                  3001
+                ]
+              },
+              "Conditions": {
+                "StartDateBeginOffset": null,
+                "StartDateEndOffset": null,
+                "StateList": [
+                  1,
+                  2,
+                  3,
+                  20
+                ]
+              }
+            },
+            "NotificationProperties": {
+              "DeliveryStrategy": 1,
+              "DeliveryChannelMessageList": [
+                {
+                  "DeliveryChannelList": [
+                    1
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'push_header' %}Вы записаны на встречу.{% include 'push_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'push_header' %}You have an appointment.{% include 'push_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    2
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'email_header' %}Вы записаны на встречу.{% include 'email_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'email_header' %}You have an appointment.{% include 'email_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                },
+                {
+                  "DeliveryChannelList": [
+                    7
+                  ],
+                  "MultiLanguageMessage": {
+                    "LanguageMessageList": [
+                      {
+                        "Default": true,
+                        "LanguageList": [
+                          "ru"
+                        ],
+                        "Text": "{% include 'telegram_header' %}Вы записаны на встречу.{% include 'telegram_footer' %}"
+                      },
+                      {
+                        "Default": false,
+                        "LanguageList": [
+                          "en"
+                        ],
+                        "Text": "{% include 'telegram_header' %}You have an appointment.{% include 'telegram_footer' %}"
+                      }
+                    ]
+                  },
+                  "EmailOptions": {
+                    "Sender": null,
+                    "Subject": null,
+                    "Template": null
+                  }
+                }
+              ],
+              "BeginAcceptableTime": 0,
+              "EndAcceptableTime": 86340
+            },
+            "CaseParticipantFilter": {
+              "CaseParticipantTypeList": [
+                1001,
+                1003
+              ],
+              "CaseParticipantStateList": [
+                2,
+                4
+              ],
+              "AgentTypeList": [],
+              "UserType": 0,
+              "ConfirmationWaitingState": 0
+            },
+            "RequestConfirmationProperties": {
+              "ConfirmationWaitingDuration": null
+            },
+            "CaseChangeProperties": null,
+            "IntegrationProperties": {
+              "IntegrationConfigIdList": [
+                "1b5f0016df930bff7e19cd0f9d8ead0b"
+              ]
+            }
+          }
+        ],
+        "PackingStrategyProperties": null,
+        "LoyaltyTransactionPropertiesList": [
+          {
+            "LoyaltySystemId": "1b5f03fbb4bc4bd9be660b6fc26b3ff3",
+            "TransactionValues": null,
+            "IsNewSubscription": false
+          }
+        ],
+        "ItemInfo": {
+          "Name": "Назначить встречу",
+          "ImageId": "1b5f000a24012831b43dc4e2bd0c5681",
+          "MasterInfo": null,
+          "AnyoneAccess": 2,
+          "SearchMode": 1,
+          "Rating": null,
+          "BlockInfo": null,
+          "GroupInfo": {
+            "ProcessingTimeout": null,
+            "ProcessingParameters": null,
+            "RolesToInclude": [
+              1,
+              5
+            ],
+            "RolesToSearchItems": [
+              1,
+              5
+            ],
+            "RolesToSearchSubscribers": null,
+            "ItemTransformationRules": [
+              {
+                "ItemLinkRole": 5,
+                "If": 1,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 5,
+                "If": 5,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 1,
+                "Th": 1
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 5,
+                "Th": 1
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 2,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 3,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 6,
+                "Th": 6
+              }
+            ]
+          },
+          "SolutionData": [
+            {
+              "Name": "quickFilterTags",
+              "Value": []
+            },
+            {
+              "Name": "metrics",
+              "Value": [
+                {
+                  "Name": "yandexMetrics",
+                  "Value": "71926354"
+                }
+              ]
+            },
+            {
+              "Name": "layoutType",
+              "Value": 4
+            }
+          ],
+          "UniqueName": "vkGroupId_1_144014884",
+          "Tags": [
+            "groupId_1b5f03ebde89b624a115fed07e33778f:ReportParameters",
+            "HourlyReport_On:ReportParameters",
+            "1440:DisableCancelMyParticipation",
+            "1440:DisableUpdateOrderTime"
+          ],
+          "FeedbackOptions": {
+            "FeedbackType": 3
+          },
+          "IntegrationConfigIds": [
+            "1b5f001695aa5581662f9c5eff9c30c5",
+            "1b5f0016df930bff7e19cd0f9d8ead0b"
+          ],
+          "TorrowAccountId": null
+        },
+        "ObjectInfo": {
+          "DeleteState": 0,
+          "ArchiveState": 2,
+          "Version": 254,
+          "LastModified": "2024-05-07T19:23:34.572Z",
+          "CreateDate": "0001-01-01T00:00:00"
+        },
+        "Id": "1b5f03ed96001255550ebaa2c51b7d31"
+      },
+      "Resources": {
+        "Description": "Короткий телефонный разговор (не более 15 минут)",
+        "TimetableId": null,
+        "ItemId": null,
+        "ParentResourceId": null,
+        "Schedule": null,
+        "UsageType": 1,
+        "ServiceDescriptions": [
+          {
+            "ServiceId": "1b5f03ed96001255550ebaa2c51b7d31",
+            "ServiceName": "Назначить встречу",
+            "ResourceGroupId": "615b2625550ebaa2c51b7caf",
+            "ResourceGroupName": "Тема встречи",
+            "SortIndex": 2,
+            "UsageAmount": null,
+            "LaterBinding": false
+          }
+        ],
+        "Code": null,
+        "Duration": 900,
+        "PriceProperties": {
+          "PriceWithoutDiscount": null,
+          "Discount": null,
+          "SalePrice": 0,
+          "CurrencyCode": "RUB",
+          "Prepayment": null,
+          "Expences": null,
+          "TakePrice": null,
+          "TaxRate": null,
+          "TaxAmount": null,
+          "PaymentProviderPropertiesList": null
+        },
+        "PriceInfo": {
+          "Settings": [
+            {
+              "PriceProperties": {
+                "PriceWithoutDiscount": null,
+                "Discount": null,
+                "SalePrice": 0,
+                "CurrencyCode": "RUB",
+                "Prepayment": null,
+                "Expences": null,
+                "TakePrice": null,
+                "TaxRate": null,
+                "TaxAmount": null,
+                "PaymentProviderPropertiesList": null
+              },
+              "Schedule": null
+            }
+          ]
+        },
+        "AmountProperties": {
+          "Measure": 796,
+          "TotalAmount": 1,
+          "MaxAmount": 1,
+          "MinAmount": 1,
+          "FirstValue": 1,
+          "PlusStep": 1,
+          "MinusStep": 1,
+          "DigitsInMeasure": 0,
+          "InventoryDate": null
+        },
+        "UsageCondition": null,
+        "AppendixList": [],
+        "PaymentProperties": null,
+        "TicketProperties": null,
+        "LoyaltyTransactionPropertiesList": null,
+        "ItemInfo": {
+          "Name": "Телефонный разговор",
+          "ImageId": "1b5f000a18a49918550ebaa2c51bd3d6",
+          "MasterInfo": null,
+          "AnyoneAccess": 2,
+          "SearchMode": 1,
+          "Rating": {
+            "Date": "2022-08-11T16:59:47.273Z",
+            "Value": 5
+          },
+          "BlockInfo": null,
+          "GroupInfo": {
+            "ProcessingTimeout": null,
+            "ProcessingParameters": null,
+            "RolesToInclude": [
+              1,
+              5
+            ],
+            "RolesToSearchItems": null,
+            "RolesToSearchSubscribers": null,
+            "ItemTransformationRules": [
+              {
+                "ItemLinkRole": 5,
+                "If": 1,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 5,
+                "If": 5,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 1,
+                "Th": 1
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 5,
+                "Th": 5
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 3,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 2,
+                "Th": 3
+              },
+              {
+                "ItemLinkRole": 4,
+                "If": 6,
+                "Th": 6
+              }
+            ]
+          },
+          "SolutionData": [
+            {
+              "Name": "layoutType",
+              "Value": 3
+            }
+          ],
+          "UniqueName": null,
+          "Tags": null,
+          "FeedbackOptions": {
+            "FeedbackType": 3
+          },
+          "IntegrationConfigIds": null,
+          "TorrowAccountId": "aae6403fc629a4a14af8df929ccdbb28a"
+        },
+        "ObjectInfo": {
+          "DeleteState": 0,
+          "ArchiveState": 0,
+          "Version": 16,
+          "LastModified": "2023-03-21T05:12:12.742Z",
+          "CreateDate": "0001-01-01T00:00:00"
+        },
+        "Id": "1b5f03f1e0335f18550ebaa2c51b8455"
+      },
+      "CaseParticipants": {
+        "Tid": "1b5f03ee2b4e69717e19cd0f9d8ead19",
+        "ItemId": "1b5f03ec663a8071791d2443cf3e799c",
+        "UserId": null,
+        "ProfileId": null,
+        "CaseParticipantState": 2,
+        "CaseParticipantType": 1001,
+        "VisitConfirmationState": 1,
+        "AvailabilityTime": 2,
+        "ConfirmationWaitingDate": "2024-05-07T19:26:41.949Z",
+        "LastConfirmationDate": null,
+        "ChangeStateUserId": "1b5f00025cb6f45eb791320001f6587e",
+        "BookingResourceList": [
+          {
+            "ResourceGroupId": "615b2625550ebaa2c51b7caf",
+            "Tid": "1b5f03f1e0335f18550ebaa2c51b8455",
+            "Amount": 1,
+            "Duration": null,
+            "SalePrice": 0,
+            "Discount": null,
+            "ConsumerBookingComment": null,
+            "UsageType": 1,
+            "ProcessingDate": "2024-05-08T08:15:00Z",
+            "UsageAmount": null
+          }
+        ],
+        "RoadTimeBefore": null,
+        "RoadTimeAfter": null,
+        "UsagePercent": null,
+        "LoyaltyCardId": "1b5f03fc655886db63758ae74bcda119",
+        "AccountId": "1b5f03fc655886db63758ae74bcda119",
+        "Agent": {
+          "UserId": "1b5f00025cb6f45eb791320001f6587e",
+          "ProfileId": "1b5f03ea5cb6f462b791320001f6588f",
+          "Type": 3
+        },
+        "Comment": null,
+        "GroupCaseProperties": null,
+        "ContactInformation": {
+          "Fields": [
+            {
+              "ParticipationFieldType": 1,
+              "Value": "fsdfsdf",
+              "Name": "ФИО"
+            },
+            {
+              "ParticipationFieldType": 7,
+              "Value": "234234",
+              "Name": "Телефон"
+            },
+            {
+              "ParticipationFieldType": 10,
+              "Value": "sdfdsf@sdf.sdf",
+              "Name": "Email"
+            },
+            {
+              "ParticipationFieldType": 101,
+              "Value": "sdfsdf",
+              "Name": "Тема встречи"
+            }
+          ]
+        },
+        "BookingExpirationDate": null,
+        "PriceProperties": {
+          "PriceWithoutDiscount": null,
+          "Discount": null,
+          "SalePrice": 0,
+          "CurrencyCode": "RUB",
+          "Prepayment": null,
+          "Expences": null,
+          "TakePrice": null,
+          "TaxRate": null,
+          "TaxAmount": null,
+          "PaymentProviderPropertiesList": null
+        },
+        "ShowCaseInTimetableType": 0,
+        "TrackingInformation": {
+          "PartnerId": null,
+          "ReferralProgramId": null,
+          "Utm": {
+            "Source": null,
+            "Medium": null,
+            "Campaign": null,
+            "Term": null,
+            "Content": null
+          }
+        },
+        "ParticipantTimeZone": "Europe/Moscow",
+        "ObjectInfo": {
+          "DeleteState": 0,
+          "ArchiveState": 0,
+          "Version": 1,
+          "LastModified": "2024-05-07T19:26:41.965Z",
+          "CreateDate": "2024-05-07T19:26:41.965Z"
+        }
+      }
+}
