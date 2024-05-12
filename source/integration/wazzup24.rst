@@ -184,7 +184,8 @@
 
 * Пример файла JSON:
 
-.. :file:`media/wazzup24/Sample_JSON.json`
+.. include:: <media/wazzup24/Sample_JSON.json>
+    code : json
 
 .. raw:: html
    
