@@ -104,10 +104,12 @@
     :alt: Некорректные параметры URL
     :align: center
 
+
 .. figure:: media/wazzup24/CheckResultError.png
     :scale: 60 %
     :alt: Некорректные параметры URL
     :align: center
+
 
 Подключение WebHook к услуге
 ----------------------------------
