@@ -176,14 +176,14 @@
 
 .. figure:: media/wazzup24/Action02.png
     :scale: 60 %
-    :alt: Настройки WebHook
+    :alt: Вид действия
     :align: center
 
 ------------------------------------
 
 .. figure:: media/wazzup24/Action03.png
     :scale: 60 %
-    :alt: Настройки WebHook
+    :alt: Результат выбора действия
     :align: center
 
 ------------------------------------
@@ -192,21 +192,21 @@
 
 .. figure:: media/wazzup24/Action04.png
     :scale: 60 %
-    :alt: Настройки WebHook
+    :alt: Тип действия
     :align: center
 
 ------------------------------------
 
 .. figure:: media/wazzup24/Action05.png
     :scale: 60 %
-    :alt: Настройки WebHook
+    :alt: Выбор действия из списка
     :align: center
 
 ------------------------------------
 
 .. figure:: media/wazzup24/Action06.png
     :scale: 60 %
-    :alt: Настройки WebHook
+    :alt: Результат выбора действия
     :align: center
 
 ------------------------------------
@@ -215,27 +215,26 @@
 
 .. figure:: media/wazzup24/Action07.png
     :scale: 60 %
-    :alt: Настройки WebHook
+    :alt: Поле WebHook
     :align: center
 
 ------------------------------------
 
 .. figure:: media/wazzup24/Action08.png
     :scale: 60 %
-    :alt: Настройки WebHook
-    :align: center
-
-------------------------------------
-
-.. figure:: media/wazzup24/Action09.png
-    :scale: 60 %
-    :alt: Настройки WebHook
+    :alt: Выбор WebHook
     :align: center
 
 ------------------------------------
 
 9. После сохранения параметров можно проверять Услугу и отправку сообщений в WhatsApp по номеру телефона, указанному в контактной информации при записи на Услугу.
 
+.. figure:: media/wazzup24/Action09.png
+    :scale: 60 %
+    :alt: Сохранение параметров
+    :align: center
+
+------------------------------------
 
 Полезные инструменты для настройки и отладки
 ----------------------------------------------
