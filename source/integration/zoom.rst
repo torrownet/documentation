@@ -90,7 +90,7 @@ The integration allows you to create a meeting link while creating orders for yo
       button-size = "60"
       button-y = "top"
    ></torrow-widget>
-   <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>
+   <script src="https://cdn-public.torrow.net/widget/torrow-widget.min.js" defer></script>
 
 .. raw:: html
 

@@ -71,7 +71,7 @@ d. Готово!
          modal-active="true"
          show-widget-button="true"
      ></torrow-widget>
-     <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>
+     <script src="https://cdn-public.torrow.net/widget/torrow-widget.min.js" defer></script>
     
 -------------------------------------
 
@@ -120,7 +120,7 @@ g. Готово!
             {document.querySelector('#torrow-widget-second').setAttribute('modal-active', 'true')})
         }
      </script>     
-     <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>
+     <script src="https://cdn-public.torrow.net/widget/torrow-widget.min.js" defer></script>
 
 .. note:: Обратите внимание, где указано название *CSS Class Name:* **send-appeal** внутри скрипта! В это место необходимо вводить заданное Вами значение.
 
@@ -138,7 +138,7 @@ g. Готово!
       button-size = "60"
       button-y = "top"
    ></torrow-widget>
-   <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>
+   <script src="https://cdn-public.torrow.net/widget/torrow-widget.min.js" defer></script>
 
 .. raw:: html
 

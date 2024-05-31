@@ -226,7 +226,7 @@ https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking?agreement
       button-size = "60"
       button-y = "top"
    ></torrow-widget>
-   <script src="https://cdn.jsdelivr.net/gh/torrowtechnologies/torrow-widget@1/dist/torrow-widget.min.js" defer></script>
+   <script src="https://cdn-public.torrow.net/widget/torrow-widget.min.js" defer></script>
 
 .. raw:: html
 
