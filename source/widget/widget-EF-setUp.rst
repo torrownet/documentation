@@ -48,7 +48,7 @@ https://embed.torrow.net/service/103ede4333d697c6a1c059057ca52/booking?culture=r
 
 .. code-block::
 
-    <iframe height="500px" src="https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking?culture=ru-RU&showAvailableSlots=true">
+    <iframe width="600px" height="500px" src="https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking?culture=ru-RU&showAvailableSlots=true">
     </iframe>
 
 --------------------------------
