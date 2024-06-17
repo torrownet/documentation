@@ -10,12 +10,19 @@
       :width: 21
       :alt: alternative text
 
-В "Истории действий" элемента сохраняется информация о создании или изменении элемента, отправке уведомлений или смс, а так же вызове интеграционных WebHook.
+В "Истории действий" элемента сохраняется информация о времени следующих событий:
+
+- создание или изменение элемента, 
+
+- отправка уведомлений или отправка смс, 
+
+- вызове интеграционных WebHook.
+
 
 1. Откройте нужный элемент (например, заказ по услуге)
 
 .. figure:: media/case_history/case_history_01.png
-    :scale: 42 %
+    :scale: 20 %
     :alt: alternate text
     :align: center
 
@@ -24,7 +31,7 @@
 2. Нажмите на |точка|
 
 .. figure:: media/case_history/case_history_02.png
-    :scale: 42 %
+    :scale: 20 %
     :alt: alternate text
     :align: center
 
@@ -32,8 +39,8 @@
 
 3. Из выпадающего списка меню выберите **История действий**
 
-.. figure:: media/case_history/case_history_02.png
-    :scale: 42 %
+.. figure:: media/case_history/case_history_03.png
+    :scale: 20 %
     :alt: alternate text
     :align: center
 
@@ -42,20 +49,20 @@
 4. Пролистайте записи и изучите их
 
 .. figure:: media/case_history/case_history_05.png
-    :scale: 42 %
+    :scale: 20 %
     :alt: alternate text
     :align: center
 
 -----------------------
 
 .. figure:: media/case_history/case_history_06.png
-    :scale: 42 %
+    :scale: 20 %
     :alt: alternate text
     :align: center
 
 -----------------------
 
-На рисунках в качестве пример выделены записи об отправке смс на телефон.
+На рисунках в качестве примера выделены записи об отправке смс на телефон.
 
 .. raw:: html
    
@@ -74,5 +81,3 @@
    <script src="https://cdn-public.torrow.net/widget/torrow-widget.min.js" defer></script>
 
 .. raw:: html
-
-   <script src="https://code.jivo.ru/widget/m8kFjF91Tn" async></script>
