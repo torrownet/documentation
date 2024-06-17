@@ -31,6 +31,7 @@
    payment
    element-order
    metrika
+   case-history
 
 .. raw:: html
    
