@@ -79,26 +79,65 @@
 Robokassa
 ----------
 
-.. hint:: ID магазина и пароли настраиваются в личном кабинете `robokassa.ru`_.
+.. hint:: ID магазина и пароли настраиваются в личном кабинете `robokassa.com`_.
     
-    .. _`robokassa.ru`: https://robokassa.com/
+    .. _`robokassa.com`: https://robokassa.com/
 
 .. figure:: media/payment_resource/Robokassa.png
     :scale: 42 %
-    :alt: alternate text
+    :alt: Robokassa resource screenshot
     :align: center
 
-----
-Qiwi
-----
+----------
+PayKeeper
+----------
 
-.. hint:: Для работы API потребуются публичный и секретный ключи. Ключи создаются в личном кабинете на `p2p.qiwi.com`_.
+.. hint:: Ссылка, имя пользователя и пароль настраиваются в личном кабинете `paykeeper.ru`_.
+    
+    .. _`paykeeper.ru`: https://paykeeper.ru/
 
-    .. _`p2p.qiwi.com`: https://p2p.qiwi.com/
-
-.. figure:: media/payment_resource/payment9.png
+.. figure:: media/payment_resource/Paykeeper.png
     :scale: 42 %
-    :alt: alternate text
+    :alt: Paykeeper resource screenshot
+    :align: center
+
+------------------
+Т-Банк (Тинькофф)
+------------------
+
+.. hint:: ИД терминала и пароль настраиваются в личном кабинете `t-bank.ru`_.
+    
+    .. _`t-bank.ru`: https://t-bank.ru/
+
+.. figure:: media/payment_resource/Tinkoff.png
+    :scale: 42 %
+    :alt: T-Bank resource screenshot
+    :align: center
+
+------------------
+АльфаБанк
+------------------
+
+.. hint:: Имя пользователя и пароль настраиваются в личном кабинете `alfabank.ru`_.
+    
+    .. _`alfabank.ru`: https://alfabank.ru/
+
+.. figure:: media/payment_resource/Alfabank.png
+    :scale: 42 %
+    :alt: Alfabank resource screenshot
+    :align: center
+
+------------------
+Уралсиб
+------------------
+
+.. hint:: Имя пользователя и пароль настраиваются в личном кабинете `uralsib.ru`_.
+    
+    .. _`uralsib.ru`: https://uralsib.ru/
+
+.. figure:: media/payment_resource/Uralsib.png
+    :scale: 42 %
+    :alt: Uralsib resource screenshot
     :align: center
 
 --------
@@ -134,6 +173,19 @@ Qiwi
     .. _`yookassa.ru`: https://yookassa.ru/
 
 .. figure:: media/payment_resource/payment12.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+----
+Qiwi
+----
+
+.. hint:: Для работы API потребуются публичный и секретный ключи. Ключи создаются в личном кабинете на `p2p.qiwi.com`_.
+
+    .. _`p2p.qiwi.com`: https://p2p.qiwi.com/
+
+.. figure:: media/payment_resource/payment9.png
     :scale: 42 %
     :alt: alternate text
     :align: center
