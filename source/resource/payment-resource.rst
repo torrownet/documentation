@@ -75,6 +75,19 @@
     :alt: alternate text
     :align: center
 
+----------
+Robokassa
+----------
+
+.. hint:: ID магазина и пароли настраиваются в личном кабинете `robokassa.ru`_.
+    
+    .. _`robokassa.ru`: https://robokassa.com/
+
+.. figure:: media/payment_resource/Robokassa.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
 ----
 Qiwi
 ----
