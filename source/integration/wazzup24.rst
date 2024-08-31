@@ -37,6 +37,8 @@
 Параметры WebHook
 ----------------------------
 
+WebHook для отправки WhatsApp сообщения через Wazzup24 имеет следующий URL: https://hooks.torrow.net/webhook/wazzup24
+
 Для настройки WebHook используются следующие параметры:
 
 * **key_api** - ключ для подключения к Wazzup24 в формате строки, например f8f1955587ac4d8894cee95f92dcaca4.
