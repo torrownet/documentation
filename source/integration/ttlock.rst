@@ -26,7 +26,9 @@
 
 3. Настроить WebHook.
 
-4. Настроить услугу для отправки кода доступа электронного замка.
+4. Подключить WebHook к Услуге.
+
+5. Настроить Услугу для отправки кода доступа электронного замка.
 
 .. _`APP TTLock`: https://ttlock.com.ru/vozmozhnosti
 .. _`Gateway`: https://ttlock.com.ru/shop/tag/wifi+%D1%88%D0%BB%D1%8E%D0%B7+ttlock/
