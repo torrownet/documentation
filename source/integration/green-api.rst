@@ -53,13 +53,15 @@ WebHook для отправки WhatsApp сообщения через green-api
 
 * **apiTokenInstance** - ключ доступа к инстансу в Green-api в формате строки, например 9410830193ce4ad56fe4df0378d1a0a8da13672248d94697b3.
 
-* **message** - сообщение, добавляемое к форматированному сообщению WhatsApp. Например: Вы записаны на услугу.
+* **errorEmail** - адрес электронной почты, на который отправлять уведомления об ошибках отправки WhatsApp сообщений.
 
+* **message** - сообщение, добавляемое к форматированному сообщению WhatsApp. Например: Вы записаны на услугу.
+  
 Пример WebHook:
 
 .. code-block::
 
-    https://hooks.torrow.net/webhook/green-api?apiUrl=1103.api.green-api.com&idInstance=1234567890&apiTokenInstance=9410830193ce4ad56fe4df0378d1a0a8da13672248d94697b3&message=Вы%20записаны%20на%20услугу
+    https://hooks.torrow.net/webhook/green-api?apiUrl=1103.api.green-api.com&idInstance=1234567890&apiTokenInstance=9410830193ce4ad56fe4df0378d1a0a8da13672248d94697b3&errorEmail=test@gmail.com&message=Вы%20записаны%20на%20услугу
 
 Дополнительные параметры форматирования сообщения:
 

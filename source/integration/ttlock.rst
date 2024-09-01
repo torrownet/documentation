@@ -70,7 +70,7 @@ WebHook для управления TTLock имеет следующий URL: ht
 
 .. code-block::
 
-    https://hooks.torrow.net/webhook/ttlock?username=ttlock@torrowtech.com&password=123&lockId=11432744&codeLength=6&keepHours=48&validBeforeMinutes=15&expiredBeforeMinutes=15&errorEmail=test@torrowtech.com
+    https://hooks.torrow.net/webhook/ttlock?username=ttlock@torrowtech.com&password=123&lockId=11432744&codeLength=6&keepHours=48&validBeforeMinutes=15&expiredBeforeMinutes=15&errorEmail=test@gmail.com
 
 
 .. note:: 
