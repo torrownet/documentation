@@ -272,4 +272,4 @@ WebHook для отправки WhatsApp сообщения через green-api
 
 .. raw:: html
 
-   <script src="https://code.jivo.ru/widget/m8kFjF91Tn" async></script>
+   <!-- <script src="https://code.jivo.ru/widget/m8kFjF91Tn" async></script> -->

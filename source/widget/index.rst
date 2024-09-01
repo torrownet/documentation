@@ -82,4 +82,4 @@
 
 .. raw:: html
 
-   <script src="https://code.jivo.ru/widget/m8kFjF91Tn" async></script>
+   <!-- <script src="https://code.jivo.ru/widget/m8kFjF91Tn" async></script> -->

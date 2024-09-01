@@ -230,4 +230,4 @@ https://embed.torrow.net/service/103edf7f8c4affcce3a659502c23a/booking?agreement
 
 .. raw:: html
 
-   <script src="https://code.jivo.ru/widget/m8kFjF91Tn" async></script>
+   <!-- <script src="https://code.jivo.ru/widget/m8kFjF91Tn" async></script> -->
