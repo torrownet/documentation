@@ -82,7 +82,7 @@ WebHook для управления TTLock имеет следующий URL: ht
 Для проверки параметров WebHook нужно открыть сформированный URL в браузере и проверить результат выполнения.
 
 .. figure:: media/ttlock/CheckResultSuccess.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Успешная проверка параметров URL
     :align: center
 
@@ -95,14 +95,14 @@ WebHook для управления TTLock имеет следующий URL: ht
 2. **Error** или **Wrong parameters** - есть ошибки в параметрах WebHook, которые нужно исправить. В поле **“ErrorMessage”** будет описание ошибок, которые нужно исправить. В поле **“WarningMessage”** - может находится информация, которая не влияет на работоспособность WebHook, но может быть полезна чтобы настроить WebHook полностью.
 
 .. figure:: media/ttlock/CheckResultWrong.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Некорректные параметры URL
     :align: center
 
 ------------------------------------
 
 .. figure:: media/ttlock/CheckResultError.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Некорректные параметры URL
     :align: center
 
@@ -114,7 +114,7 @@ WebHook для управления TTLock имеет следующий URL: ht
 1. Откройте Услугу и раскройте раздел **“Общие настройки”**:
 
 .. figure:: media/ttlock/ServiceOptions.jpg
-    :scale: 60 %
+    :width: 80 %
     :alt: Общие настройки услуги
     :align: center
 
@@ -123,7 +123,7 @@ WebHook для управления TTLock имеет следующий URL: ht
 1. В разделе **“Общие настройки”** выберите поле **“Интеграции”**:
 
 .. figure:: media/ttlock/ServiceIntegration.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Поле "Интеграции" в "Общих настройках"
     :align: center
 
@@ -132,7 +132,7 @@ WebHook для управления TTLock имеет следующий URL: ht
 3. В интеграциях включите чекбокс **WebHook**:
 
 .. figure:: media/ttlock/ServiceWebhook.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Чекбокс WebHook
     :align: center
 
@@ -148,7 +148,7 @@ WebHook для управления TTLock имеет следующий URL: ht
    * **Действие по заказу/событию (CaseActionEvent)** - уведомление, которое можно подключить в настройках Услуги в поле "Действия" 
 
 .. figure:: media/ttlock/WebhookOptions.jpg
-    :scale: 60 %
+    :width: 80 %
     :alt: Настройки WebHook
     :align: center
 
@@ -181,7 +181,7 @@ WebHook для управления TTLock имеет следующий URL: ht
 1. Откройте редактирование Услуги и выберите поле "Действия":
 
 .. figure:: media/ttlock/Action01.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Настройки WebHook
     :align: center
 
@@ -192,14 +192,14 @@ WebHook для управления TTLock имеет следующий URL: ht
 * Добавьте вид действия "Сообщение участнику о записи"
 
 .. figure:: media/ttlock/Action02.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Вид действия
     :align: center
 
 ------------------------------------
 
 .. figure:: media/ttlock/Action03.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Результат выбора действия
     :align: center
 
@@ -208,21 +208,21 @@ WebHook для управления TTLock имеет следующий URL: ht
 3. В настройках Действия поменяйте "Тип действия" на "Интеграция по времени":
 
 .. figure:: media/ttlock/Action04.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Тип действия
     :align: center
 
 ------------------------------------
 
 .. figure:: media/ttlock/Action05.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Выбор действия из списка
     :align: center
 
 ------------------------------------
 
 .. figure:: media/ttlock/Action06.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Результат выбора действия
     :align: center
 
@@ -231,14 +231,14 @@ WebHook для управления TTLock имеет следующий URL: ht
 4. Выберите WebHook "TTLock", который будет вызываться при выполнении Действия:
 
 .. figure:: media/ttlock/Action07.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Поле WebHook
     :align: center
 
 ------------------------------------
 
 .. figure:: media/ttlock/Action08.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Выбор WebHook
     :align: center
 
@@ -247,7 +247,7 @@ WebHook для управления TTLock имеет следующий URL: ht
 5. После сохранения параметров можно проверять Услугу и создание кода доступа к электронному замку.
 
 .. figure:: media/ttlock/Action09.jpg
-    :scale: 60 %
+    :width: 80 %
     :alt: Сохранение параметров
     :align: center
 

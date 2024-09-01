@@ -95,7 +95,7 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 Для проверки параметров WebHook нужно открыть сформированный URL в браузере и проверить результат выполнения.
 
 .. figure:: media/wazzup24/CheckResultSuccess.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Успешная проверка параметров URL
     :align: center
 
@@ -108,14 +108,14 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 2. **Error** или **Wrong parameters** - есть ошибки в параметрах WebHook, которые нужно исправить. В поле **“ErrorMessage”** будет описание ошибок, которые нужно исправить. В поле **“WarningMessage”** - может находится информация, которая не влияет на работоспособность WebHook, но может быть полезна чтобы настроить WebHook полностью.
 
 .. figure:: media/wazzup24/CheckResultWrong.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Некорректные параметры URL
     :align: center
 
 ------------------------------------
 
 .. figure:: media/wazzup24/CheckResultError.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Некорректные параметры URL
     :align: center
 
@@ -127,7 +127,7 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 1. Откройте Услугу и раскройте раздел **“Общие настройки”**:
 
 .. figure:: media/wazzup24/ServiceOptions.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Общие настройки услуги
     :align: center
 
@@ -136,7 +136,7 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 2. В разделе **“Общие настройки”** выберите поле **“Интеграции”**:
 
 .. figure:: media/wazzup24/ServiceIntegration.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Поле "Интеграции" в "Общих настройках"
     :align: center
 
@@ -145,7 +145,7 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 3. В интеграциях включите чекбокс **WebHook**:
 
 .. figure:: media/wazzup24/ServiceWebhook.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Чекбокс WebHook
     :align: center
 
@@ -161,7 +161,7 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
    * **Действие по заказу/событию (CaseActionEvent)** - уведомление, которое можно подключить в настройках Услуги в поле "Действия" 
 
 .. figure:: media/wazzup24/WebhookOptions.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Настройки WebHook
     :align: center
 
@@ -170,7 +170,7 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 5. Откройте редактирование Услуги и выберите поле "Действия":
 
 .. figure:: media/wazzup24/Action01.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Настройки WebHook
     :align: center
 
@@ -181,14 +181,14 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 * Добавьте вид действия "Сообщение участнику о записи"
 
 .. figure:: media/wazzup24/Action02.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Вид действия
     :align: center
 
 ------------------------------------
 
 .. figure:: media/wazzup24/Action03.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Результат выбора действия
     :align: center
 
@@ -197,21 +197,21 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 7. В настройках Действия поменяйте "Тип действия" на "Интеграция по операции":
 
 .. figure:: media/wazzup24/Action04.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Тип действия
     :align: center
 
 ------------------------------------
 
 .. figure:: media/wazzup24/Action05.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Выбор действия из списка
     :align: center
 
 ------------------------------------
 
 .. figure:: media/wazzup24/Action06.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Результат выбора действия
     :align: center
 
@@ -220,14 +220,14 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 8. Выберите WebHook "wazzup24", который будет вызываться при выполнении Действия:
 
 .. figure:: media/wazzup24/Action07.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Поле WebHook
     :align: center
 
 ------------------------------------
 
 .. figure:: media/wazzup24/Action08.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Выбор WebHook
     :align: center
 
@@ -236,7 +236,7 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 9. После сохранения параметров можно проверять Услугу и отправку сообщений в WhatsApp по номеру телефона, указанному в контактной информации при записи на Услугу.
 
 .. figure:: media/wazzup24/Action09.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Сохранение параметров
     :align: center
 

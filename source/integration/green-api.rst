@@ -35,7 +35,7 @@
 .. _`Green-Api`: https://green-api.com/
 
 .. figure:: media/green-api/green_api.jpg
-    :scale: 60 %
+    :width: 80 %
     :alt: Параметры личного кабинета Green-Api
     :align: center
 
@@ -97,7 +97,7 @@ WebHook для отправки WhatsApp сообщения через green-api
 Для проверки параметров WebHook нужно открыть сформированный URL в браузере и проверить результат выполнения.
 
 .. figure:: media/green-api/CheckResultSuccess.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Успешная проверка параметров URL
     :align: center
 
@@ -110,14 +110,14 @@ WebHook для отправки WhatsApp сообщения через green-api
 2. **Error** или **Wrong parameters** - есть ошибки в параметрах WebHook, которые нужно исправить. В поле **“ErrorMessage”** будет описание ошибок, которые нужно исправить. В поле **“WarningMessage”** - может находится информация, которая не влияет на работоспособность WebHook, но может быть полезна чтобы настроить WebHook полностью.
 
 .. figure:: media/green-api/CheckResultWrong.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Некорректные параметры URL
     :align: center
 
 ------------------------------------
 
 .. figure:: media/green-api/CheckResultError.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Некорректные параметры URL
     :align: center
 
@@ -129,7 +129,7 @@ WebHook для отправки WhatsApp сообщения через green-api
 1. Откройте Услугу и раскройте раздел **“Общие настройки”**:
 
 .. figure:: media/green-api/ServiceOptions.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Общие настройки услуги
     :align: center
 
@@ -138,7 +138,7 @@ WebHook для отправки WhatsApp сообщения через green-api
 2. В разделе **“Общие настройки”** выберите поле **“Интеграции”**:
 
 .. figure:: media/green-api/ServiceIntegration.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Поле "Интеграции" в "Общих настройках"
     :align: center
 
@@ -147,7 +147,7 @@ WebHook для отправки WhatsApp сообщения через green-api
 3. В интеграциях включите чекбокс **WebHook**:
 
 .. figure:: media/green-api/ServiceWebhook.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Чекбокс WebHook
     :align: center
 
@@ -163,7 +163,7 @@ WebHook для отправки WhatsApp сообщения через green-api
    * **Действие по заказу/событию (CaseActionEvent)** - уведомление, которое можно подключить в настройках Услуги в поле "Действия" 
 
 .. figure:: media/green-api/WebhookOptions.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Настройки WebHook
     :align: center
 
@@ -172,7 +172,7 @@ WebHook для отправки WhatsApp сообщения через green-api
 5. Откройте редактирование Услуги и выберите поле "Действия":
 
 .. figure:: media/green-api/Action01.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Настройки WebHook
     :align: center
 
@@ -183,14 +183,14 @@ WebHook для отправки WhatsApp сообщения через green-api
 * Добавьте вид действия "Сообщение участнику о записи"
 
 .. figure:: media/green-api/Action02.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Вид действия
     :align: center
 
 ------------------------------------
 
 .. figure:: media/green-api/Action03.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Результат выбора действия
     :align: center
 
@@ -199,21 +199,21 @@ WebHook для отправки WhatsApp сообщения через green-api
 7. В настройках Действия поменяйте "Тип действия" на "Интеграция по операции":
 
 .. figure:: media/green-api/Action04.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Тип действия
     :align: center
 
 ------------------------------------
 
 .. figure:: media/green-api/Action05.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Выбор действия из списка
     :align: center
 
 ------------------------------------
 
 .. figure:: media/green-api/Action06.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Результат выбора действия
     :align: center
 
@@ -222,14 +222,14 @@ WebHook для отправки WhatsApp сообщения через green-api
 8. Выберите WebHook "Green-api", который будет вызываться при выполнении Действия:
 
 .. figure:: media/green-api/Action07.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Поле WebHook
     :align: center
 
 ------------------------------------
 
 .. figure:: media/green-api/Action08.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Выбор WebHook
     :align: center
 
@@ -238,7 +238,7 @@ WebHook для отправки WhatsApp сообщения через green-api
 9. После сохранения параметров можно проверять Услугу и отправку сообщений в WhatsApp по номеру телефона, указанному в контактной информации при записи на Услугу.
 
 .. figure:: media/green-api/Action09.png
-    :scale: 60 %
+    :width: 80 %
     :alt: Сохранение параметров
     :align: center
 
