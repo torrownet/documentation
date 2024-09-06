@@ -20,9 +20,9 @@
 Настройка Green-Api
 ----------------------------
 
-1. Создайте личный кабинет `Green-Api`_ по ссылке: https://green-api.com/
+1. Создайте личный кабинет `Green-Api`_ по ссылке: https://green-api.com/?referal=SWTORROW
 
-2. В личном кабинете `Green-Api`_ настройте Инстанс в соответствии с инструкцией: https://green-api.com/docs/before-start/
+2. В личном кабинете `Green-Api`_ настройте Инстанс в соответствии с инструкцией: https://green-api.com/docs/before-start/?referal=SWTORROW
 
 3. Скопируйте из личного кабинета `Green-Api`_ идентификаторы apiUrl, idInstance и apiTokenInstance для настройки WebHook (смотрите картинку ниже).
 
@@ -32,7 +32,7 @@
 
 .. _`техническую поддержку Torrow`: https://t.me/TorrowSupport
 
-.. _`Green-Api`: https://green-api.com/
+.. _`Green-Api`: https://green-api.com/?referal=SWTORROW
 
 .. figure:: media/green-api/green_api.jpg
     :width: 80 %
