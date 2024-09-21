@@ -55,6 +55,8 @@
     :alt: alternate text
     :align: center
 
+------------------------------------
+
 --------
 Наличные
 --------
@@ -63,6 +65,8 @@
     :scale: 42 %
     :alt: alternate text
     :align: center
+
+------------------------------------
 
 ----------------
 Платежная ссылка
@@ -75,18 +79,24 @@
     :alt: alternate text
     :align: center
 
+------------------------------------
+
 ----------
 Robokassa
 ----------
 
+Чтобы получить дополнительную техническую поддержку подключения платежей, зарегистрируйтесь в Robokassa по ссылке https://partner.robokassa.ru/Reg/Register?PromoCode=torrow&culture=ru
+
 .. hint:: ID магазина и пароли настраиваются в личном кабинете `robokassa.com`_.
     
-    .. _`robokassa.com`: https://robokassa.com/
+    .. _`robokassa.com`: https://partner.robokassa.ru/Reg/Register?PromoCode=torrow&culture=ru
 
 .. figure:: media/payment_resource/Robokassa.png
     :scale: 42 %
     :alt: Robokassa resource screenshot
     :align: center
+
+------------------------------------
 
 ----------
 PayKeeper
@@ -101,6 +111,8 @@ PayKeeper
     :alt: Paykeeper resource screenshot
     :align: center
 
+------------------------------------
+
 ------------------
 Т-Банк (Тинькофф)
 ------------------
@@ -113,6 +125,8 @@ PayKeeper
     :scale: 42 %
     :alt: T-Bank resource screenshot
     :align: center
+
+------------------------------------
 
 ------------------
 АльфаБанк
@@ -127,6 +141,8 @@ PayKeeper
     :alt: Alfabank resource screenshot
     :align: center
 
+------------------------------------
+
 ------------------
 Уралсиб
 ------------------
@@ -140,6 +156,8 @@ PayKeeper
     :alt: Uralsib resource screenshot
     :align: center
 
+------------------------------------
+
 --------
 Сбербанк
 --------
@@ -150,6 +168,8 @@ PayKeeper
     :scale: 42 %
     :alt: alternate text
     :align: center
+
+------------------------------------
 
 ------
 ЮMoney
@@ -164,6 +184,8 @@ PayKeeper
     :alt: alternate text
     :align: center
 
+------------------------------------
+
 ------
 ЮKassa
 ------
@@ -176,6 +198,8 @@ PayKeeper
     :scale: 42 %
     :alt: alternate text
     :align: center
+
+------------------------------------
 
 ----
 Qiwi
