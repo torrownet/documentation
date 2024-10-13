@@ -32,6 +32,9 @@
    element-order
    metrika
    case-history
+   service-subscription
+   attach-executors
+
 
 .. raw:: html
    
