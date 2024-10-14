@@ -85,9 +85,9 @@
 
 -----------------------------
 
-1. Нажмите кнопку **"Перезапустить"** и через 5 минут изменения вступят в силу:
+6. Нажмите кнопку **"Перезапустить"** и через 5 минут изменения вступят в силу:
 
-.. figure:: media/green-api/GreenApi_GetMessage_05.jpg
+.. figure:: media/green-api/GreenApi_GetMessage_06.jpg
     :width: 80 %
     :alt: Параметры личного кабинета Green-Api
     :align: center
