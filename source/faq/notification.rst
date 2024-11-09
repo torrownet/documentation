@@ -253,6 +253,51 @@
 
 --------------------------------------------
 
+Параметры шаблона текстов email уведомлений
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+При использовании шаблонных текстов email уведомлений, которые настраиваются в виде **{% include 'email_header' %}Вы записаны на встречу.{% include 'email_footer' %}** , можно указать дополнительные параметры, чтобы настроить отображаюемую в уведомлении информации.
+
+* **{% assign RESOURCE_NAME = 'Услуги/ресурсы' %}** - название ресурсов, по умолчанию: *Услуги/ресурсы*
+
+* **{% assign DETAIL_SECTION_NAME = nil %}** - название раздела с деталями заказа, по умолчанию: *Детали заказа, Детали записи, Детали мероприятия*.
+
+* **{% assign CASE_TYPE_NAME = nil %}** - название типа события, по умолчанию: *заказ, запись, участие в мероприятии*
+
+* **{% assign HIDE_DETAIL_SECTION = false %}** - признак сокрытия раздела с деталями заказа, по умолчанию: *false*.
+
+* **{% assign HIDE_RESOURCE_DESCRIPTION = false %}** - признак сокрытия описания деталей ресурсов, по умолчанию: *false*.
+
+* **{% assign HIDE_ORDER_DURATION = false %}** - признак сокрытия длительности заказа, по умолчанию: *false*.
+
+* **{% assign HIDE_ADDRESS = false %}** - признак сокрытия адреса оказания услуги, по умолчанию: *false*.
+
+* **{% assign HIDE_SERVICE_NAME = false %}** - признак сокрытия названия услуги, по умолчанию: *false*.
+
+* **{% assign HIDE_ORDER_DESCRIPTION = false %}** - признак сокрытия описания заказа, по умолчанию: *false*.
+
+* **{% assign HIDE_URL = false %}** - признак сокрытия ссылок на услугу и на заказ, по умолчанию: *false*.
+
+* **{% assign HIDE_CONTACT_INFO = false %}** - признак сокрытия контактной информации, по умолчанию *true*.
+
+* **{% assign TIME_ZONE = 'Europe/Moscow' %}** - часовой пояс, по умолчанию: Europe/Moscow, другие значения: https://timezonedb.com/time-zones . Например:
+
+  - {% assign TIME_ZONE = 'Asia/Almaty' %}{% assign TIME_ZONE_NAME = 'Almaty' %}
+
+  - {% assign TIME_ZONE = 'Europe/Kaliningrad' %}{% assign TIME_ZONE_NAME = 'GMT+2' %}
+
+  - {% assign TIME_ZONE = 'Europe/Madrid' %}{% assign TIME_ZONE_NAME = 'Madrid' %}
+
+* **{% assign TIME_ZONE_NAME = 'Мск' %}** - название часового пояса, по умолчанию: *Мск*, другие значения: указываются при разработке.
+
+* **{% assign SIGN_TEXT = nil %}** - текст подписи в конце сообщения. Например: 
+
+  - {% assign SIGN_TEXT = "<a href='https://altai-guide.shop/' target='_blank'>Администрация Алтай-Гид Снаряжение</a>" %}
+
+Например:
+
+{% include 'email_header' %}{% assign HIDE_RESOURCE_DESCRIPTION = true %}{% assign RESOURCE_NAME = 'Сотрудник садика' -%}{%- assign DETAIL_SECTION_NAME = 'Детали встречи' -%}Вы записаны на прием в Детский сад Рябинка.{% include 'email_footer' %}
+
+
 .. raw:: html
    
    <torrow-widget
