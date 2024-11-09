@@ -51,7 +51,7 @@
 
 
 .. figure:: media/telegram/Telegram_01.jpg
-    :width: 80 %
+    :width: 50 %
     :alt: Настройка контакт
     :align: center
 
