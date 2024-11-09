@@ -51,13 +51,15 @@ WebHook для отправки WhatsApp сообщения через Wazzup24 
 
 * **chat_type** - тип чата для указанного канала. В данный момент поддерживается значение  whatsapp.
 
+* **errorEmail** - адрес электронной почты, на который отправлять уведомления об ошибках отправки WhatsApp сообщений.
+
 * **message** - сообщение, добавляемое к форматированному сообщению WhatsApp. Например: Вы записаны на услугу.
 
 Пример WebHook:
 
 .. code-block::
 
-    https://hooks.torrow.net/webhook/wazzup24?key_api=f8f1955587ac6d7894cee95f92dcaca4&channel_id=3349fab8-b01b-4232-b9cb-a15ec3acc053&chat_type=whatsapp&message=Вы%20записаны%20на%20услугу
+    https://hooks.torrow.net/webhook/wazzup24?key_api=f8f1955587ac6d7894cee95f92dcaca4&channel_id=3349fab8-b01b-4232-b9cb-a15ec3acc053&chat_type=whatsapp&errorEmail=test@test.ru&message=Вы%20записаны%20на%20услугу
 
 Дополнительные параметры форматирования сообщения:
 
