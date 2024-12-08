@@ -81,6 +81,7 @@
    :maxdepth: 1
    :caption: Примеры настройки услуг
 
+   setting_up/index.rst
    cases/index.rst
 
 .. toctree::
