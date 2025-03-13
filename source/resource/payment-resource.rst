@@ -113,6 +113,21 @@ PayKeeper
 
 ------------------------------------
 
+----------
+Prodamus
+----------
+
+.. hint:: Ссылка на оплату и секретный ключ получают из личного кабинета `prodamus.ru`_. Сервис позволяет принимать платежи из-за границы.
+    
+    .. _`prodamus.ru`: https://prodamus.ru/
+
+.. figure:: media/payment_resource/Paykeeper.png
+    :scale: 42 %
+    :alt: Paykeeper resource screenshot
+    :align: center
+
+------------------------------------
+
 ------------------
 Т-Банк (Тинькофф)
 ------------------
