@@ -17,6 +17,7 @@
    amocrm
    green-api
    wazzup24
+   telegram
    ttlock
    telegram_bot
 
