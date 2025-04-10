@@ -17,9 +17,10 @@
    amocrm
    green-api
    wazzup24
-   telegram
    ttlock
+   telegram
    telegram_bot
+   torrow_chat_bot
 
 .. raw:: html
    

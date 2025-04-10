@@ -30,6 +30,8 @@
 
 5. Настроить Услугу для отправки кода доступа электронного замка.
 
+6. Приобрести подписку на сервис Torrow с опцией **"Интеграция с TTLock"**.
+
 .. _`APP TTLock`: https://ttlock.com.ru/vozmozhnosti
 .. _`Gateway`: https://ttlock.com.ru/shop/tag/wifi+%D1%88%D0%BB%D1%8E%D0%B7+ttlock/
 .. _`TTLock`: https://ttlock.com.ru/skachat-prilozhenie
