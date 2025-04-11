@@ -18,8 +18,8 @@
    green-api
    wazzup24
    ttlock
-   telegram
    telegram_bot
+   telegram
    torrow_chat_bot
 
 .. raw:: html
