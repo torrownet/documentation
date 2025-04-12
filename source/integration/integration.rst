@@ -20,7 +20,7 @@
    ttlock
    telegram_bot
    telegram
-   torrow_chat_bot
+   torrow_service_bot
 
 .. raw:: html
    
