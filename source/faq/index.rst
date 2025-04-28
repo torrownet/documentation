@@ -34,7 +34,7 @@
    case-history
    service-subscription
    attach-executors
-
+   find-loyalty-card
 
 .. raw:: html
    
