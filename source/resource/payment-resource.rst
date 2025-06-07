@@ -72,7 +72,7 @@
 Платежная ссылка
 ----------------
 
-.. hint:: Платежная ссылка — уникальная ссылка, содержащая счет на оплату, по которой покупатель переходит на платежную систему. Ссылка генерируется в вашем интернет-эквайринге.
+.. hint:: Платежная ссылка — уникальная ссылка, содержащая счет на оплату, по которой покупатель переходит на платежную систему. Ссылка генерируется в вашем интернет-эквайринге один раз с заранее заданной суммой.
 
 .. figure:: media/payment_resource/payment8.png
     :scale: 42 %
@@ -82,8 +82,16 @@
 ------------------------------------
 
 ----------
-Robokassa
+|Лого Robokassa| |Название Robokassa|
 ----------
+
+.. |Лого Robokassa| image:: media/payment_resource/robokassa_logo.png
+    :width: 40
+    :alt: Настройка Torrow Service Bot для Telegram
+
+.. |Название Robokassa| image:: media/payment_resource/robokassa_name.png
+    :width: 100
+    :alt: Настройка Torrow Service Bot для Telegram
 
 Чтобы получить дополнительную техническую поддержку подключения платежей, зарегистрируйтесь в Robokassa по ссылке https://partner.robokassa.ru/Reg/Register?PromoCode=torrow&culture=ru
 
