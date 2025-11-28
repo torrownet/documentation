@@ -92,6 +92,8 @@ WebHook для управления TTLock имеет следующий URL: ht
 
 * **codeLength** - длина кода открытия замка, корректное значение от 4 до 9 символов. По умолчанию 6 символов.
   
+* **codeDigits** - строка из чисел, которые используются при генерации случайного кода. По умолчанию: 0123456789
+  
 * **keepHours** - число часов хранения кодов доступа перед удалением. По умолчанию 120 часов (5 дней).
   
 * **validBeforeMinutes** - число минут до начала события, когда код доступа становится валидным (отрицательное значение - число минут после начала события). По умолчанию 0 минут. 
@@ -110,7 +112,7 @@ WebHook для управления TTLock имеет следующий URL: ht
 
 .. code-block::
 
-    https://hooks.torrow.net/webhook/ttlock?username=ttlock@torrowtech.com&password=123&lockId=11432744&codeLength=6&keepHours=48&validBeforeMinutes=15&expiredBeforeMinutes=15&errorEmail=test@gmail.com
+    https://hooks.torrow.net/webhook/ttlock?username=ttlock@torrowtech.com&password=123&lockId=11432744&codeLength=6&codeDigits=1234567&keepHours=48&validBeforeMinutes=15&expiredBeforeMinutes=15&errorEmail=test@gmail.com
 
 
 .. note:: 
