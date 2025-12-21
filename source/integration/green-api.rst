@@ -106,9 +106,9 @@
 Параметры WebHook
 ----------------------------
 
-WebHook для отправки WhatsApp и MAX сообщения через green-api имеет следующий URL: https://hooks.torrow.net/webhook/green-api
+WebHook для отправки **WhatsApp** и **MAX** сообщения через green-api имеет следующий URL: https://hooks.torrow.net/webhook/green-api
 
-Для настройки WebHook для WhatsApp используются следующие параметры:
+Для настройки WebHook для **WhatsApp** используются следующие параметры:
 
 * **apiUrl** - ссылка на хост API сервиса Green-api без префикса HTTPS. Например, 1103.api.green-api.com
 
@@ -116,7 +116,8 @@ WebHook для отправки WhatsApp и MAX сообщения через gr
 
 * **apiTokenInstance** - ключ доступа к инстансу WhatsApp в Green-api в формате строки, например 9410830193ce4ad56fe4df0378d1a0a8da13672248d94697b3.
 
-Для настройки WebHook для MAX используются следующие параметры:
+
+Для настройки WebHook для **MAX** используются следующие параметры:
 
 * **apiUrlMax** - ссылка на хост API сервиса Green-api без префикса HTTPS. Например, 1103.api.green-api.com
 
@@ -125,7 +126,7 @@ WebHook для отправки WhatsApp и MAX сообщения через gr
 * **apiTokenInstanceMax** - ключ доступа к инстансу MAX в Green-api в формате строки, например 9410830193ce4ad56fe4df0378d1a0a8da13672248d94697b3.
 
 
-Общие параметры для WhatsApp и MAX:
+Общие параметры для **WhatsApp** и **MAX**:
 
 * **errorEmail** - адрес электронной почты, на который отправлять уведомления об ошибках отправки WhatsApp сообщений.
 
@@ -133,14 +134,14 @@ WebHook для отправки WhatsApp и MAX сообщения через gr
 
 * **repeat** - признак повторения отправки сообщения через 10 секунд, если сообщение не доставлено на устройство получателя (для повышения гарантии доставки). Для работы данного параметра выполните в Личном кабинете `Green-Api`_ настройку параметра **Получать уведомления о статусах отправленных сообщений** (смотри раздел настройки GreenApi выше). По умолчанию **false**.
 
-Пример WebHook для WhatsApp:
+Пример WebHook для **WhatsApp**:
 
 .. code-block::
 
     https://hooks.torrow.net/webhook/green-api?apiUrl=1103.api.green-api.com&idInstance=1234567890&apiTokenInstance=9410830193ce4ad56fe4df0378d1a0a8da13672248d94697b3&errorEmail=test@gmail.com&repeat=false&message=Вы%20записаны%20на%20услугу
 
 
-Пример WebHook для MAX и WhatsApp:
+Пример WebHook для **MAX** и **WhatsApp**:
 
 .. code-block::
 
