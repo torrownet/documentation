@@ -168,6 +168,17 @@ WebHook для отправки WhatsApp сообщения через green-api
 .. _`ASCII`: https://www.eso.org/~ndelmott/url_encode.html
 
 
+Вспомогательные параметры отправки сообщения:
+
+* **phone** - номер телефона, на который нужно отправить сообщение. Имеет приоритет перед всеми другими параметрами.
+
+Пример WebHook для отправки сообщения на постоянный номер:
+
+.. code-block::
+
+    https://hooks.torrow.net/webhook/green-api?apiUrl=1103.api.green-api.com&idInstance=1234567890&apiTokenInstance=9410830193ce4ad56fe4df0378d1a0a8da13672248d94697b3&errorEmail=test@gmail.com&phone=79819998877&message=Сообщение%20на%20постоянный%20номер
+
+
 Проверка параметров WebHook: 
 ----------------------------
 
