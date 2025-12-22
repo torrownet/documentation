@@ -154,6 +154,9 @@ html_favicon = '_static/favicon.ico'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# Add any JavaScript files that should be included on all pages.
+html_js_files = ['js/custom.js']
+
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
