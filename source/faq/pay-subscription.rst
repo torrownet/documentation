@@ -47,10 +47,12 @@
     :alt: alternate text
     :align: center
 
+
 .. figure:: media/pay-subscription/04-1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
+
 
 .. figure:: media/pay-subscription/05-1.png
     :scale: 42 %
@@ -89,6 +91,7 @@
     :alt: alternate text
     :align: center
 
+
 .. figure:: media/pay-subscription/10-1.png
     :scale: 42 %
     :alt: alternate text
@@ -111,6 +114,7 @@
     :scale: 42 %
     :alt: alternate text
     :align: center
+    
 
 .. figure:: media/pay-subscription/13.png
     :scale: 42 %
