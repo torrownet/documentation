@@ -32,7 +32,7 @@
    element-order
    metrika
    case-history
-   service-subscription
+   pay-subscription
    attach-executors
    find-loyalty-card
 

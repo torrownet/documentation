@@ -31,36 +31,37 @@
 
 Ниже приведены экраны перечисленных шагов.
 
-1. Откройте в приложении раздел **Профиль**
+1. Откройте в приложении раздел **Профиль**, выберите пункт **Мой бизнес** и далее **Тарифный план**
 
-.. figure:: media/unique_name/unique1.png
+.. figure:: media/pay-subscription/02-1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 -----------------------
 
-2. Выберите пункт **Мой бизнес** и далее **Тарифный план**
+2. В **карте клиента Torrow** проверьте наличие активных подписок на сервис Torrow и срок их действия, нажав на соответствующую подписку
 
-.. figure:: media/unique_name/unique2.png
+.. figure:: media/pay-subscription/03.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: media/pay-subscription/04-1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: media/pay-subscription/05-1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 -----------------------
 
-3. Проверьте наличие активных подписок на сервис Torrow и срок их действия
+4. Закройте подписку, найдите и нажмите на услугу **Покупка тарифного плана**, чтобы запустить покупку
 
-.. figure:: media/unique_name/unique3.png
-    :scale: 42 %
-    :alt: alternate text
-    :align: center
-
------------------------
-
-4. Нажмите на услугу **Покупка тарифного плана**, чтобы запустить покупку
-
-.. figure:: media/unique_name/unique4.png
+.. figure:: media/pay-subscription/06-1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
@@ -69,16 +70,26 @@
 
 5. Выберите тарифный план с требуемым сроком действия, выберите дополнительные опции и кнопку **Далее**
 
-.. figure:: media/unique_name/unique5.png
+.. figure:: media/pay-subscription/07-1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: media/pay-subscription/08-1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
 
 -----------------------
 
-6. Выберите дату, с которой будет действовать выбранный Тарифный план
+6. Выберите дату, с которой будет действовать выбранный **Тарифный план**
 
-.. figure:: media/unique_name/unique4.png
+.. figure:: media/pay-subscription/09-1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: media/pay-subscription/10-1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
@@ -87,7 +98,7 @@
 
 7. Проверьте корректность контактной информации, при необходимости подправьте ФИО, номер телефона или email и нажмите кнопку **Далее**
 
-.. figure:: media/unique_name/unique4.png
+.. figure:: media/pay-subscription/11-1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
@@ -96,7 +107,12 @@
 
 8. На форме созданного заказа нажмите кнопку **Оплатить**, чтобы открыть банковскую платежную форму
 
-.. figure:: media/unique_name/unique4.png
+.. figure:: media/pay-subscription/12-1.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+.. figure:: media/pay-subscription/13.png
     :scale: 42 %
     :alt: alternate text
     :align: center
@@ -105,7 +121,7 @@
 
 9. После выполнения оплаты заказ окажется оплаченным и подписка на сервис Torrow будет продлена.
 
-.. figure:: media/unique_name/unique4.png
+.. figure:: media/pay-subscription/15-1.png
     :scale: 42 %
     :alt: alternate text
     :align: center
