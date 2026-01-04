@@ -116,17 +116,17 @@
 1. Создайте "группирующую услугу" и вложите в нее Услуги, на которые будут записываться клиенты. При вложении других услуг, нужно обязательно их "прикрепить" и включить "в группу" группирующей Услуги.
  
 .. figure:: media/vk/01-2.png
-    :scale: 70 %
+    :scale: 42 %
     :alt: alternative text
     :align: center
 
 .. figure:: media/vk/02-2.png
-    :scale: 70 %
+    :scale: 42 %
     :alt: alternative text
     :align: center
 
 .. figure:: media/vk/03-2.png
-    :scale: 70 %
+    :scale: 42 %
     :alt: alternative text
     :align: center
 
@@ -134,17 +134,17 @@
 2. Для группирующей услуги нужно установить хеш-тег **item/service/list:VkMiniApp_Path**
 
 .. figure:: media/vk/04-2.png
-    :scale: 70 %
+    :scale: 42 %
     :alt: alternative text
     :align: center
 
 .. figure:: media/vk/05-2.png
-    :scale: 70 %
+    :scale: 42 %
     :alt: alternative text
     :align: center
 
 .. figure:: media/vk/06-2.png
-    :scale: 70 %
+    :scale: 42 %
     :alt: alternative text
     :align: center
 
