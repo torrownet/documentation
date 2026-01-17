@@ -15,6 +15,7 @@
    fo
    zoom
    amocrm
+   wappi
    green-api
    wazzup24
    ttlock
