@@ -42,6 +42,7 @@
    introduction
    registration/registration.rst
    promotion/promotion.rst
+   ai/mcp-server.rst
    integration/integration.rst
    widget/index.rst
    widgetOnlineBooking/online-booking.rst

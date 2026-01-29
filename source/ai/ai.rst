@@ -1,0 +1,34 @@
+==========
+Искусственный интеллект
+==========
+
+.. note:: Разделы постоянно пополняются, если Вы не нашли ответ на свой вопрос, можете написать его нашей `службе поддержки`_
+.. _`службе поддержки`: https://t.me/TorrowSupport
+
+Torrow сервис - первый сервис онлайн записи и аренды, в который встроен **искусственный интеллект**. Мы работаем в этом направлении и расширяем его возможности для онлайн-записи.
+
+.. toctree::
+   :maxdepth: 1
+      
+   mcp-server
+   ai-torrow-bot
+
+.. raw:: html
+   
+   <torrow-widget
+      id="torrow-widget"
+      url="https://web.torrow.net/app/tabs/tab-search/service;id=103edf7f8c4affcce3a659502c23a?closeButtonHidden=true&tabBarHidden=true"
+      modal="right"
+      modal-active="false"
+      show-widget-button="true"
+      button-text="Заявка эксперту"
+      modal-width="550px"
+      button-style = "rectangle"
+      button-size = "60"
+      button-y = "top"
+   ></torrow-widget>
+   <script src="https://cdn-public.torrow.net/widget/torrow-widget.min.js" defer></script>
+
+.. raw:: html
+
+   <!-- <script src="https://code.jivo.ru/widget/m8kFjF91Tn" async></script> -->
