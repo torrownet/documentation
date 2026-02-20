@@ -187,7 +187,7 @@ Prodamus
 
 .. hint:: Имя пользователя и пароль предоставляется при подключении эквайринга Сбербанка. Для корректной работы необходимо настроить WebHook в личном кабинете платежного сервиса, указав URL: https://torrow.net/payments/hooks/sberbank
 
-.. figure:: media/payment_resource/payment10.png
+.. figure:: media/payment_resource/sberbank.png
     :scale: 42 %
     :alt: alternate text
     :align: center
@@ -232,7 +232,7 @@ Prodamus
 
     .. _`robokassa.com`: https://robokassa.com/
 
-.. figure:: media/payment_resource/payment12.png
+.. figure:: media/payment_resource/Robokassa.png
     :scale: 42 %
     :alt: alternate text
     :align: center
