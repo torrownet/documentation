@@ -224,6 +224,21 @@ Prodamus
 
 ------------------------------------
 
+------
+Робокасса (Robokassa)
+------
+
+.. hint:: Идентификатор магазина, пароль 1 и пароль 2 предоставляется при подключении в `robokassa.com`_. Для корректной работы необходимо настроить WebHook в личном кабинете платежного сервиса, указав URL: https://torrow.net/payments/hooks/robokassa
+
+    .. _`robokassa.com`: https://robokassa.com/
+
+.. figure:: media/payment_resource/payment12.png
+    :scale: 42 %
+    :alt: alternate text
+    :align: center
+
+------------------------------------
+
 ----
 Qiwi
 ----
