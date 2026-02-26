@@ -95,7 +95,7 @@ f. Добавьте следующий скрипт:
         var buttonCollection =  document.getElementsByClassName('send-appeal')
         if(buttonCollection.length) {
             buttonCollection[0].addEventListener('click', event => 
-            {document.querySelector('#torrow-widget-second').setAttribute('modal-active', 'true')})
+            {document.querySelector('#torrow-widget').setAttribute('modal-active', 'true')})
         }
     </script>
 
@@ -117,7 +117,7 @@ g. Готово!
         var buttonCollection =  document.getElementsByClassName('send-appeal')
         if(buttonCollection.length) {
             buttonCollection[0].addEventListener('click', event => 
-            {document.querySelector('#torrow-widget-second').setAttribute('modal-active', 'true')})
+            {document.querySelector('#torrow-widget').setAttribute('modal-active', 'true')})
         }
      </script>     
      <script src="https://cdn-public.torrow.net/widget/torrow-widget.min.js" defer></script>
