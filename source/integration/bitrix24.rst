@@ -254,28 +254,33 @@
 4. Откройте свою услугу в приложении Torrow и перейдите в **Общие настройки** → **Интеграции**.
 
 .. figure:: media/bitrix24/08-torrow-integrations-1.jpg
-    :scale: 42 %
+    :scale: 60 %
     :alt: Услуга
     :align: center
 
+    Услуга
+
 
 .. figure:: media/bitrix24/08-torrow-integrations-2.jpg
-    :scale: 42 %
+    :scale: 60 %
     :alt: Общие настройки
     :align: center
 
+    Общие настройки
 
 .. figure:: media/bitrix24/08-torrow-integrations-3.jpg
-    :scale: 42 %
+    :scale: 60 %
     :alt: Интеграции
     :align: center
+
+    Интеграции
 
 ----------------------------------
 
 5. В списке интеграций выберите **Webhook**.
 
 .. figure:: media/bitrix24/09-torrow-webhook-choice.jpg
-    :scale: 42 %
+    :scale: 60 %
     :alt: Выбор интеграции Webhook
     :align: center
 
@@ -284,7 +289,7 @@
 6. Заполните форму WebHook: укажите название WebHook, в поле **URL** вставьте ссылку для Bitrix24 в соответствии с подготовленным URL вебхука выше и укажите события, при которых будет отправляться webhook. Сохраните изменения, нажав |галка|.
 
 .. figure:: media/bitrix24/10-torrow-webhook-form.jpg
-    :scale: 42 %
+    :scale: 60 %
     :alt: Заполнение формы WebHook
     :align: center
 
@@ -295,7 +300,7 @@
 7. После сохранения интеграция отобразится в списке со статусом **Активный**.
 
 .. figure:: media/bitrix24/11-torrow-integration-active.jpg
-    :scale: 42 %
+    :scale: 60 %
     :alt: Активная интеграция Bitrix24
     :align: center
 
