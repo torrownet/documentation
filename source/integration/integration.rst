@@ -15,6 +15,7 @@
    fo
    zoom
    amocrm
+   bitrix24
    wappi
    green-api
    wazzup24
