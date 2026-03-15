@@ -268,19 +268,9 @@
 Список рекомендуемых для выбора событий:
 
 - Запись на заказ/событие (CheckIn)
-- Вернуть в работу (CaseDeclineWork)
-- Заказ запланирован (CasePlan)
 - Заказ отменен (CaseCancel)
-- Заказ взят в работу (CaseTakeInWork)
-- Заказ завершен (CaseComplete)
-- Заказ принят (CaseAccept)
 - Обновление заказа/события (UpdateCase)
 - Изменено время заказа/события (UpdateCaseTime)
-- Изменено место заказа/события (UpdateCasePlace)
-- Подтверждение оплаты (ApproveMoneyReceive)
-- Отклонение оплаты (RejectMoneyReceive)
-- Заказ возвращен на проверку (CaseReturnToVerification)
-- Заказ/событие изменен(о) (UpdateOrder)
 
 
 ----------------------------------
