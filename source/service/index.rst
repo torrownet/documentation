@@ -44,6 +44,7 @@
     execution-customization
     steps-customization
     required-fields-customization
+    hashtags-customization
     
 .. raw:: html
    
