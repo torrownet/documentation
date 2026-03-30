@@ -125,6 +125,8 @@ PayKeeper
 Prodamus
 ----------
 
+Инструкция по настройке Prodamus: https://help.prodamus.ru/payform/integracii/rest-api/instrukcii-dlya-samostoyatelnaya-integracii-servisov#obyazatelnye-parametry-pri-formirovanii-ssylki
+
 .. hint:: Ссылка на оплату и секретный ключ получают из личного кабинета `prodamus.ru`_. Сервис позволяет принимать платежи из-за границы. Для корректной работы необходимо настроить WebHook в личном кабинете платежного сервиса, указав URL: https://torrow.net/payments/hooks/prodamus
     
     .. _`prodamus.ru`: https://prodamus.ru/
