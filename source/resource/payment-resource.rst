@@ -230,9 +230,9 @@ Prodamus
 Робокасса (Robokassa)
 ------
 
-.. hint:: Идентификатор магазина, пароль 1 и пароль 2 предоставляется при подключении в `robokassa.com`_. Для корректной работы необходимо настроить WebHook в личном кабинете платежного сервиса, указав URL: https://torrow.net/payments/hooks/robokassa
+Для регистрации в Robokassa необходимо зарегистрироваться по специальной ссылке регистрации: `ссылка на robokassa.ru <https://partner.robokassa.ru/Reg/Register?PromoCode=torrow&culture=ru>`_.
 
-    .. _`robokassa.com`: https://robokassa.com/
+.. hint:: Идентификатор магазина, пароль 1 и пароль 2 предоставляется при подключении в `robokassa.ru <https://robokassa.ru/>`_. Для корректной работы необходимо настроить WebHook в личном кабинете платежного сервиса, указав URL: https://torrow.net/payments/hooks/robokassa
 
 .. figure:: media/payment_resource/Robokassa.png
     :scale: 42 %
