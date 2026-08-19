@@ -46,6 +46,7 @@
    integration/integration.rst
    widget/index.rst
    widgetOnlineBooking/online-booking.rst
+   widgetDashboard/dashboard.rst
    development/development-info.rst
 
 .. toctree::
