@@ -18,7 +18,7 @@
 
 .. code-block:: html
 
-   <iframe height="700px" width="100%" src="https://torrow.net/app/tabs/tab-search/dashboard;id={resourceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true"></iframe>
+   <iframe height="700px" width="100%" src="https://torrow.net/app/tabs/tab-search/dashboard;ids={resourceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true"></iframe>
 
 Виджет открывается по кнопке Torrow
 -----------------------------------
@@ -35,7 +35,7 @@
 
    <torrow-widget
       id="torrow-widget"
-      url="https://torrow.net/app/tabs/tab-search/dashboard;id={resourceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true"
+      url="https://torrow.net/app/tabs/tab-search/dashboard;ids={resourceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true"
       modal="right"
       modal-active="false"
       show-widget-button="true"
@@ -60,7 +60,7 @@
 
    <torrow-widget
       id="torrow-widget"
-      url="https://torrow.net/app/tabs/tab-search/dashboard;id={resourceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true"
+      url="https://torrow.net/app/tabs/tab-search/dashboard;ids={resourceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true"
       modal="right"
       modal-active="false"
       show-widget-button="false"
