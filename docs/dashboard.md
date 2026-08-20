@@ -40,7 +40,7 @@ Dashboard — **kiosk-страница расписания** для одной 
 Абсолютный путь (Angular matrix params на сегменте `dashboard`):
 
 ```
-https://{host}/app/tabs/tab-search/dashboard;id={id}[;ids={id1,id2}][;title={text}][;busyLabel={text}][;date={date}][;fromMin={n}][;toMin={n}][;refreshMin={n}][;resfreshMin={n}][;visibility={value}][?sideMenuHidden=true&tabBarHidden=true[&lang={code}][&timezone={IANA}][&securityToken={token}]]
+https://{host}/app/tabs/tab-search/dashboard;ids={id1}[,{id2}][;title={text}][;busyLabel={text}][;date={date}][;fromMin={n}][;toMin={n}][;refreshMin={n}][;resfreshMin={n}][;visibility={value}][?sideMenuHidden=true&tabBarHidden=true[&lang={code}][&timezone={IANA}][&securityToken={token}]]
 ```
 
 - Префикс приложения: сегмент `app`.
@@ -138,7 +138,7 @@ Dashboard **не** подставляет service id вместо resource id и
 
 | Аспект | Неаутентифицированный (`Unauthorized`) | Аутентифицированный (`User` / `Administrator`) |
 |--------|------------------------------------------|-----------------------------------------------|
-| Открытие `/dashboard;id=…` | да, без login | да |
+| Открытие `/dashboard;ids=…` | да, без login | да |
 | `GET item` | ok при Link/PublicAvailable; иначе fail → `""` title | ok при правах; **Manager** часто видит полный item |
 | Resource `schedule` в GET | **часто пусто** → fallback FreeTime (§6.3) | **может быть** → NotWorking + слоты (§6.2A) |
 | Service workload фон | часто **нет** (401/403); relative **всегда** вызывает `getWorkloadPeriod`; при ошибке/пустом ответе + `schedule` со слотами в `timePeriod` → fallback §6.2A; без schedule → `[]` | чаще **есть**; relative **всегда** вызывает workload; при ошибке/пустом ответе + `schedule` со слотами в `timePeriod` → fallback §6.2A |
@@ -201,10 +201,9 @@ columnIds = uniqueStable([...parseList(id), ...parseList(ids)])  // id first; fi
 
 | Вход | `columnIds` |
 |------|-------------|
-| `id=A` | `[A]` |
+| `ids=A` | `[A]` |
 | `ids=A,B` | `[A,B]` |
-| `id=A;ids=B,C` | `[A,B,C]` |
-| `id=A;ids=A,B` | `[A,B]` |
+| `ids=A,A,B` | `[A,B]` |
 | нет ключей / только запятые | throw `empty id` |
 
 View: `columnIds.length === 1` → `timeGridDay`; иначе `resourceTimeGridDay` (столбцы = Resource/Service). Каждая колонка: `resources[].title = item.name \|\| columnId` (FC использует `resources` только на resource-view).
@@ -355,7 +354,7 @@ Dashboard прокидывает в date block и timegrid **`SessionQuery.getLa
 Пример kiosk (Москва, EN-подписи где сработает translate, fullscreen):
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id={id};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true&lang=en&timezone=Europe/Moscow
+https://torrow.net/app/tabs/tab-search/dashboard;ids={resourceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true&lang=en&timezone=Europe/Moscow
 ```
 
 ### 3.7. Query: `securityToken` (доступ к закрытому объекту)
@@ -653,19 +652,19 @@ Host в проде: `https://torrow.net`.
 **Киоск на сегодня, refresh 5 мин, без меню и tab bar:**
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id=aae6203f1c864c88bc6bf3592d836ad29;date=now;resfreshMin=5?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids=aae6203f1c864c88bc6bf3592d836ad29;date=now;resfreshMin=5?sideMenuHidden=true&tabBarHidden=true
 ```
 
 То же с каноническим именем параметра (`refreshMin` предпочтительнее `resfreshMin`):
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id=aae6203f1c864c88bc6bf3592d836ad29;date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids=aae6203f1c864c88bc6bf3592d836ad29;date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
 ```
 
 **Шаблон — подставить свой resource id:**
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id={resourceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids={resourceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
 ```
 
 **Несколько ресурсов в столбцах + свой заголовок шапки:**
@@ -677,25 +676,25 @@ https://torrow.net/app/tabs/tab-search/dashboard;ids={resourceId1},{resourceId2}
 **Своя подпись занятого времени (`busyLabel`):**
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id={resourceId};date=now;busyLabel=%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids={resourceId};date=now;busyLabel=%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
 ```
 
 **Relative «сейчас» (нет date bar, окно ±2ч / +8ч):**
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id=aae6203f1c864c88bc6bf3592d836ad29?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids=aae6203f1c864c88bc6bf3592d836ad29?sideMenuHidden=true&tabBarHidden=true
 ```
 
 **Фиксированный календарный день:**
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id=aae6203f1c864c88bc6bf3592d836ad29;date=2026-08-18;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids=aae6203f1c864c88bc6bf3592d836ad29;date=2026-08-18;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
 ```
 
 **Видны названия заказов (не вешать в зале с клиентами):**
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id=aae6203f1c864c88bc6bf3592d836ad29;date=now;visibility=View;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids=aae6203f1c864c88bc6bf3592d836ad29;date=now;visibility=View;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
 ```
 
 ### 10.2. Услуга (Service)
@@ -707,25 +706,25 @@ https://torrow.net/app/tabs/tab-search/dashboard;id=aae6203f1c864c88bc6bf3592d83
 **Киоск услуги на сегодня:**
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id={serviceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids={serviceId};date=now;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
 ```
 
 Пример id услуги (подставить свой из карточки сервиса):
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id=103ec111110040024888810101003;date=now;resfreshMin=5?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids=103ec111110040024888810101003;date=now;resfreshMin=5?sideMenuHidden=true&tabBarHidden=true
 ```
 
 **Relative окно услуги:**
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id={serviceId}?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids={serviceId}?sideMenuHidden=true&tabBarHidden=true
 ```
 
 **Узкое окно (час назад — два вперёд), только relative, без `date`:**
 
 ```
-https://torrow.net/app/tabs/tab-search/dashboard;id={serviceId};fromMin=60;toMin=120;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
+https://torrow.net/app/tabs/tab-search/dashboard;ids={serviceId};fromMin=60;toMin=120;refreshMin=5?sideMenuHidden=true&tabBarHidden=true
 ```
 
 `fromMin`/`toMin` вместе с `date` игнорируются.
@@ -734,7 +733,7 @@ https://torrow.net/app/tabs/tab-search/dashboard;id={serviceId};fromMin=60;toMin
 
 | Кусок | Ресурс | Услуга |
 |-------|--------|--------|
-| `id=` | id карточки Resource | id карточки Service |
+| `ids=` | id карточки Resource | id карточки Service |
 | путь | одинаковый: `/app/tabs/tab-search/dashboard` | то же |
 | фон | §6.2 / §6.3 | §6.1 (нужен session duration + workload API) |
 | `date=now` | сегодня + стрелки дат | то же |
@@ -786,8 +785,8 @@ https://torrow.net/app/tabs/tab-search/dashboard;id={serviceId};fromMin=60;toMin
 18. Static + schedule + day-off → серый NotWorkingTime на весь день, ось 00–24; **не** жёлтый FreeTime (Resource и Service).
 19. Service + session duration + schedule + day-off **(static)** → workload не вызывается; фон = schedule NotWorkingTime.
 20. Relative + Service + session duration + schedule → `getWorkloadPeriod` **вызывается** (даже если окно не пересекается со schedule).
-21. `;id=A` → `timeGridDay`; `;ids=A,B` → два столбца `resourceTimeGridDay`; шапка = имя A (без `title`); события с `resourceId` A/B.
-22. `;id=A;ids=A,B` → столбцы A,B (dedupe).
+21. `;ids=A` → `timeGridDay`; `;ids=A,B` → два столбца `resourceTimeGridDay`; шапка = имя A (без `title`); события с `resourceId` A/B.
+22. `;ids=A,A,B` → столбцы A,B (dedupe).
 23. `;title=X` → шапка X; столбцы по-прежнему имена item.
 24. `;title=` / пробелы → fallback на первый непустой `name` загруженной колонки.
 25. 403 на одном id при multi → пустая колонка, остальные живы; шапка может взять `name` surviving колонки; ось = bounds/union surviving **загруженных** колонок (403 не форсит full-day).
